@@ -137,4 +137,5 @@ subdirectories as `results/`.
 
 ## License
 
-MIT (`LICENSE`). FlashAttention-4 is not included; `kernel/patch/` modifies a clone of it at the pinned commit.
+MIT (`LICENSE`). FlashAttention-4 (BSD 3-Clause License) is not redistributed here; the patch in `kernel/patch/`
+modifies files of a clone of it at the pinned commit.
