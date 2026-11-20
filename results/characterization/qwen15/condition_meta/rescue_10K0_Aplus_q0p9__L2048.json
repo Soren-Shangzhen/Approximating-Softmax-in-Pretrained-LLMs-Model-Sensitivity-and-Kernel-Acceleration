@@ -1,0 +1,45 @@
+{
+  "condition": {
+    "id": "rescue_10K0_Aplus_q0p9",
+    "operator": "perturb_temp",
+    "params": {
+      "alpha": 1.268299495229911
+    },
+    "role": "p4_rescue",
+    "family": "temperature_sharpen",
+    "rescue_q": 0.9
+  },
+  "forward_condition": {
+    "id": "rescue_10K0_Aplus_q0p9",
+    "operator": "perturb_temp",
+    "params": {
+      "alpha": 1.268299495229911
+    },
+    "rescue_q": 0.9
+  },
+  "context": 2048,
+  "protocol": {
+    "model": "Qwen/Qwen2.5-1.5B",
+    "dataset": "wikitext",
+    "token_signature": "145d9d606856",
+    "model_revision": "8faed761d45a263340a0528343f099c05c9a4323",
+    "tokenizer_revision": null,
+    "implementation_signature": "4fff1408c5632132",
+    "forward_cache_schema": "crossmodel-forward-v2",
+    "seq_len": 2048,
+    "q_chunk": 512,
+    "dtype": "bf16",
+    "ce_chunk": 64,
+    "condition": {
+      "id": "rescue_10K0_Aplus_q0p9",
+      "operator": "perturb_temp",
+      "params": {
+        "alpha": 1.268299495229911
+      },
+      "rescue_q": 0.9
+    },
+    "collect_output_fidelity": true
+  },
+  "signature": "ea666f949775",
+  "cache_state": "complete"
+}

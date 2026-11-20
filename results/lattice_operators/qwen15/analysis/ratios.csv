@@ -1,0 +1,5 @@
+ratio,a,b,value
+log2-p / PoT m=1,pq_log2_b8,pot_m1,2.1735044786517
+absolute-lattice ILPoT / log2-p,ilpot_v1,pq_log2_b8,1.0061156391040895
+log-sqrt2-p / PoT m=2,pq_logsqrt2_b8,response_pot_m2,2.3123424353880093
+log2-p / PoT m=2,pq_log2_b8,response_pot_m2,7.091591790127191

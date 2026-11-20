@@ -1,0 +1,53 @@
+{
+  "condition": {
+    "id": "strict_mean_L00_softmax",
+    "operator": "strict_binary_soft",
+    "params": {
+      "target_layer": 0
+    },
+    "role": "strict_same_support_weighting",
+    "family": "support_weighting_control",
+    "rescue_q": null
+  },
+  "forward_condition": {
+    "id": "strict_mean_L00_softmax",
+    "operator": "strict_binary_soft",
+    "params": {
+      "target_layer": 0
+    },
+    "rescue_q": null
+  },
+  "context": 2048,
+  "protocol": {
+    "model": "Qwen/Qwen2.5-1.5B",
+    "dataset": "wikitext",
+    "token_signature": "145d9d606856",
+    "model_revision": "8faed761d45a263340a0528343f099c05c9a4323",
+    "tokenizer_revision": null,
+    "implementation_signature": "4fff1408c5632132",
+    "forward_cache_schema": "crossmodel-forward-v2",
+    "seq_len": 2048,
+    "q_chunk": 512,
+    "dtype": "bf16",
+    "ce_chunk": 64,
+    "condition": {
+      "id": "strict_mean_L00_softmax",
+      "operator": "strict_binary_soft",
+      "params": {
+        "target_layer": 0
+      },
+      "rescue_q": null
+    },
+    "collect_output_fidelity": true
+  },
+  "signature": "c8c0eb6b9791",
+  "cache_state": "complete",
+  "support": {
+    "density": 0.5018701847719751,
+    "kept": 1225705941.0,
+    "valid": 2442276864.0,
+    "per_layer": {
+      "0": 0.5018701847719751
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "condition": {
+    "id": "topk15_uniform",
+    "operator": "topk",
+    "params": {
+      "topk_ratio": 0.15
+    },
+    "role": "support_sweep",
+    "family": "support",
+    "rescue_q": null
+  },
+  "forward_condition": {
+    "id": "topk15_uniform",
+    "operator": "topk",
+    "params": {
+      "topk_ratio": 0.15
+    },
+    "rescue_q": null
+  },
+  "context": 2048,
+  "protocol": {
+    "model": "Qwen/Qwen2.5-1.5B",
+    "dataset": "wikitext",
+    "token_signature": "145d9d606856",
+    "model_revision": "8faed761d45a263340a0528343f099c05c9a4323",
+    "tokenizer_revision": null,
+    "implementation_signature": "4fff1408c5632132",
+    "forward_cache_schema": "crossmodel-forward-v2",
+    "seq_len": 2048,
+    "q_chunk": 512,
+    "dtype": "bf16",
+    "ce_chunk": 64,
+    "condition": {
+      "id": "topk15_uniform",
+      "operator": "topk",
+      "params": {
+        "topk_ratio": 0.15
+      },
+      "rescue_q": null
+    },
+    "collect_output_fidelity": true
+  },
+  "signature": "6c2bb7aa5f06",
+  "cache_state": "complete",
+  "support": {
+    "density": 0.15048260965714982,
+    "kept": 10290565488.0,
+    "valid": 68383752192.0,
+    "per_layer": {
+      "0": 0.15048260965714982,
+      "1": 0.15048260965714982,
+      "2": 0.15048260965714982,
+      "3": 0.15048260965714982,
+      "4": 0.15048260965714982,
+      "5": 0.15048260965714982,
+      "6": 0.15048260965714982,
+      "7": 0.15048260965714982,
+      "8": 0.15048260965714982,
+      "9": 0.15048260965714982,
+      "10": 0.15048260965714982,
+      "11": 0.15048260965714982,
+      "12": 0.15048260965714982,
+      "13": 0.15048260965714982,
+      "14": 0.15048260965714982,
+      "15": 0.15048260965714982,
+      "16": 0.15048260965714982,
+      "17": 0.15048260965714982,
+      "18": 0.15048260965714982,
+      "19": 0.15048260965714982,
+      "20": 0.15048260965714982,
+      "21": 0.15048260965714982,
+      "22": 0.15048260965714982,
+      "23": 0.15048260965714982,
+      "24": 0.15048260965714982,
+      "25": 0.15048260965714982,
+      "26": 0.15048260965714982,
+      "27": 0.15048260965714982
+    }
+  }
+}

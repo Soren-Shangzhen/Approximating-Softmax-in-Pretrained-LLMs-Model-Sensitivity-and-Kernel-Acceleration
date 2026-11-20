@@ -1,0 +1,26 @@
+{
+  "generated_by": "paper_assets/scripts/integrate_large_anchors.py",
+  "models": [
+    "qwen05",
+    "qwen15",
+    "qwen3",
+    "qwen72",
+    "llama1",
+    "llama3",
+    "llama8",
+    "llama70",
+    "gemma2",
+    "mistral7"
+  ],
+  "excluded_directories": [
+    "qwen15_backup_20260821"
+  ],
+  "primary_endpoints": [
+    "D_W_strict_same_support",
+    "D_R",
+    "D_T_K0",
+    "D_T_10K0",
+    "G_gap_10K0"
+  ],
+  "scope_note": "qwen72 and llama70 contain only T00/T03/T04/T06/T08/T10/T13; all other task-level scopes remain unchanged"
+}

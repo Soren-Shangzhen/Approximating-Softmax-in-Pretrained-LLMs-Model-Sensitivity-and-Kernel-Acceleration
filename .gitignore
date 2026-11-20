@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+# token-stream caches written by softmax_approx.data.build_tokens in the working directory
+tokens_wikitext_*.pt
+# reruns and kernel outputs (results/ holds the paper's reference results)
+runs/
+kernel/**/gate_outputs/
+kernel/**/fidelity_outputs/
+kernel/**/timing_outputs/
+kernel/**/nsys_outputs/
+kernel/**/sass_outputs/
+kernel/profile/ncu_*
+# optional number registry of the figure scripts (PAPER_NUMBER_REGISTRY=1)
+paper/figure_scripts/number_registry/

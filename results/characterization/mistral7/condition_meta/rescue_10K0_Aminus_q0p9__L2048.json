@@ -1,0 +1,45 @@
+{
+  "condition": {
+    "id": "rescue_10K0_Aminus_q0p9",
+    "operator": "perturb_temp",
+    "params": {
+      "alpha": 0.7955019270934081
+    },
+    "role": "p4_rescue",
+    "family": "temperature_flatten",
+    "rescue_q": 0.9
+  },
+  "forward_condition": {
+    "id": "rescue_10K0_Aminus_q0p9",
+    "operator": "perturb_temp",
+    "params": {
+      "alpha": 0.7955019270934081
+    },
+    "rescue_q": 0.9
+  },
+  "context": 2048,
+  "protocol": {
+    "model": "mistralai/Mistral-7B-v0.3",
+    "dataset": "wikitext",
+    "token_signature": "21e483f69b67",
+    "model_revision": "caa1feb0e54d415e2df31207e5f4e273e33509b1",
+    "tokenizer_revision": null,
+    "implementation_signature": "4fff1408c5632132",
+    "forward_cache_schema": "crossmodel-forward-v2",
+    "seq_len": 2048,
+    "q_chunk": 512,
+    "dtype": "bf16",
+    "ce_chunk": 64,
+    "condition": {
+      "id": "rescue_10K0_Aminus_q0p9",
+      "operator": "perturb_temp",
+      "params": {
+        "alpha": 0.7955019270934081
+      },
+      "rescue_q": 0.9
+    },
+    "collect_output_fidelity": true
+  },
+  "signature": "f6ba1951ead2",
+  "cache_state": "complete"
+}

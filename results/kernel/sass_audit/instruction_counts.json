@@ -1,0 +1,56 @@
+{
+  "target": "sm_86 (nvcc -arch=sm_86 -O3), isolated micro-kernels, not the fused B200 kernel",
+  "registers_per_thread": {
+    "fa4_single": 14,
+    "h15_single": 12,
+    "diff_single": 2,
+    "fa4_frag32": 40,
+    "h15_frag32": 40,
+    "frag_note": "32-element fragment dominates; emulation-marginal cost hidden",
+    "spills": "0 for all four kernels"
+  },
+  "instructions_per_element": {
+    "fa4": {
+      "total": 8.0,
+      "fp_pipe": 7.0,
+      "alu_pipe": 1.0,
+      "fp_ops": [
+        "FMNMX(clamp)",
+        "FADD.RM(floor)",
+        "FADD(sub magic)",
+        "FADD(frac)",
+        "FFMA x3 (cubic)"
+      ],
+      "alu_ops": [
+        "LEA (shl23 + add, fused)"
+      ]
+    },
+    "h15": {
+      "total": 3.0,
+      "fp_pipe": 2.0,
+      "alu_pipe": 1.0,
+      "fp_ops": [
+        "FMNMX(clamp)",
+        "FADD.RN(round)"
+      ],
+      "alu_ops": [
+        "LEA (shl22 + add 0x3F800000, fused)"
+      ]
+    }
+  },
+  "instruction_reduction": {
+    "total": "8.0 -> 3.0 = -62.5%",
+    "fp_pipe": "7.0 -> 2.0 = -71.4%",
+    "alu_pipe": "1.0 -> 1.0 = 0"
+  },
+  "dependency_chain_depth": {
+    "fa4": 8,
+    "fa4_path": "FMNMX -> FADD.RM -> FADD(sub) -> FADD(frac) -> FFMA -> FFMA -> FFMA -> LEA",
+    "h15": 3,
+    "h15_path": "FMNMX -> FADD.RN -> LEA"
+  },
+  "coefficient_registers": {
+    "fa4": "p3(0.077119) in R10 (1 register); p2/p1/p0 are FFMA immediates (0.22756, 0.69515, 1.0)",
+    "h15": "magic rides as FADD immediate (12582912=0x4B400000); 0 coefficient registers"
+  }
+}

@@ -1,0 +1,10 @@
+table,contrast,a,b,estimate,ci_low,ci_high,resolved,blocks_a_lower
+B1,"anchor: absolute -> rowmax, octave spacing",pq_log2_b8,pot_m1,0.0035498886139521805,0.0026793313097632824,0.004483092030831014,True,24.0
+B1,"anchor: absolute -> rowmax, half-octave spacing",pq_logsqrt2_b8,response_pot_m2,0.0012167292762874295,0.0007079710673242092,0.0017128169489460966,True,33.0
+B1,"spacing: octave -> half-octave, absolute anchor",pq_log2_b8,pq_logsqrt2_b8,0.004431048217129154,0.003665340881105965,0.005168368197884369,True,12.0
+B1,"spacing: octave -> half-octave, rowmax anchor",pot_m1,response_pot_m2,0.002097888879464403,0.001323258299902945,0.002864997994833149,True,28.0
+B2,FP8 semantic Rowmax-H15 - PoT m=2,h15tiled,response_pot_m2,-0.00021144940198363328,-0.0006115613522044971,0.00018312927038299947,False,52.0
+B2,FP8 semantic Rowmax-H15 - ILPoT-H-A,h15tiled,ilpot_ha_v1,-0.00014338141937351624,-0.0005896431439910316,0.000303867553570586,False,58.0
+B2,FP8 semantic Rowmax-H15 - offline whole-row Rowmax-H15,h15tiled,h15rowmax,-0.0003334894653342627,-0.0006476650584619757,-2.7820979090697292e-05,True,53.0
+B2,BF16 semantic Rowmax-H15 - FP8 semantic Rowmax-H15,h15tiled_bf16,h15tiled,0.0003576900912197664,-7.691512633944567e-06,0.0007361796934903835,False,44.0
+B2,simulation vs measured kernel (BF16 path): (kernel - sim) / kernel,b200_kernel_bf16,h15tiled_bf16,0.11102525123928407,,,,

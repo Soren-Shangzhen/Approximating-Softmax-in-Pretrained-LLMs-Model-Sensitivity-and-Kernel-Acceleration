@@ -1,0 +1,37 @@
+\begin{table}[!htbp]
+  \centering
+  \scriptsize
+  \setlength{\tabcolsep}{2pt}
+  \caption{\textbf{Zero-shot scores under attention approximations.}  Each cell is the score in percent followed by
+  its descriptive change from the same-model softmax baseline in percentage points.  Accuracy for LAMBADA and
+  WinoGrande; length-normalized accuracy (\texttt{acc\_norm}) for HellaSwag, ARC-Easy, ARC-Challenge and PIQA.
+  The last column is the LAMBADA perplexity change (\%) relative to softmax, reported for the two larger models.  No pooled score or paired
+  cross-condition interval is defined.}
+  \label{tab:appx-zeroshot}\label{tab:zero-shot-breadth}\label{tab:70b-zero-shot-full}\label{tab:70b-zero-shot-summary}
+  \begin{tabular}{@{}lrrrrrrr@{}}
+    \toprule
+    Condition & LAMBADA & HellaSwag & ARC-E & ARC-C & PIQA & WinoGrande & \shortstack{LAMBADA\\PPL (\%)} \\
+    \midrule
+    \multicolumn{8}{@{}l}{\textbf{Qwen2.5-72B}} \\
+    \quad Softmax & 77.72 (+0.00) & 86.10 (+0.00) & 83.38 (+0.00) & 62.71 (+0.00) & 83.62 (+0.00) & 77.35 (+0.00) & --- \\
+    \quad Mean-threshold support & 76.73 ($-$0.99) & 85.72 ($-$0.38) & 84.81 (+1.43) & 62.71 (+0.00) & 81.83 ($-$1.80) & 76.16 ($-$1.18) & +6.727 \\
+    \quad Exp.\ $K=32,R=4$ & 77.59 ($-$0.14) & 86.13 (+0.03) & 83.25 ($-$0.13) & 62.54 ($-$0.17) & 83.62 (+0.00) & 77.35 (+0.00) & +0.037 \\
+    \quad Exp.\ $K=64,R=4$ & 77.64 ($-$0.08) & 86.05 ($-$0.05) & 83.21 ($-$0.17) & 62.63 ($-$0.09) & 83.68 (+0.05) & 78.30 (+0.95) & +0.033 \\
+    \quad Rowmax-PoT $K_{\max}=20$ & 77.53 ($-$0.19) & 86.06 ($-$0.04) & 83.46 (+0.08) & 62.20 ($-$0.51) & 83.73 (+0.11) & 77.74 (+0.39) & +0.231 \\
+    \addlinespace
+    \multicolumn{8}{@{}l}{\textbf{Llama-3.1-70B}} \\
+    \quad Softmax & 79.53 (+0.00) & 85.75 (+0.00) & 81.44 (+0.00) & 61.52 (+0.00) & 84.28 (+0.00) & 81.69 (+0.00) & --- \\
+    \quad Mean-threshold support & 77.29 ($-$2.23) & 82.64 ($-$3.11) & 82.53 (+1.09) & 59.81 ($-$1.71) & 83.30 ($-$0.98) & 77.51 ($-$4.18) & +11.649 \\
+    \quad Exp.\ $K=32,R=4$ & 79.39 ($-$0.14) & 85.63 ($-$0.12) & 81.57 (+0.13) & 61.26 ($-$0.26) & 84.17 ($-$0.11) & 81.85 (+0.16) & +0.143 \\
+    \quad Exp.\ $K=64,R=4$ & 79.35 ($-$0.17) & 85.74 ($-$0.01) & 81.73 (+0.29) & 61.18 ($-$0.34) & 84.33 (+0.05) & 82.00 (+0.32) & +0.101 \\
+    \quad Rowmax-PoT $K_{\max}=20$ & 79.37 ($-$0.16) & 85.44 ($-$0.31) & 81.14 ($-$0.29) & 61.43 ($-$0.09) & 84.44 (+0.16) & 81.14 ($-$0.55) & +0.855 \\
+    \addlinespace
+    \multicolumn{8}{@{}l}{\textbf{Qwen2.5-1.5B}} \\
+    \quad Softmax & 62.22 (+0.00) & 67.90 (+0.00) & 71.80 (+0.00) & 45.22 (+0.00) & 75.95 (+0.00) & 63.77 (+0.00) & --- \\
+    \quad Mean-threshold support & 62.16 ($-$0.06) & 67.36 ($-$0.55) & 73.78 (+1.98) & 44.97 ($-$0.26) & 76.06 (+0.11) & 62.51 ($-$1.26) & --- \\
+    \quad Exp.\ $K=32,R=4$ & 62.24 (+0.02) & 67.75 ($-$0.16) & 71.84 (+0.04) & 45.39 (+0.17) & 75.79 ($-$0.16) & 64.09 (+0.32) & --- \\
+    \quad Exp.\ $K=64,R=4$ & 62.27 (+0.06) & 67.82 ($-$0.09) & 72.10 (+0.29) & 44.37 ($-$0.85) & 75.95 (+0.00) & 63.77 (+0.00) & --- \\
+    \quad Rowmax-PoT $K_{\max}=20$ & 61.83 ($-$0.39) & 67.80 ($-$0.11) & 71.76 ($-$0.04) & 44.88 ($-$0.34) & 75.73 ($-$0.22) & 63.69 ($-$0.08) & --- \\
+    \bottomrule
+  \end{tabular}
+\end{table}

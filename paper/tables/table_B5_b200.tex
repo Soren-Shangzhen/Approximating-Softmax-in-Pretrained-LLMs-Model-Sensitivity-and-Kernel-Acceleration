@@ -1,0 +1,136 @@
+\begingroup
+\refstepcounter{table}%
+\par\medskip\noindent\phantomsection\label{tab:appx-b200}{\small\textbf{Table~\thetable.} B200 attention-forward call latency, A0 (stock FA4) versus A1 (Rowmax-H15 primitive); 16 heads, head dimension 128, batch 1 unless stated.  Speed-up is \(100\,(\tilde t_{A0}/\tilde t_{A1}-1)\) with \(\tilde t\) the median over a kernel's pooled windows (21 per kernel in three-round cells); sd is the population standard deviation of the per-round speed-ups, a spread, not a confidence interval.  Per-cell protocols, including the non-alternating FP8 non-causal 8K cell, are in Appendix~\ref{app:benchmark}.}\par\smallskip
+\addcontentsline{lot}{table}{\protect\numberline{\thetable}B200 FlashAttention-4 attention-forward call latency: A0 (stock FA4) vs A1 (FA4 with the exp2 primitive replaced by Rowmax-H15)}
+\par\smallskip\noindent\textbf{(a) Main matrix, causal}\par\nopagebreak
+{\scriptsize
+\setlength{\tabcolsep}{2pt}
+\begin{longtable}{@{}lllllll@{}}
+\toprule
+\textbf{dtype} & \textbf{seq} & \textbf{A0 ms (pooled median)} & \textbf{A1 ms} & \textbf{speed-up (pooled)} & \textbf{per-round sd} & \textbf{rounds} \\
+\midrule
+\endhead
+FP8 E4M3 & 4K & 0.0621 & 0.0580 & +7.1\% & 2.13 & 3 \\
+FP8 E4M3 & 8K & 0.2063 & 0.1835 & +12.4\% & 0.02 & 3 \\
+FP8 E4M3 & 16K & 0.7320 & 0.6509 & +12.5\% & 0.08 & 3 \\
+BF16 & 4K & 0.0586 & 0.0564 & +3.8\% & 0.93 & 3 \\
+BF16 & 8K & 0.2020 & 0.1917 & +5.4\% & 0.17 & 3 \\
+BF16 & 16K & 0.7871 & 0.7350 & +7.1\% & 0.52 & 3 \\
+FP16 & 8K & 0.2156 & 0.2048 & +5.3\% & 0.25 & 3 \\
+FP16 & 16K & 0.8039 & 0.7545 & +6.5\% & --- & 1 \\
+\bottomrule
+\end{longtable}
+\addtocounter{table}{-1}
+}
+\par\smallskip\noindent\textbf{(b) FP8 causal sequence-length sweep (three rounds, alternating kernel order; 1K/2K retest: one pair, 9 windows per kernel)}\par\nopagebreak
+{\scriptsize
+\setlength{\tabcolsep}{2pt}
+\begin{longtable}{@{}lllll@{}}
+\toprule
+\textbf{seq} & \textbf{pooled speed-up} & \textbf{per-round min \ldots{} max} & \textbf{sd} & \textbf{1K/2K retest (n = 9)} \\
+\midrule
+\endhead
+1K & -3.6\% & -5.5\% \ldots{} +1.1\% & 2.97 & -2.2\% \\
+2K & -2.6\% & -6.0\% \ldots{} +4.5\% & 4.53 & -3.7\% \\
+4K & +7.9\% & +7.7\% \ldots{} +8.3\% & 0.25 & --- \\
+8K & +12.1\% & +12.0\% \ldots{} +12.1\% & 0.06 & --- \\
+16K & +12.5\% & +12.1\% \ldots{} +12.7\% & 0.28 & --- \\
+32K & +9.9\% & +9.9\% \ldots{} +10.1\% & 0.08 & --- \\
+\bottomrule
+\end{longtable}
+\addtocounter{table}{-1}
+}
+\par\noindent{\footnotesize Recorded SM clock: 1965 MHz for both kernels at \(\leq\)8K; at 16K A1's median was 1950 MHz; at 32K A1 ran at a median of 1845 MHz (range 1822--1867) against 1905 MHz (1867--1912) for A0.}\par
+\par\smallskip\noindent\textbf{(c) Non-causal cells (the causal 8K cells are in (a))}\par\nopagebreak
+{\scriptsize
+\setlength{\tabcolsep}{2pt}
+\begin{longtable}{@{}lllll@{}}
+\toprule
+\textbf{dtype} & \textbf{mask} & \textbf{seq} & \textbf{speed-up (pooled)} & \textbf{rounds} \\
+\midrule
+\endhead
+FP8 & non-causal & 8K & +25.8\% (sd 0.03) & 3 \\
+BF16 & non-causal & 8K & +13.0\% (sd 0.50) & 3 \\
+FP16 & non-causal & 8K & +11.8\% (sd 0.70) & 3 \\
+FP8 & non-causal & 4K & +27.2\% & 1 \\
+FP8 & non-causal & 16K & +25.4\% & 1 \\
+BF16 & non-causal & 4K & +11.4\% & 1 \\
+BF16 & non-causal & 16K & +11.5\% & 1 \\
+\bottomrule
+\end{longtable}
+\addtocounter{table}{-1}
+}
+\par\smallskip\noindent\textbf{(d) Stock-FA4 polynomial-emulation-fraction sweep vs Rowmax-H15 (FP8 causal 8K; speed-up relative to the stock configuration freq 8/start 1)}\par\nopagebreak
+{\scriptsize
+\setlength{\tabcolsep}{2pt}
+\begin{longtable}{@{}lll@{}}
+\toprule
+\textbf{A0 configuration} & \textbf{emulation fraction $\beta$} & \textbf{vs stock} \\
+\midrule
+\endhead
+freq 0 (hardware MUFU only) & 0\% & +1.4\% \\
+freq 16, start 1 & 12.5\% & +1.6\% \\
+freq 8, start 1 (stock) & 25\% & +0.0\% \\
+freq 8, start 0 & 37.5\% & +2.7\% \\
+freq 2, start 1 & 50\% & +0.2\% \\
+freq 4, start 1 & 50\% & -1.2\% \\
+freq 2, start 0 & 75\% & -23.7\% \\
+freq 4, start 0 & 75\% & -24.5\% \\
+\textbf{A1 Rowmax-H15 (full replacement)} & not applicable: the primitive is replaced, not emulated & \textbf{+12.3\%} \\
+\bottomrule
+\end{longtable}
+\addtocounter{table}{-1}
+}
+\par\smallskip\noindent\textbf{(e) Shape robustness (FP8 causal unless stated)}\par\nopagebreak
+{\scriptsize
+\setlength{\tabcolsep}{2pt}
+\begin{longtable}{@{}ll@{}}
+\toprule
+\textbf{configuration} & \textbf{speed-up} \\
+\midrule
+\endhead
+8K, heads 4 & +12.6\% \\
+8K, heads 8 & +12.3\% \\
+8K, heads 32 & +12.1\% \\
+8K, batch 4 & +11.7\% \\
+8K, GQA (32 query / 8 KV heads): 0.38885 ms $\rightarrow$ 0.34583 ms & +12.4\% (per-round sd 0.03) \\
+head dim 64, FP8: 4K / 8K / 16K & +2.0\% / +2.5\% / +3.7\% \\
+head dim 64, BF16: 4K / 8K / 16K & +0.7\% / +7.6\% / +9.7\% \\
+2K / 32K (extension run) & +7.8\% / +10.4\% \\
+\bottomrule
+\end{longtable}
+\addtocounter{table}{-1}
+}
+\par\noindent{\footnotesize The stock FA4 tuning table has no head-dim-64 entry, so A0 falls back to a default emulation setting there; the head-dim-64 cells are therefore not a like-for-like comparison with head dim 128.}\par
+\par\smallskip\noindent\textbf{(f) Sustained power and energy (FP8 causal 16K, 45 s sustained forward loop)}\par\nopagebreak
+{\scriptsize
+\setlength{\tabcolsep}{2pt}
+\begin{longtable}{@{}lllll@{}}
+\toprule
+\textbf{kernel} & \textbf{forwards} & \textbf{mean power (W)} & \textbf{time per forward (ms)} & \textbf{energy per forward (mJ)} \\
+\midrule
+\endhead
+A0 stock FA4 & 59550 & 982.3 & 0.7559 & 742.5 \\
+A1 FA4 + Rowmax-H15 & 65050 & 982.9 & 0.6922 & 680.3 \\
+\bottomrule
+\end{longtable}
+\addtocounter{table}{-1}
+}
+\par\noindent{\footnotesize Energy and time per forward both change by -8.4\% at unchanged mean power: the saving follows from the shorter runtime, not from a low-power effect.}\par
+\par\smallskip\noindent\textbf{(g) External references (BF16, median ms; different implementation strategies --- context, not the controlled baseline)}\par\nopagebreak
+{\scriptsize
+\setlength{\tabcolsep}{2pt}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{\dimexpr 0.082\linewidth-4pt\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.137\linewidth-4pt\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.186\linewidth-4pt\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.096\linewidth-4pt\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.124\linewidth-4pt\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.124\linewidth-4pt\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.111\linewidth-4pt\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.111\linewidth-4pt\relax}@{}}
+\toprule
+\textbf{seq} & \textbf{torch SDPA flash} & \textbf{torch SDPA mem-efficient} & \textbf{cuDNN 9.24} & \textbf{FA4 stock (A0)} & \textbf{FA4 + Rowmax-H15 (A1)} & \textbf{Rowmax-H15 vs cuDNN} & \textbf{FA4 vs cuDNN} \\
+\midrule
+\endhead
+4K & 0.2876 & 0.5596 & 0.0536 & 0.0586 & 0.0564 & -5.1\% & -8.6\% \\
+8K & 0.9117 & 1.9075 & 0.2230 & 0.2020 & 0.1917 & +16.4\% & +10.4\% \\
+16K & 3.1568 & 6.9877 & 0.8316 & 0.7871 & 0.7350 & +13.1\% & +5.6\% \\
+\bottomrule
+\end{longtable}
+\addtocounter{table}{-1}
+}
+\par\noindent{\footnotesize cuDNN and SDPA compute softmax attention; Rowmax-H15 is approximate.  BF16 only (no FP8 SDPA path), the dtype with the smallest Rowmax-H15 gain.}\par
+\endgroup

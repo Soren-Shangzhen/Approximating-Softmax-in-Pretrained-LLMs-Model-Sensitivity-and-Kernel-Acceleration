@@ -1,0 +1,22 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B",
+  "model_revision": "8faed761d45a263340a0528343f099c05c9a4323",
+  "dataset": "wikitext",
+  "token_signature": "145d9d606856",
+  "seq_len": 2048,
+  "q_chunk": 512,
+  "dtype": "bf16",
+  "ce_chunk": 64,
+  "collect_output_fidelity": true,
+  "forward_cache_schema": "crossmodel-forward-v2",
+  "runner": "experiments/lattice_operators/run.py --conditions ablation",
+  "conditions": [
+    "baseline",
+    "schraudolph_rowmax",
+    "h15rowmax",
+    "response_pot_m2",
+    "schraudolph_rowmax_k2",
+    "schraudolph_rowmax_k3"
+  ],
+  "note": "two runs on the same 97 blocks: S_k (k = 2, 3) were evaluated in a second run whose per-block softmax baseline NLLs equal those of the first run exactly"
+}

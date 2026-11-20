@@ -1,0 +1,30 @@
+{
+  "signature": "9e0335be3239",
+  "condition": {
+    "id": "match_10K0_pot_m0.1976423538",
+    "operator": "perturb_pot",
+    "params": {
+      "m": 0.19764235376052366
+    },
+    "role": "",
+    "family": "pot",
+    "rescue_q": null
+  },
+  "forward_condition": {
+    "id": "match_10K0_pot_m0.1976423538",
+    "operator": "perturb_pot",
+    "params": {
+      "m": 0.19764235376052366
+    },
+    "rescue_q": null
+  },
+  "seq_len": 2048,
+  "windows": 8,
+  "metrics": {
+    "js_mean": 0.06614508711024922,
+    "tv_mean": 0.28461621127676584,
+    "kl_fwd_mean": 0.30312260113752115,
+    "kl_rev_mean": 0.26632344926115714,
+    "n_rows": 3407872
+  }
+}

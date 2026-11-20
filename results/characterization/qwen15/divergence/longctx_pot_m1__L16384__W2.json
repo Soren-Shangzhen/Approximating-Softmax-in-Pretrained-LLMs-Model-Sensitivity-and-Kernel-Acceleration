@@ -1,0 +1,30 @@
+{
+  "signature": "b590ff73e778",
+  "condition": {
+    "id": "longctx_pot_m1",
+    "operator": "perturb_pot",
+    "params": {
+      "m": 1.0
+    },
+    "role": "longctx",
+    "family": "pot",
+    "rescue_q": null
+  },
+  "forward_condition": {
+    "id": "longctx_pot_m1",
+    "operator": "perturb_pot",
+    "params": {
+      "m": 1.0
+    },
+    "rescue_q": null
+  },
+  "seq_len": 16384,
+  "windows": 2,
+  "metrics": {
+    "js_mean": 0.0028714810087257367,
+    "tv_mean": 0.054596350010561276,
+    "kl_fwd_mean": 0.011543274744393548,
+    "kl_rev_mean": 0.011495419251653115,
+    "n_rows": 11010048
+  }
+}

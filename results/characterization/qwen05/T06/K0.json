@@ -1,0 +1,32 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B",
+  "K0_jsd": 0.0026372221595478192,
+  "pot_m": 1.0,
+  "divergence": {
+    "js_mean": 0.0026372221595478192,
+    "tv_mean": 0.0508978549046606,
+    "kl_fwd_mean": 0.010601910072093601,
+    "kl_rev_mean": 0.010556710043168967,
+    "n_rows": 5505024
+  },
+  "downstream": {
+    "condition": "pot_m1",
+    "operator": "perturb_pot",
+    "role": "K0_anchor",
+    "family": "pot",
+    "seq_len": 2048,
+    "n_blocks": 97,
+    "n_pred": 198559,
+    "nll": 2.57111830585983,
+    "baseline_nll": 2.566987577066633,
+    "delta_nll": 0.0041307287931973136,
+    "ppl": 13.080444202129042,
+    "ppl_ratio": 1.0041392720125693,
+    "rescue_q": null,
+    "m": 1.0,
+    "output_kl_forward": 0.005484107494013066,
+    "output_kl_reverse": 0.005502756444018897,
+    "output_jsd": 0.0013651506784361958,
+    "top1_agreement": 0.9583398385366566
+  }
+}

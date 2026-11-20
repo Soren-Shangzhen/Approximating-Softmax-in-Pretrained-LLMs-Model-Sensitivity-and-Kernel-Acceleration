@@ -1,0 +1,23 @@
+\begingroup
+\needspace{12\baselineskip}
+\refstepcounter{table}\label{tab:appx-nsys-kernel}\label{tab:appx-nsys-launch}
+\par\medskip\noindent{\small\textbf{Table~\thetable.} Session-3 timeline (FP8, head dimension 128, 16 heads, batch 1): median kernel duration over all 250 traced calls and host-side call latency over the 200 timed calls, per kernel, with the resulting kernel-only and call-latency speed-ups of A1 over A0 and the share of the timed interval outside the kernel (100 minus the kernel share; launch and host work overlap kernel execution, so the share is not an additive time budget).}\par\smallskip
+\addcontentsline{lot}{table}{\protect\numberline{\thetable}Session-3 timeline: kernel duration and call latency}
+{\scriptsize\setlength{\tabcolsep}{3pt}
+\begin{longtable}{@{}llrrrrrrl@{}}
+\toprule
+\textbf{seq} & \textbf{mask} & \multicolumn{2}{c}{\textbf{kernel (\(\mu\)s) A0 / A1}} & \multicolumn{2}{c}{\textbf{call latency (\(\mu\)s) A0 / A1}} & \textbf{kernel-only} & \textbf{call latency} & \textbf{non-kernel \% (A0 / A1)} \\
+\midrule
+\endhead
+1K & causal & 17.840 & 16.672 & 45.611 & 42.529 & +7.0\% & +7.2\% & 60.9 / 60.8 \\
+2K & causal & 30.688 & 28.000 & 42.916 & 45.027 & +9.6\% & -4.7\% & 28.5 / 37.8 \\
+4K & causal & 57.280 & 52.256 & 58.495 & 52.803 & +9.6\% & +10.8\% & 2.1 / 1.0 \\
+8K & causal & 200.640 & 178.368 & 201.617 & 179.274 & +12.5\% & +12.5\% & 0.5 / 0.5 \\
+16K & causal & 725.920 & 653.296 & 726.815 & 655.539 & +11.1\% & +10.9\% & 0.1 / 0.3 \\
+32K & causal & 2747.570 & 2508.674 & 2799.928 & 2548.133 & +9.5\% & +9.9\% & 1.9 / 1.5 \\
+8K & non-causal & 487.792 & 379.840 & 488.962 & 380.794 & +28.4\% & +28.4\% & 0.2 / 0.3 \\
+\bottomrule
+\end{longtable}
+\addtocounter{table}{-1}
+}
+\endgroup

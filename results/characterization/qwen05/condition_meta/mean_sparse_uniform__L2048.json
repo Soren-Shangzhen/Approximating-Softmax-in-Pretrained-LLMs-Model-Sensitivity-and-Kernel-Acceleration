@@ -1,0 +1,70 @@
+{
+  "condition": {
+    "id": "mean_sparse_uniform",
+    "operator": "binary",
+    "params": {},
+    "role": "support",
+    "family": "support",
+    "rescue_q": null
+  },
+  "forward_condition": {
+    "id": "mean_sparse_uniform",
+    "operator": "binary",
+    "params": {},
+    "rescue_q": null
+  },
+  "context": 2048,
+  "protocol": {
+    "model": "Qwen/Qwen2.5-0.5B",
+    "dataset": "wikitext",
+    "token_signature": "145d9d606856",
+    "model_revision": "060db6499f32faf8b98477b0a26969ef7d8b9987",
+    "tokenizer_revision": null,
+    "implementation_signature": "4fff1408c5632132",
+    "forward_cache_schema": "crossmodel-forward-v2",
+    "seq_len": 2048,
+    "q_chunk": 512,
+    "dtype": "bf16",
+    "ce_chunk": 64,
+    "condition": {
+      "id": "mean_sparse_uniform",
+      "operator": "binary",
+      "params": {},
+      "rescue_q": null
+    },
+    "collect_output_fidelity": true
+  },
+  "signature": "522c4069940c",
+  "cache_state": "complete",
+  "support": {
+    "density": 0.5086735926735151,
+    "kept": 34785008908.0,
+    "valid": 68383752192.0,
+    "per_layer": {
+      "0": 0.491162915215543,
+      "1": 0.4948036351237016,
+      "2": 0.4838494853441341,
+      "3": 0.4856860208949676,
+      "4": 0.48830092906054967,
+      "5": 0.4784664305072709,
+      "6": 0.4727751199908887,
+      "7": 0.47790123028410264,
+      "8": 0.4883666401082176,
+      "9": 0.4929419886957232,
+      "10": 0.4684233813620334,
+      "11": 0.468816955202855,
+      "12": 0.47520068177542335,
+      "13": 0.5176576263409726,
+      "14": 0.52245123870491,
+      "15": 0.5186469641563362,
+      "16": 0.5966554178753187,
+      "17": 0.5287038362342105,
+      "18": 0.5065234008035638,
+      "19": 0.5166298895797216,
+      "20": 0.5498388556163303,
+      "21": 0.5573599614859812,
+      "22": 0.5655974392777584,
+      "23": 0.5614061805238474
+    }
+  }
+}

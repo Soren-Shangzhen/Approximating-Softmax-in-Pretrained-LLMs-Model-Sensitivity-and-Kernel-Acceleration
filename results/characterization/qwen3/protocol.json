@@ -1,0 +1,37 @@
+{
+  "model": "Qwen/Qwen2.5-3B",
+  "model_alias": "qwen3",
+  "profile": "core",
+  "dataset": "wikitext",
+  "seq_len": 2048,
+  "num_eval_tokens": 200000,
+  "dtype": "bfloat16",
+  "batch_size": 1,
+  "training": "none",
+  "kv_cache": false,
+  "fp32_scores": true,
+  "bootstrap_reps": 5000,
+  "bootstrap_seed": 0,
+  "intervention_layers": "all",
+  "intervention_heads": "all",
+  "implementation_signature": "4fff1408c5632132",
+  "analysis_implementation_signature": "4700867d41f640ed",
+  "implementation_byte_hashes": {
+    "crossmodel": "b15960004b0f615e2d26eb2a3dd679dae16f9638627051b5f36d56544422c254",
+    "bta": "e260fc01fd31274baf6ce31e1e5cc9ddcfcb05bdd5dd4a5b585dd0f405bfcca4",
+    "load_model": "3575c153ff5e4106398a815e629173d4374c6f5251729d29bf997328d4d8395c",
+    "eval_ppl": "4623a08ac0e29bf4cc88345b5bd1c48815708accdb0372788ea24f28e8651025"
+  },
+  "implementation_ast_hashes": {
+    "crossmodel": "853647c39ca1713ba8398af5c0eab0e8fc78f46166e716480eab73b2eed2b038",
+    "bta": "7e7a9a10d4c6ec3a9e9819f27444ff635ab246d48d1c57efe56700d3b5860cdc",
+    "load_model": "aab75b3629a8db9b69452a09479ee04e208e543c3aac6b2d879cde179b5b4ed1",
+    "eval_ppl": "a90c4039838e596ce518ffa47b46191ae35696ce6b0d2ea64a3b4372168c0616"
+  },
+  "forward_cache_schema": "crossmodel-forward-v2",
+  "q_chunk": 512,
+  "token_signature": "145d9d606856",
+  "mask_registered": true,
+  "model_revision": "3aab1f1954e9cc14eb9509a215f9e5ca08227a9b",
+  "tokenizer_revision": null
+}

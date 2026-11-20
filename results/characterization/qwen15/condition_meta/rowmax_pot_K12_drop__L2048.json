@@ -1,0 +1,86 @@
+{
+  "condition": {
+    "id": "rowmax_pot_K12_drop",
+    "operator": "rowmax_pot",
+    "params": {
+      "K": 12,
+      "fine_m": 1,
+      "tail_mode": "drop"
+    },
+    "role": "rowmax_tail",
+    "family": "rowmax_pot",
+    "rescue_q": null
+  },
+  "forward_condition": {
+    "id": "rowmax_pot_K12_drop",
+    "operator": "rowmax_pot",
+    "params": {
+      "K": 12,
+      "fine_m": 1,
+      "tail_mode": "drop"
+    },
+    "rescue_q": null
+  },
+  "context": 2048,
+  "protocol": {
+    "model": "Qwen/Qwen2.5-1.5B",
+    "dataset": "wikitext",
+    "token_signature": "145d9d606856",
+    "model_revision": "8faed761d45a263340a0528343f099c05c9a4323",
+    "tokenizer_revision": null,
+    "implementation_signature": "4fff1408c5632132",
+    "forward_cache_schema": "crossmodel-forward-v2",
+    "seq_len": 2048,
+    "q_chunk": 512,
+    "dtype": "bf16",
+    "ce_chunk": 64,
+    "condition": {
+      "id": "rowmax_pot_K12_drop",
+      "operator": "rowmax_pot",
+      "params": {
+        "K": 12,
+        "fine_m": 1,
+        "tail_mode": "drop"
+      },
+      "rescue_q": null
+    },
+    "collect_output_fidelity": true
+  },
+  "signature": "192a32ed6092",
+  "cache_state": "complete",
+  "support": {
+    "density": 0.32780809130012123,
+    "kept": 22416747282.0,
+    "valid": 68383752192.0,
+    "per_layer": {
+      "0": 0.288538624505432,
+      "1": 0.5265163782020743,
+      "2": 0.3957683922931352,
+      "3": 0.3514074610666254,
+      "4": 0.27090463073723,
+      "5": 0.30692344101082225,
+      "6": 0.1701660672162024,
+      "7": 0.3845887040266373,
+      "8": 0.22742288566346588,
+      "9": 0.22785121425119473,
+      "10": 0.32033840533486707,
+      "11": 0.3060424467092687,
+      "12": 0.27505896972702926,
+      "13": 0.22154471385927194,
+      "14": 0.1534286957893403,
+      "15": 0.31987662804146355,
+      "16": 0.37878728232508857,
+      "17": 0.452504832392336,
+      "18": 0.2878806966416073,
+      "19": 0.19847111690937264,
+      "20": 0.3259777631009815,
+      "21": 0.36645231267276995,
+      "22": 0.24459785366905887,
+      "23": 0.26316958837636517,
+      "24": 0.25760102479519703,
+      "25": 0.35730466797723387,
+      "26": 0.5021694174309633,
+      "27": 0.7973323416783593
+    }
+  }
+}

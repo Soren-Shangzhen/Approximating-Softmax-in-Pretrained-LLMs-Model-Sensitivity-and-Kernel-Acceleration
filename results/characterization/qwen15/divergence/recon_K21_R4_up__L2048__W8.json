@@ -1,0 +1,40 @@
+{
+  "signature": "80c2eda7ac5b",
+  "condition": {
+    "id": "recon_K21_R4_up",
+    "operator": "multibit",
+    "params": {
+      "K": 21,
+      "R": 4.0,
+      "reconstruction": "up",
+      "level_weight": "exp",
+      "threshold_mode": "none",
+      "coverage": "max"
+    },
+    "role": "",
+    "family": "exp_quant",
+    "rescue_q": null
+  },
+  "forward_condition": {
+    "id": "recon_K21_R4_up",
+    "operator": "multibit",
+    "params": {
+      "K": 21,
+      "R": 4.0,
+      "reconstruction": "up",
+      "level_weight": "exp",
+      "threshold_mode": "none",
+      "coverage": "max"
+    },
+    "rescue_q": null
+  },
+  "seq_len": 2048,
+  "windows": 8,
+  "metrics": {
+    "js_mean": 0.004438583692192507,
+    "tv_mean": 0.07292341293491454,
+    "kl_fwd_mean": 0.017198654167830858,
+    "kl_rev_mean": 0.01868298330093689,
+    "n_rows": 5505024
+  }
+}

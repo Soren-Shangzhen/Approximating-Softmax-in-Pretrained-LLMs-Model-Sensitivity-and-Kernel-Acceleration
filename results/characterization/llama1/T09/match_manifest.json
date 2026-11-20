@@ -1,0 +1,80 @@
+{
+  "model": "meta-llama/Llama-3.2-1B",
+  "axis": "mean row-wise TV",
+  "targets": {
+    "K0": {
+      "target_tv": 0.042488325419328635,
+      "pot_m": 1.0,
+      "Aminus": {
+        "alpha": 0.943253173828125,
+        "achieved": 0.04269186162769423,
+        "rel_err": 0.004790403160323209,
+        "secondary_jsd": 0.0017448387545097662,
+        "spec": {
+          "id": "tv_K0_Aminus",
+          "operator": "perturb_temp",
+          "params": {
+            "alpha": 0.943253173828125
+          },
+          "role": "matched_tv",
+          "family": "temperature_flatten",
+          "rescue_q": null
+        }
+      },
+      "Aplus": {
+        "alpha": 1.059227752685547,
+        "achieved": 0.042582257561387414,
+        "rel_err": 0.0022107753396194826,
+        "secondary_jsd": 0.0017278757025122118,
+        "spec": {
+          "id": "tv_K0_Aplus",
+          "operator": "perturb_temp",
+          "params": {
+            "alpha": 1.059227752685547
+          },
+          "role": "matched_tv",
+          "family": "temperature_sharpen",
+          "rescue_q": null
+        }
+      },
+      "secondary_anchor_jsd": 0.002141905544380039
+    },
+    "10K0": {
+      "target_tv": 0.14248797229996532,
+      "pot_m": 0.3118424811260035,
+      "Aminus": {
+        "alpha": 0.8174500718764921,
+        "achieved": 0.14355453545613064,
+        "rel_err": 0.007485285522345684,
+        "secondary_jsd": 0.01935339266804166,
+        "spec": {
+          "id": "tv_10K0_Aminus",
+          "operator": "perturb_temp",
+          "params": {
+            "alpha": 0.8174500718764921
+          },
+          "role": "matched_tv",
+          "family": "temperature_flatten",
+          "rescue_q": null
+        }
+      },
+      "Aplus": {
+        "alpha": 1.212742982327261,
+        "achieved": 0.14261158373741323,
+        "rel_err": 0.0008675219069556302,
+        "secondary_jsd": 0.018942811326074595,
+        "spec": {
+          "id": "tv_10K0_Aplus",
+          "operator": "perturb_temp",
+          "params": {
+            "alpha": 1.212742982327261
+          },
+          "role": "matched_tv",
+          "family": "temperature_sharpen",
+          "rescue_q": null
+        }
+      },
+      "secondary_anchor_jsd": 0.02135803466715295
+    }
+  }
+}

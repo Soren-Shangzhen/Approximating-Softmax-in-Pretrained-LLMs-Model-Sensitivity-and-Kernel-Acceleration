@@ -1,0 +1,16 @@
+# Characterization and lattice-operator runs (Sections 4-5; recorded: Python 3.11, torch 2.5.1+cu121,
+# transformers 5.14.1, datasets 5.0.0)
+torch
+transformers==5.14.1
+datasets
+numpy
+pandas
+scipy
+# zero-shot task T12 (lm-evaluation-harness 0.4.12)
+lm_eval==0.4.12
+# 70B/72B runs sharded over several GPUs
+accelerate
+# figures and table checks (byte-identical figures were produced with Python 3.13.5, numpy 2.4.6, pandas 3.0.5,
+# matplotlib 3.11.0; torch on CPU loads the two correctness dumps of Figure S1)
+matplotlib
+# B200 kernel experiments: see kernel/env/setup_fa4.sh (FlashAttention-4 at the pinned commit, nvidia-cutlass-dsl)

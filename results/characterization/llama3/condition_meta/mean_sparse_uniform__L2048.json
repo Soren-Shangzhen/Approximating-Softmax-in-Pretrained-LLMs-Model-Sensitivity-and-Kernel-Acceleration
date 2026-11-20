@@ -1,0 +1,74 @@
+{
+  "condition": {
+    "id": "mean_sparse_uniform",
+    "operator": "binary",
+    "params": {},
+    "role": "support",
+    "family": "support",
+    "rescue_q": null
+  },
+  "forward_condition": {
+    "id": "mean_sparse_uniform",
+    "operator": "binary",
+    "params": {},
+    "rescue_q": null
+  },
+  "context": 2048,
+  "protocol": {
+    "model": "meta-llama/Llama-3.2-3B",
+    "dataset": "wikitext",
+    "token_signature": "51398035dcee",
+    "model_revision": "13afe5124825b4f3751f836b40dafda64c1ed062",
+    "tokenizer_revision": null,
+    "implementation_signature": "4fff1408c5632132",
+    "forward_cache_schema": "crossmodel-forward-v2",
+    "seq_len": 2048,
+    "q_chunk": 512,
+    "dtype": "bf16",
+    "ce_chunk": 64,
+    "condition": {
+      "id": "mean_sparse_uniform",
+      "operator": "binary",
+      "params": {},
+      "rescue_q": null
+    },
+    "collect_output_fidelity": true
+  },
+  "signature": "e602b0ce5309",
+  "cache_state": "complete",
+  "support": {
+    "density": 0.48544469936067003,
+    "kept": 66393060048.0,
+    "valid": 136767504384.0,
+    "per_layer": {
+      "0": 0.49776852899835683,
+      "1": 0.47893189516780355,
+      "2": 0.4835523641516182,
+      "3": 0.48609204734291744,
+      "4": 0.48600833959339346,
+      "5": 0.47388381700691573,
+      "6": 0.49012198069940033,
+      "7": 0.47336706826372327,
+      "8": 0.4946223506869367,
+      "9": 0.48731204170306547,
+      "10": 0.4786324934043186,
+      "11": 0.47238207817703015,
+      "12": 0.5842760016417206,
+      "13": 0.5094638961047784,
+      "14": 0.5039003016571998,
+      "15": 0.4833477595847217,
+      "16": 0.4789277418712836,
+      "17": 0.47111061483650035,
+      "18": 0.4787052578818517,
+      "19": 0.4758604696424787,
+      "20": 0.4714461410874668,
+      "21": 0.4676856767701829,
+      "22": 0.4725420016917459,
+      "23": 0.4758706091562926,
+      "24": 0.47915365360477,
+      "25": 0.4714229504325354,
+      "26": 0.47697950390934873,
+      "27": 0.48908399703040384
+    }
+  }
+}

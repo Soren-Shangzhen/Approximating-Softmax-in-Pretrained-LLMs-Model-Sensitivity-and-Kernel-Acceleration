@@ -1,0 +1,45 @@
+{
+  "condition": {
+    "id": "longctx_Aplus",
+    "operator": "perturb_temp",
+    "params": {
+      "alpha": 1.047314453125
+    },
+    "role": "longctx",
+    "family": "temperature_sharpen",
+    "rescue_q": null
+  },
+  "forward_condition": {
+    "id": "longctx_Aplus",
+    "operator": "perturb_temp",
+    "params": {
+      "alpha": 1.047314453125
+    },
+    "rescue_q": null
+  },
+  "context": 8192,
+  "protocol": {
+    "model": "Qwen/Qwen2.5-72B",
+    "dataset": "wikitext",
+    "token_signature": "145d9d606856",
+    "model_revision": "efba10c8e54e91e0d9570ab5f7b51a958474d4cb",
+    "tokenizer_revision": null,
+    "implementation_signature": "fb5a624f6bbfcd3a",
+    "forward_cache_schema": "crossmodel-forward-v3-multigpu",
+    "seq_len": 8192,
+    "q_chunk": 256,
+    "dtype": "bf16",
+    "ce_chunk": 64,
+    "condition": {
+      "id": "longctx_Aplus",
+      "operator": "perturb_temp",
+      "params": {
+        "alpha": 1.047314453125
+      },
+      "rescue_q": null
+    },
+    "collect_output_fidelity": true
+  },
+  "signature": "90ca0ffe8f98",
+  "cache_state": "complete"
+}

@@ -1,0 +1,26 @@
+\begin{table}[H]
+  \centering
+  \small
+  \setlength{\tabcolsep}{4.0pt}
+  \caption{\textbf{Per-context matched-JSD reproducibility for the two
+  approximately 70B models.} Each context has its own softmax baseline, reference
+  level $J_0$ (PoT $m=1$), and independently resolved flattening ($A^-$) and
+  sharpening ($A^+$) temperatures. Parentheses give relative target error in
+  percent; all twelve matches are within 1\%. Contexts are not compared by a
+  cross-context significance test.}
+  \label{tab:70b-t11-matching}
+  \begin{tabular}{@{}llrrrrr@{}}
+    \toprule
+    Model & Context & Blocks & Predictions & $J_0$ &
+    \shortstack{$A^-$ achieved\\(rel. err. \%)} &
+    \shortstack{$A^+$ achieved\\(rel. err. \%)} \\
+    \midrule
+  Qwen2.5-72B & 2K & 97 & 198,559 & 0.001228 & 0.001229 (0.084) & 0.001235 (0.591) \\
+  Qwen2.5-72B & 8K & 24 & 196,584 & 0.001323 & 0.001315 (0.614) & 0.001333 (0.725) \\
+  Qwen2.5-72B & 16K & 12 & 196,596 & 0.001362 & 0.001371 (0.629) & 0.001353 (0.666) \\
+  Llama-3.1-70B & 2K & 97 & 198,559 & 0.001778 & 0.001787 (0.510) & 0.001785 (0.393) \\
+  Llama-3.1-70B & 8K & 24 & 196,584 & 0.001137 & 0.001129 (0.687) & 0.001138 (0.100) \\
+  Llama-3.1-70B & 16K & 12 & 196,596 & 0.001236 & 0.001244 (0.621) & 0.001237 (0.062) \\
+    \bottomrule
+  \end{tabular}
+\end{table}

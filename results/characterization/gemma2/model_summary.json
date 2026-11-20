@@ -1,0 +1,176 @@
+{
+  "model": "google/gemma-2-2b",
+  "alias": "gemma2",
+  "family": "Gemma",
+  "parameter_count": 2614341888,
+  "num_layers": 26,
+  "attention_type": "GQA x2",
+  "num_attention_heads": 8,
+  "num_kv_heads": 4,
+  "dtype": "torch.bfloat16",
+  "chosen_q_chunk": 512,
+  "token_signature": "a24d97228ac9",
+  "model_revision": "c5ebcd40d208330abc697524c919956e692655cf",
+  "tokenizer_revision": null,
+  "transformers_version": "5.14.1",
+  "torch_version": "2.5.1+cu121",
+  "attn_logit_softcapping": 50.0,
+  "final_logit_softcapping": 30.0,
+  "baseline_nll": 4.266558061600817,
+  "baseline_ppl": 71.27588572582168,
+  "support_density": 0.4893201899724061,
+  "sparse_dnll": -0.1443306255476502,
+  "uniform_dnll": 4.160869983673884,
+  "expK16_dnll": 0.5196533747686534,
+  "linearK16_dnll": 4.392991655856628,
+  "expK32_dnll": 0.008480941293085742,
+  "R1K21_dnll": 0.02056707774000177,
+  "R4K21_dnll": 0.015298635972029295,
+  "pot_m1_dnll": 0.0052338612843358945,
+  "rowmax_pot_K20_dnll": 0.0035213344352023057,
+  "rowmax_pot_K20_ppl_ratio": 1.0035275416170204,
+  "K0_jsd": 0.003216803388706092,
+  "R1_minus_R4": 0.0052684417679729,
+  "R_effect_ci_low": -0.0036901611455423,
+  "R_effect_ci_high": 0.0132299317050366,
+  "dir_K0": 0.2459717240574017,
+  "dir_K0_ci_low": 0.2180888271248214,
+  "dir_K0_ci_high": 0.2731901087513644,
+  "alpha_minus_K0": 0.9155625,
+  "alpha_plus_K0": 1.091875,
+  "dir_10K0": 0.8063405694132026,
+  "dir_10K0_ci_low": 0.767061360258584,
+  "dir_10K0_ci_high": 0.8440119385996071,
+  "alpha_minus_10K0": 0.7495871377854164,
+  "alpha_plus_10K0": 1.3394507425836994,
+  "rescue_gap_K0": -0.0168703071433203,
+  "rescue_gap_reduction_K0": 0.2628420312007221,
+  "rescue_gap_reduction_K0_ci_low": 0.2446159164309942,
+  "rescue_gap_reduction_K0_ci_high": 0.2827041113580563,
+  "rescue_gap_10K0": -0.0511548588093264,
+  "rescue_gap_reduction_10K0": 0.857495428222529,
+  "rescue_gap_reduction_10K0_ci_low": 0.8249532185988219,
+  "rescue_gap_reduction_10K0_ci_high": 0.8889183280900965,
+  "leak_minus_K0_q90": 0.0376837109028787,
+  "output_rms_minus_K0": 0.0592460428728077,
+  "output_cos_minus_K0": 0.9972836883107408,
+  "leak_plus_K0_q90": -0.0296549039436845,
+  "output_rms_plus_K0": 0.0634929100938695,
+  "output_cos_plus_K0": 0.9972450640298696,
+  "leak_minus_10K0_q90": 0.1456166465562634,
+  "output_rms_minus_10K0": 0.1655771097030126,
+  "output_cos_minus_10K0": 0.9747826609964796,
+  "leak_plus_10K0_q90": -0.0713966575694988,
+  "output_rms_plus_10K0": 0.2169310856815196,
+  "output_cos_plus_10K0": 0.9715934714237322,
+  "output_fidelity_by_condition": {
+    "alloc_K21_R1": {
+      "output_kl_forward": 0.035594194543257754,
+      "output_kl_reverse": 0.035394150318118864,
+      "output_jsd": 0.008497530477439522,
+      "top1_agreement": 0.9093266988653247
+    },
+    "alloc_K21_R4": {
+      "output_kl_forward": 0.014357312518560659,
+      "output_kl_reverse": 0.014256425018073966,
+      "output_jsd": 0.0034821833346675404,
+      "top1_agreement": 0.9447418651383216
+    },
+    "baseline": {
+      "output_kl_forward": 0.0,
+      "output_kl_reverse": 0.0,
+      "output_jsd": 0.0,
+      "top1_agreement": 1.0
+    },
+    "geometry_exp_K16": {
+      "output_kl_forward": 0.4745078537010127,
+      "output_kl_reverse": 0.4382436723580416,
+      "output_jsd": 0.08868830767217373,
+      "top1_agreement": 0.6910641169627164
+    },
+    "geometry_linear_K16": {
+      "output_kl_forward": 5.72494205678399,
+      "output_kl_reverse": 5.883019124306435,
+      "output_jsd": 0.5371692406966189,
+      "top1_agreement": 0.061659254931783467
+    },
+    "jsd_10K0_Aminus": {
+      "output_kl_forward": 0.9078248513798618,
+      "output_kl_reverse": 0.8045005821999058,
+      "output_jsd": 0.14787462755697905,
+      "top1_agreement": 0.5961905529338887
+    },
+    "jsd_10K0_Aplus": {
+      "output_kl_forward": 0.6274715269662448,
+      "output_kl_reverse": 0.6929798870782444,
+      "output_jsd": 0.11920262730944119,
+      "top1_agreement": 0.640807014539759
+    },
+    "jsd_K0_Aminus": {
+      "output_kl_forward": 0.11724640159305416,
+      "output_kl_reverse": 0.11093408268657298,
+      "output_jsd": 0.025795404202859085,
+      "top1_agreement": 0.8427822460830282
+    },
+    "jsd_K0_Aplus": {
+      "output_kl_forward": 0.11229725161807283,
+      "output_kl_reverse": 0.11723240242721149,
+      "output_jsd": 0.025925927033895072,
+      "top1_agreement": 0.8416440453467231
+    },
+    "mean_sparse_softmax": {
+      "output_kl_forward": 0.08181405901200031,
+      "output_kl_reverse": 0.08650237800630947,
+      "output_jsd": 0.018200216354797495,
+      "top1_agreement": 0.8831329730709764
+    },
+    "mean_sparse_uniform": {
+      "output_kl_forward": 5.41000348268598,
+      "output_kl_reverse": 5.7155891785613,
+      "output_jsd": 0.513748489444721,
+      "top1_agreement": 0.10360144843598121
+    },
+    "pot_m1": {
+      "output_kl_forward": 0.028749008461854964,
+      "output_kl_reverse": 0.028660442360877076,
+      "output_jsd": 0.0068854697214000395,
+      "top1_agreement": 0.921922451261338
+    },
+    "precision_K32_R4": {
+      "output_kl_forward": 0.008873426286978514,
+      "output_kl_reverse": 0.008798296870032111,
+      "output_jsd": 0.002147537631698405,
+      "top1_agreement": 0.9578865727567121
+    },
+    "rescue_10K0_Aminus_q0p9": {
+      "output_kl_forward": 0.24564537189145688,
+      "output_kl_reverse": 0.2255561223288192,
+      "output_jsd": 0.04987175524767851,
+      "top1_agreement": 0.7751449191424211
+    },
+    "rescue_10K0_Aplus_q0p9": {
+      "output_kl_forward": 0.41233810176014024,
+      "output_kl_reverse": 0.4510463317956598,
+      "output_jsd": 0.08370790489541503,
+      "top1_agreement": 0.7025569226275313
+    },
+    "rescue_K0_Aminus_q0p9": {
+      "output_kl_forward": 0.04213034608067968,
+      "output_kl_reverse": 0.04064933937623701,
+      "output_jsd": 0.009844106981034531,
+      "top1_agreement": 0.9037716749177827
+    },
+    "rescue_K0_Aplus_q0p9": {
+      "output_kl_forward": 0.04922895723650179,
+      "output_kl_reverse": 0.050724350800547095,
+      "output_jsd": 0.011828089632819557,
+      "top1_agreement": 0.8942178395338414
+    },
+    "rowmax_pot_K20_clamp": {
+      "output_kl_forward": 0.028357598635933443,
+      "output_kl_reverse": 0.028303335729395005,
+      "output_jsd": 0.006812551758646495,
+      "top1_agreement": 0.9212878791694157
+    }
+  }
+}

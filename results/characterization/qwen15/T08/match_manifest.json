@@ -1,0 +1,154 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B",
+  "K0": 0.0026060741820292405,
+  "axis": "mean row-wise JSD",
+  "targets": {
+    "K0": {
+      "multiplier": 1,
+      "target_jsd": 0.0026060741820292405,
+      "Aminus": {
+        "alpha": 0.9299999999999999,
+        "achieved": 0.0026311340397968293,
+        "rel_err": 0.009615941840947785,
+        "spec": {
+          "id": "jsd_K0_Aminus",
+          "operator": "perturb_temp",
+          "params": {
+            "alpha": 0.9299999999999999
+          },
+          "role": "matched_jsd",
+          "family": "temperature_flatten",
+          "rescue_q": null
+        }
+      },
+      "Aplus": {
+        "alpha": 1.075,
+        "achieved": 0.0025883568106357833,
+        "rel_err": 0.006798490816428503,
+        "spec": {
+          "id": "jsd_K0_Aplus",
+          "operator": "perturb_temp",
+          "params": {
+            "alpha": 1.075
+          },
+          "role": "matched_jsd",
+          "family": "temperature_sharpen",
+          "rescue_q": null
+        }
+      },
+      "C": {
+        "m": 1.0,
+        "achieved": 0.0026060741820292405,
+        "rel_err": 0.0,
+        "spec": {
+          "id": "match_K0_pot_m1",
+          "operator": "perturb_pot",
+          "params": {
+            "m": 1.0
+          },
+          "role": "",
+          "family": "pot",
+          "rescue_q": null
+        }
+      }
+    },
+    "3K0": {
+      "multiplier": 3,
+      "target_jsd": 0.007818222546087722,
+      "Aminus": {
+        "alpha": 0.8815980893263463,
+        "achieved": 0.007870653527925195,
+        "rel_err": 0.00670625343911578,
+        "spec": {
+          "id": "jsd_3K0_Aminus",
+          "operator": "perturb_temp",
+          "params": {
+            "alpha": 0.8815980893263463
+          },
+          "role": "matched_jsd",
+          "family": "temperature_flatten",
+          "rescue_q": null
+        }
+      },
+      "Aplus": {
+        "alpha": 1.1347752034639533,
+        "achieved": 0.007791682123214705,
+        "rel_err": 0.0033946875669710022,
+        "spec": {
+          "id": "jsd_3K0_Aplus",
+          "operator": "perturb_temp",
+          "params": {
+            "alpha": 1.1347752034639533
+          },
+          "role": "matched_jsd",
+          "family": "temperature_sharpen",
+          "rescue_q": null
+        }
+      },
+      "C": {
+        "m": 0.5719878827884838,
+        "achieved": 0.007831636661563425,
+        "rel_err": 0.0017157500181951115,
+        "spec": {
+          "id": "match_3K0_pot_m0.5719878828",
+          "operator": "perturb_pot",
+          "params": {
+            "m": 0.5719878827884838
+          },
+          "role": "",
+          "family": "pot",
+          "rescue_q": null
+        }
+      }
+    },
+    "10K0": {
+      "multiplier": 10,
+      "target_jsd": 0.026060741820292405,
+      "Aminus": {
+        "alpha": 0.7916108432537478,
+        "achieved": 0.02618306809534869,
+        "rel_err": 0.00469389075337201,
+        "spec": {
+          "id": "jsd_10K0_Aminus",
+          "operator": "perturb_temp",
+          "params": {
+            "alpha": 0.7916108432537478
+          },
+          "role": "matched_jsd",
+          "family": "temperature_flatten",
+          "rescue_q": null
+        }
+      },
+      "Aplus": {
+        "alpha": 1.268299495229911,
+        "achieved": 0.02621708094566531,
+        "rel_err": 0.005999028210746104,
+        "spec": {
+          "id": "jsd_10K0_Aplus",
+          "operator": "perturb_temp",
+          "params": {
+            "alpha": 1.268299495229911
+          },
+          "role": "matched_jsd",
+          "family": "temperature_sharpen",
+          "rescue_q": null
+        }
+      },
+      "C": {
+        "m": 0.30479784676321725,
+        "achieved": 0.02586818345343175,
+        "rel_err": 0.007388829074340403,
+        "spec": {
+          "id": "match_10K0_pot_m0.3047978468",
+          "operator": "perturb_pot",
+          "params": {
+            "m": 0.30479784676321725
+          },
+          "role": "",
+          "family": "pot",
+          "rescue_q": null
+        }
+      }
+    }
+  }
+}

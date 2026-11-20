@@ -1,0 +1,2 @@
+condition,n_rows,n_rows_seen,n_rows_skipped,n_entries,mean_eps,mean_abs_eps,rms_eps,p_mean_abs_eps,p_rms_eps,mean_abs_eps_centered,p_rms_eps_centered,frac_negative,max_abs_eps,theoretical_bound,max_over_bound,corr_eps_delta
+pot_diag_m1,10671360,11010048,338688,11268956160,5.564278070933062e-06,0.1731223242773915,0.19999956826041296,0.06997730197309898,0.12711615975026974,,,0.4995005803625382,0.3465747833251953,0.34657359027997264,1.0000034424008526,-9.971206375558528e-05

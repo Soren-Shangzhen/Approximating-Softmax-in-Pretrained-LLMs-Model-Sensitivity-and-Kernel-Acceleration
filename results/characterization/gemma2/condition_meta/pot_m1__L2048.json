@@ -1,0 +1,45 @@
+{
+  "condition": {
+    "id": "pot_m1",
+    "operator": "perturb_pot",
+    "params": {
+      "m": 1.0
+    },
+    "role": "K0_anchor",
+    "family": "pot",
+    "rescue_q": null
+  },
+  "forward_condition": {
+    "id": "pot_m1",
+    "operator": "perturb_pot",
+    "params": {
+      "m": 1.0
+    },
+    "rescue_q": null
+  },
+  "context": 2048,
+  "protocol": {
+    "model": "google/gemma-2-2b",
+    "dataset": "wikitext",
+    "token_signature": "a24d97228ac9",
+    "model_revision": "c5ebcd40d208330abc697524c919956e692655cf",
+    "tokenizer_revision": null,
+    "implementation_signature": "4fff1408c5632132",
+    "forward_cache_schema": "crossmodel-forward-v2",
+    "seq_len": 2048,
+    "q_chunk": 512,
+    "dtype": "bf16",
+    "ce_chunk": 64,
+    "condition": {
+      "id": "pot_m1",
+      "operator": "perturb_pot",
+      "params": {
+        "m": 1.0
+      },
+      "rescue_q": null
+    },
+    "collect_output_fidelity": true
+  },
+  "signature": "61e61093aa16",
+  "cache_state": "complete"
+}

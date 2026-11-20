@@ -1,0 +1,40 @@
+{
+  "signature": "976e65de9b8b",
+  "condition": {
+    "id": "alloc_K16_R4",
+    "operator": "multibit",
+    "params": {
+      "K": 16,
+      "R": 4.0,
+      "reconstruction": "nearest",
+      "level_weight": "exp",
+      "threshold_mode": "none",
+      "coverage": "max"
+    },
+    "role": "",
+    "family": "exp_quant",
+    "rescue_q": null
+  },
+  "forward_condition": {
+    "id": "alloc_K16_R4",
+    "operator": "multibit",
+    "params": {
+      "K": 16,
+      "R": 4.0,
+      "reconstruction": "nearest",
+      "level_weight": "exp",
+      "threshold_mode": "none",
+      "coverage": "max"
+    },
+    "rescue_q": null
+  },
+  "seq_len": 2048,
+  "windows": 8,
+  "metrics": {
+    "js_mean": 0.0031528612002817793,
+    "tv_mean": 0.052681146049472036,
+    "kl_fwd_mean": 0.01265594621743973,
+    "kl_rev_mean": 0.012731332477635313,
+    "n_rows": 5505024
+  }
+}

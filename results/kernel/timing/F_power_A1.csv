@@ -1,0 +1,2 @@
+arm,n_forwards,elapsed_s,per_fwd_ms,mean_power_w,p_std_w,energy_per_fwd_mJ,n_samples,power_min,power_max
+A1,65050,45.03,0.6922,982.9,75.0,680.34,450,202.2,1005.37

@@ -1,0 +1,37 @@
+\begingroup
+\refstepcounter{table}\label{tab:appx-anchor}
+\par\medskip\noindent{\small\textbf{Table~\thetable.} Anchor $\times$ resolution on Qwen2.5-1.5B: 8-bit probability-domain log grids (absolute anchor) versus rowmax-anchored score-domain lattices of the same nominal spacing. Paired block bootstrap over 97 blocks. The 8-bit probability grids are the lattice structure of FQ-ViT (log2) and RepQ-ViT (log$\surd$2), not a reproduction of their 4-bit ViT results.}\par\smallskip
+\addcontentsline{lot}{table}{\protect\numberline{\thetable}Anchor $\times$ resolution on Qwen2}
+{\scriptsize
+\setlength{\tabcolsep}{2pt}
+\noindent\begin{tabular}{@{}>{\raggedright\arraybackslash}p{\dimexpr 0.127\linewidth-4pt\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.286\linewidth-4pt\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.276\linewidth-4pt\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.281\linewidth-4pt\relax}@{}}
+\toprule
+\textbf{lattice spacing} & \textbf{absolute anchor (probability grid)} & \textbf{rowmax anchor (score lattice)} & \textbf{leakage--phase Pearson r (absolute / rowmax)} \\
+\midrule
+octave & log2-p 8-bit: +0.00657 [+0.00587, +0.00731] & PoT m=1: +0.00303 [+0.00239, +0.00365] & -0.775 / -0.005 \\
+half-octave & log$\surd$2-p 8-bit: +0.00214 [+0.00170, +0.00259] & PoT m=2: +0.000927 [+0.000543, +0.00132] & -0.777 / --- \\
+\bottomrule
+\end{tabular}
+}
+\par\noindent{\footnotesize Paired differences (absolute reductions in $\Delta$NLL, so a positive value is an improvement; no percentages):}\par
+{\scriptsize
+\setlength{\tabcolsep}{2pt}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{\dimexpr 0.574\linewidth-4pt\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.396\linewidth-4pt\relax}@{}}
+\toprule
+\textbf{change} & \textbf{reduction in $\Delta$NLL [95\% CI]} \\
+\midrule
+\endhead
+anchor: absolute $\rightarrow$ rowmax, octave spacing & 0.00355 [0.00268, 0.00448] \\
+anchor: absolute $\rightarrow$ rowmax, half-octave spacing & 0.00122 [0.000708, 0.00171] \\
+spacing: octave $\rightarrow$ half-octave, absolute anchor & 0.00443 [0.00367, 0.00517] \\
+spacing: octave $\rightarrow$ half-octave, rowmax anchor & 0.00210 [0.00132, 0.00286] \\
+\bottomrule
+\end{longtable}
+\addtocounter{table}{-1}
+}
+\par\noindent{\footnotesize Conditions: log2-p and log$\surd$2-p round $-\log_2 p$ and $-2\log_2 p$ to 8-bit integers (fixed at $p=1$);
+PoT m=1 (m=2) rounds the log weight from the row maximum to octaves (half octaves); absolute-lattice ILPoT uses absolute octaves.
+Leakage was not recorded for PoT m=2.  ILPoT-H-A (Table~\ref{tab:appx-h15-full}), not used in this table, is an absolute half-octave
+lattice, $\{1,\surd2\}\times2^k$, whose maximum entry is set to its exact weight.}\par
+\par\noindent{\footnotesize Ratios of block means: log2-p / PoT m=1 = 2.17; absolute-lattice ILPoT / log2-p = 1.01 (the two operators are algebraically the same up to a per-row phase shift); log$\surd$2-p / PoT m=2 = 2.31; log2-p / PoT m=2 = 7.1.}\par
+\endgroup

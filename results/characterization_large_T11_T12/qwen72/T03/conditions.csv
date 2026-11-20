@@ -1,0 +1,2 @@
+condition,operator,role,family,seq_len,n_blocks,n_pred,nll,baseline_nll,delta_nll,ppl,ppl_ratio,rescue_q,K,R,reconstruction,level_weight,nominal_bits,output_kl_forward,output_kl_reverse,output_jsd,top1_agreement
+precision_K32_R4,multibit,precision,exp_quant,2048,97,198559,1.3830515173989684,1.3825064423280773,0.0005450750708910768,3.987049634470954,1.0005452236513022,,32,4.0,nearest,exp,5.044394119358453,0.0015139666344737978,0.0015178997100191772,0.0003774455727365226,0.9841306614154987

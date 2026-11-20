@@ -1,0 +1,72 @@
+{
+  "condition": {
+    "id": "mean_sparse_uniform",
+    "operator": "binary",
+    "params": {},
+    "role": "support",
+    "family": "support",
+    "rescue_q": null
+  },
+  "forward_condition": {
+    "id": "mean_sparse_uniform",
+    "operator": "binary",
+    "params": {},
+    "rescue_q": null
+  },
+  "context": 2048,
+  "protocol": {
+    "model": "google/gemma-2-2b",
+    "dataset": "wikitext",
+    "token_signature": "a24d97228ac9",
+    "model_revision": "c5ebcd40d208330abc697524c919956e692655cf",
+    "tokenizer_revision": null,
+    "implementation_signature": "4fff1408c5632132",
+    "forward_cache_schema": "crossmodel-forward-v2",
+    "seq_len": 2048,
+    "q_chunk": 512,
+    "dtype": "bf16",
+    "ce_chunk": 64,
+    "condition": {
+      "id": "mean_sparse_uniform",
+      "operator": "binary",
+      "params": {},
+      "rescue_q": null
+    },
+    "collect_output_fidelity": true
+  },
+  "signature": "772a41c8cb14",
+  "cache_state": "complete",
+  "support": {
+    "density": 0.48957929554220836,
+    "kept": 20725261901.0,
+    "valid": 42332798976.0,
+    "per_layer": {
+      "0": 0.5053371571798995,
+      "1": 0.5013467588578852,
+      "2": 0.48691495527347384,
+      "3": 0.480490505518706,
+      "4": 0.4705480154358126,
+      "5": 0.4846700678977566,
+      "6": 0.487122017178475,
+      "7": 0.48312164148642567,
+      "8": 0.5222337820500272,
+      "9": 0.49743337391742987,
+      "10": 0.4898284787584181,
+      "11": 0.4998823032702651,
+      "12": 0.5219388683116969,
+      "13": 0.48739572816098214,
+      "14": 0.49270625629609205,
+      "15": 0.4783910267185825,
+      "16": 0.4881452955122454,
+      "17": 0.48215274765015337,
+      "18": 0.44940773962963765,
+      "19": 0.506100846394457,
+      "20": 0.4585985108852917,
+      "21": 0.4776249231585891,
+      "22": 0.5108775278067736,
+      "23": 0.504266699919899,
+      "24": 0.4764243958788122,
+      "25": 0.4861020609496303
+    }
+  }
+}

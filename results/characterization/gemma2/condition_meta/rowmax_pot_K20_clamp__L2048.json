@@ -1,0 +1,84 @@
+{
+  "condition": {
+    "id": "rowmax_pot_K20_clamp",
+    "operator": "rowmax_pot",
+    "params": {
+      "K": 20,
+      "fine_m": 1,
+      "tail_mode": "clamp"
+    },
+    "role": "rowmax_pot",
+    "family": "rowmax_pot",
+    "rescue_q": null
+  },
+  "forward_condition": {
+    "id": "rowmax_pot_K20_clamp",
+    "operator": "rowmax_pot",
+    "params": {
+      "K": 20,
+      "fine_m": 1,
+      "tail_mode": "clamp"
+    },
+    "rescue_q": null
+  },
+  "context": 2048,
+  "protocol": {
+    "model": "google/gemma-2-2b",
+    "dataset": "wikitext",
+    "token_signature": "a24d97228ac9",
+    "model_revision": "c5ebcd40d208330abc697524c919956e692655cf",
+    "tokenizer_revision": null,
+    "implementation_signature": "4fff1408c5632132",
+    "forward_cache_schema": "crossmodel-forward-v2",
+    "seq_len": 2048,
+    "q_chunk": 512,
+    "dtype": "bf16",
+    "ce_chunk": 64,
+    "condition": {
+      "id": "rowmax_pot_K20_clamp",
+      "operator": "rowmax_pot",
+      "params": {
+        "K": 20,
+        "fine_m": 1,
+        "tail_mode": "clamp"
+      },
+      "rescue_q": null
+    },
+    "collect_output_fidelity": true
+  },
+  "signature": "ff242f06ec03",
+  "cache_state": "complete",
+  "support": {
+    "density": 1.0,
+    "kept": 42332798976.0,
+    "valid": 42332798976.0,
+    "per_layer": {
+      "0": 1.0,
+      "1": 1.0,
+      "2": 1.0,
+      "3": 1.0,
+      "4": 1.0,
+      "5": 1.0,
+      "6": 1.0,
+      "7": 1.0,
+      "8": 1.0,
+      "9": 1.0,
+      "10": 1.0,
+      "11": 1.0,
+      "12": 1.0,
+      "13": 1.0,
+      "14": 1.0,
+      "15": 1.0,
+      "16": 1.0,
+      "17": 1.0,
+      "18": 1.0,
+      "19": 1.0,
+      "20": 1.0,
+      "21": 1.0,
+      "22": 1.0,
+      "23": 1.0,
+      "24": 1.0,
+      "25": 1.0
+    }
+  }
+}

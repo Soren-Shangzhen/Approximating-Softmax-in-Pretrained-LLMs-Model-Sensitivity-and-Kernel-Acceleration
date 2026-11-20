@@ -1,0 +1,773 @@
+table,item,printed,recomputed,ok,source
+table_2_rowmax_h15.tex,"BF16 kernel, measured | Qwen2.5-1.5B [col 2]",0.00121,0.00120744016981616,True,"kernel/fidelity/ppl_A0.csv, ppl_A1.csv: paired nll(A1)-nll(A0)"
+table_2_rowmax_h15.tex,"BF16 kernel, measured | Qwen2.5-1.5B [col 2]",0.000862,0.000861763616198155,True,"kernel/fidelity/ppl_A0.csv, ppl_A1.csv: paired nll(A1)-nll(A0)"
+table_2_rowmax_h15.tex,"BF16 kernel, measured | Qwen2.5-1.5B [col 2]",0.00156,0.0015609180189899174,True,"kernel/fidelity/ppl_A0.csv, ppl_A1.csv: paired nll(A1)-nll(A0)"
+table_2_rowmax_h15.tex,"BF16 kernel, measured | Qwen2.5-1.5B [col 3]",0.121,0.12081694191767917,True,"kernel/fidelity/ppl_A0.csv, ppl_A1.csv: paired nll(A1)-nll(A0)"
+table_2_rowmax_h15.tex,"BF16 kernel, measured | Qwen2.5-72B [col 2]",0.00101,0.0010131148947882737,True,"kernel/fidelity/ppl_qwen72_A0.csv, ppl_qwen72_A1.csv: paired nll(A1)-nll(A0)"
+table_2_rowmax_h15.tex,"BF16 kernel, measured | Qwen2.5-72B [col 2]",0.000665,0.0006653210551468311,True,"kernel/fidelity/ppl_qwen72_A0.csv, ppl_qwen72_A1.csv: paired nll(A1)-nll(A0)"
+table_2_rowmax_h15.tex,"BF16 kernel, measured | Qwen2.5-72B [col 2]",0.00139,0.0013860601048494093,True,"kernel/fidelity/ppl_qwen72_A0.csv, ppl_qwen72_A1.csv: paired nll(A1)-nll(A0)"
+table_2_rowmax_h15.tex,"BF16 kernel, measured | Qwen2.5-72B [col 3]",0.101,0.10136282690376897,True,"kernel/fidelity/ppl_qwen72_A0.csv, ppl_qwen72_A1.csv: paired nll(A1)-nll(A0)"
+table_2_rowmax_h15.tex,"BF16 kernel, measured | Mistral-7B-v0.3 [col 2]",0.000914,0.000914168112056744,True,"kernel/fidelity/ppl_mistral7_A0.csv, ppl_mistral7_A1.csv: paired nll(A1)-nll(A0)"
+table_2_rowmax_h15.tex,"BF16 kernel, measured | Mistral-7B-v0.3 [col 2]",0.000600,0.0005997712771916717,True,"kernel/fidelity/ppl_mistral7_A0.csv, ppl_mistral7_A1.csv: paired nll(A1)-nll(A0)"
+table_2_rowmax_h15.tex,"BF16 kernel, measured | Mistral-7B-v0.3 [col 2]",0.00125,0.0012474351015287436,True,"kernel/fidelity/ppl_mistral7_A0.csv, ppl_mistral7_A1.csv: paired nll(A1)-nll(A0)"
+table_2_rowmax_h15.tex,"BF16 kernel, measured | Mistral-7B-v0.3 [col 3]",0.091,0.09145860910832904,True,"kernel/fidelity/ppl_mistral7_A0.csv, ppl_mistral7_A1.csv: paired nll(A1)-nll(A0)"
+table_2_rowmax_h15.tex,"BF16 kernel, measured | Llama-3.1-8B [col 2]",0.00246,0.0024618242204803758,True,"kernel/fidelity/ppl_llama8_A0.csv, ppl_llama8_A1.csv: paired nll(A1)-nll(A0)"
+table_2_rowmax_h15.tex,"BF16 kernel, measured | Llama-3.1-8B [col 2]",0.00206,0.002058698928233277,True,"kernel/fidelity/ppl_llama8_A0.csv, ppl_llama8_A1.csv: paired nll(A1)-nll(A0)"
+table_2_rowmax_h15.tex,"BF16 kernel, measured | Llama-3.1-8B [col 2]",0.00289,0.0028919593882314725,True,"kernel/fidelity/ppl_llama8_A0.csv, ppl_llama8_A1.csv: paired nll(A1)-nll(A0)"
+table_2_rowmax_h15.tex,"BF16 kernel, measured | Llama-3.1-8B [col 3]",0.246,0.2464856997937664,True,"kernel/fidelity/ppl_llama8_A0.csv, ppl_llama8_A1.csv: paired nll(A1)-nll(A0)"
+table_2_rowmax_h15.tex,"BF16 kernel, measured | Llama-3.1-70B [col 2]",0.00491,0.00490652009383919,True,"kernel/fidelity/ppl_llama70_A0.csv, ppl_llama70_A1.csv: paired nll(A1)-nll(A0)"
+table_2_rowmax_h15.tex,"BF16 kernel, measured | Llama-3.1-70B [col 2]",0.00402,0.0040220211000786535,True,"kernel/fidelity/ppl_llama70_A0.csv, ppl_llama70_A1.csv: paired nll(A1)-nll(A0)"
+table_2_rowmax_h15.tex,"BF16 kernel, measured | Llama-3.1-70B [col 2]",0.00582,0.00581522666148303,True,"kernel/fidelity/ppl_llama70_A0.csv, ppl_llama70_A1.csv: paired nll(A1)-nll(A0)"
+table_2_rowmax_h15.tex,"BF16 kernel, measured | Llama-3.1-70B [col 3]",0.492,0.49185767742712294,True,"kernel/fidelity/ppl_llama70_A0.csv, ppl_llama70_A1.csv: paired nll(A1)-nll(A0)"
+table_2_rowmax_h15.tex,BF16 semantic simulation | Qwen2.5-1.5B [col 2],0.00107,0.001073383821605917,True,lattice_operators/qwen15/condition_blocks/h15tiled_bf16
+table_2_rowmax_h15.tex,BF16 semantic simulation | Qwen2.5-1.5B [col 2],0.000680,0.0006797692304061859,True,lattice_operators/qwen15/condition_blocks/h15tiled_bf16
+table_2_rowmax_h15.tex,BF16 semantic simulation | Qwen2.5-1.5B [col 2],0.00145,0.0014546068610242003,True,lattice_operators/qwen15/condition_blocks/h15tiled_bf16
+table_2_rowmax_h15.tex,BF16 semantic simulation | Qwen2.5-1.5B [col 3],0.107,0.10739601041925165,True,lattice_operators/qwen15/condition_blocks/h15tiled_bf16
+table_2_rowmax_h15.tex,FP8 semantic simulation | Qwen2.5-1.5B [col 2],0.000716,0.0007156937303861505,True,lattice_operators/qwen15/condition_blocks/h15tiled
+table_2_rowmax_h15.tex,FP8 semantic simulation | Qwen2.5-1.5B [col 2],0.000370,0.00037025546850360955,True,lattice_operators/qwen15/condition_blocks/h15tiled
+table_2_rowmax_h15.tex,FP8 semantic simulation | Qwen2.5-1.5B [col 2],0.00106,0.001063157042896811,True,lattice_operators/qwen15/condition_blocks/h15tiled
+table_2_rowmax_h15.tex,FP8 semantic simulation | Qwen2.5-1.5B [col 3],0.072,0.07159499002534185,True,lattice_operators/qwen15/condition_blocks/h15tiled
+table_2_rowmax_h15.tex,"FP8 causal 8K, hd 128: speed-up [col 1]",0.2063,0.20631,True,"timing/A_main_r{1,2,3}"
+table_2_rowmax_h15.tex,"FP8 causal 8K, hd 128: speed-up [col 2]",0.1835,0.18347,True,"timing/A_main_r{1,2,3}"
+table_2_rowmax_h15.tex,"FP8 causal 8K, hd 128: speed-up [col 3]",+12.4,12.448901727802909,True,"timing/A_main_r{1,2,3}"
+table_2_rowmax_h15.tex,"FP8 non-causal 8K, hd 128: speed-up [col 1]",0.4879,0.48791,True,"timing/C2_noncausal_r{1,2,3}"
+table_2_rowmax_h15.tex,"FP8 non-causal 8K, hd 128: speed-up [col 2]",0.3879,0.38787,True,"timing/C2_noncausal_r{1,2,3}"
+table_2_rowmax_h15.tex,"FP8 non-causal 8K, hd 128: speed-up [col 3]",+25.8,25.792146853327157,True,"timing/C2_noncausal_r{1,2,3}"
+table_2_rowmax_h15.tex,FP8 causal 16K: energy per forward [col 1],742.5,742.48,True,"timing/F_power_A{0,1}.csv"
+table_2_rowmax_h15.tex,FP8 causal 16K: energy per forward [col 2],680.3,680.34,True,"timing/F_power_A{0,1}.csv"
+table_2_rowmax_h15.tex,FP8 causal 16K: energy per forward [col 3],-8.4,-8.369249003340151,True,"timing/F_power_A{0,1}.csv"
+table_3_crossmodel.tex,Qwen2.5-0.5B [col 1],0.49,0.494032768,True,"characterization/qwen05: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Qwen2.5-0.5B [col 2],0.134,0.13404569628976404,True,"characterization/qwen05: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Qwen2.5-0.5B [col 3],0.00611,0.00610909227517773,True,"characterization/qwen05: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Qwen2.5-0.5B [col 3],0.00525,0.005248743274086173,True,"characterization/qwen05: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Qwen2.5-0.5B [col 3],0.00697,0.00697185279412153,True,"characterization/qwen05: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Qwen2.5-0.5B [col 4],0.382,0.382324557778424,True,"characterization/qwen05: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Qwen2.5-0.5B [col 5],95.8,95.81031330737969,True,"characterization/qwen05: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Qwen2.5-1.5B [col 1],1.54,1.543714304,True,"characterization/qwen15: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Qwen2.5-1.5B [col 2],0.091,0.09130398871228795,True,"characterization/qwen15: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Qwen2.5-1.5B [col 3],0.00351,0.003508412121558069,True,"characterization/qwen15: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Qwen2.5-1.5B [col 3],0.00282,0.0028174683126475524,True,"characterization/qwen15: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Qwen2.5-1.5B [col 3],0.00420,0.004203586196436361,True,"characterization/qwen15: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Qwen2.5-1.5B [col 4],0.310,0.3095344850139181,True,"characterization/qwen15: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Qwen2.5-1.5B [col 5],96.2,96.15580255742624,True,"characterization/qwen15: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Qwen2.5-3B [col 1],3.09,3.085938688,True,"characterization/qwen3: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Qwen2.5-3B [col 2],0.082,0.08232120023379252,True,"characterization/qwen3: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Qwen2.5-3B [col 3],0.00331,0.0033077160376086836,True,"characterization/qwen3: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Qwen2.5-3B [col 3],0.00256,0.002560503034376615,True,"characterization/qwen3: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Qwen2.5-3B [col 3],0.00404,0.004043224798674738,True,"characterization/qwen3: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Qwen2.5-3B [col 4],0.289,0.2886915649729538,True,"characterization/qwen3: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Qwen2.5-3B [col 5],96.4,96.41819308114968,True,"characterization/qwen3: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Qwen2.5-72B [col 1],72.71,72.706203648,True,"characterization/qwen72: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Qwen2.5-72B [col 2],0.055,0.054522365130216244,True,"characterization/qwen72: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Qwen2.5-72B [col 3],0.00196,0.001956453498504808,True,"characterization/qwen72: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Qwen2.5-72B [col 3],0.00137,0.0013667879579916844,True,"characterization/qwen72: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Qwen2.5-72B [col 3],0.00258,0.0025821340895088394,True,"characterization/qwen72: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Qwen2.5-72B [col 4],0.252,0.25153575444238907,True,"characterization/qwen72: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Qwen2.5-72B [col 5],97.6,97.5730135627194,True,"characterization/qwen72: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Llama-3.2-1B [col 1],1.24,1.2358144,True,"characterization/llama1: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Llama-3.2-1B [col 2],0.223,0.2231603048652886,True,"characterization/llama1: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Llama-3.2-1B [col 3],0.0109,0.010906212796677861,True,"characterization/llama1: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Llama-3.2-1B [col 3],0.00976,0.009764928023192548,True,"characterization/llama1: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Llama-3.2-1B [col 3],0.0120,0.012024014966769903,True,"characterization/llama1: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Llama-3.2-1B [col 4],0.950,0.9498012682291668,True,"characterization/llama1: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Llama-3.2-1B [col 5],94.4,94.39813858853036,True,"characterization/llama1: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Llama-3.2-3B [col 1],3.21,3.212749824,True,"characterization/llama3: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Llama-3.2-3B [col 2],0.121,0.12087389087089839,True,"characterization/llama3: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Llama-3.2-3B [col 3],0.00629,0.006290449335410832,True,"characterization/llama3: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Llama-3.2-3B [col 3],0.00540,0.005402953874035862,True,"characterization/llama3: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Llama-3.2-3B [col 3],0.00714,0.0071404424417632235,True,"characterization/llama3: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Llama-3.2-3B [col 4],0.704,0.7042247933372714,True,"characterization/llama3: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Llama-3.2-3B [col 5],95.2,95.16264687070341,True,"characterization/llama3: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Llama-3.1-8B [col 1],8.03,8.030261248,True,"characterization/llama8: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Llama-3.1-8B [col 2],0.135,0.1353890650868994,True,"characterization/llama8: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Llama-3.1-8B [col 3],0.00462,0.004621129976396623,True,"characterization/llama8: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Llama-3.1-8B [col 3],0.00383,0.0038296154707832108,True,"characterization/llama8: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Llama-3.1-8B [col 3],0.00542,0.005421802008163829,True,"characterization/llama8: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Llama-3.1-8B [col 4],0.531,0.5311182989023111,True,"characterization/llama8: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Llama-3.1-8B [col 5],96.0,96.02687362446426,True,"characterization/llama8: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Llama-3.1-70B [col 1],70.55,70.553706496,True,"characterization/llama70: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Llama-3.1-70B [col 2],0.232,0.23152519098632585,True,"characterization/llama70: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Llama-3.1-70B [col 3],0.0101,0.010101925580699283,True,"characterization/llama70: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Llama-3.1-70B [col 3],0.00833,0.00832730157311704,True,"characterization/llama70: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Llama-3.1-70B [col 3],0.0119,0.011909606604304424,True,"characterization/llama70: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Llama-3.1-70B [col 4],1.513,1.5129229039401393,True,"characterization/llama70: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Llama-3.1-70B [col 5],96.1,96.10443243569921,True,"characterization/llama70: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Gemma-2-2B [col 1],2.61,2.614341888,True,"characterization/gemma2: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Gemma-2-2B [col 2],0.852,0.8517006358832235,True,"characterization/gemma2: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Gemma-2-2B [col 3],0.00527,0.005268441767972991,True,"characterization/gemma2: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Gemma-2-2B [col 3],-0.00369,-0.003690161145542378,True,"characterization/gemma2: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Gemma-2-2B [col 3],0.0132,0.013229931705036689,True,"characterization/gemma2: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Gemma-2-2B [col 4],0.353,0.3527541617020402,True,"characterization/gemma2: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Gemma-2-2B [col 5],92.1,92.12878791694156,True,"characterization/gemma2: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Mistral-7B-v0.3 [col 1],7.25,7.248023552,True,"characterization/mistral7: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Mistral-7B-v0.3 [col 2],0.052,0.05167044238003626,True,"characterization/mistral7: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Mistral-7B-v0.3 [col 3],0.00167,0.0016696058698023471,True,"characterization/mistral7: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Mistral-7B-v0.3 [col 3],0.00119,0.0011872693393407102,True,"characterization/mistral7: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Mistral-7B-v0.3 [col 3],0.00218,0.002180096813097129,True,"characterization/mistral7: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Mistral-7B-v0.3 [col 4],0.235,0.23473050187816646,True,"characterization/mistral7: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_3_crossmodel.tex,Mistral-7B-v0.3 [col 5],97.5,97.54430672998956,True,"characterization/mistral7: crossmodel_summary.csv, T03/conditions.csv, alloc_K21_R{1,4} blocks (= T04/effects.csv D_R_K21), T06/rowmax_pot_conditions.csv rowmax_pot_K20_clamp"
+table_B1_anchor_resolution.tex,octave [col 1],+0.00657,0.006574920625786367,True,"lattice_operators/qwen15/condition_blocks/pq_log2_b8, pq_logsqrt2_b8; characterization/qwen15/condition_blocks/pot_m1, response_pot_m2; lattice_operators/qwen15/leakage/leakage_summary.csv"
+table_B1_anchor_resolution.tex,octave [col 1],+0.00587,0.0058669882935113256,True,"lattice_operators/qwen15/condition_blocks/pq_log2_b8, pq_logsqrt2_b8; characterization/qwen15/condition_blocks/pot_m1, response_pot_m2; lattice_operators/qwen15/leakage/leakage_summary.csv"
+table_B1_anchor_resolution.tex,octave [col 1],+0.00731,0.007311432956655595,True,"lattice_operators/qwen15/condition_blocks/pq_log2_b8, pq_logsqrt2_b8; characterization/qwen15/condition_blocks/pot_m1, response_pot_m2; lattice_operators/qwen15/leakage/leakage_summary.csv"
+table_B1_anchor_resolution.tex,octave [col 2],+0.00303,0.0030250320118341864,True,"lattice_operators/qwen15/condition_blocks/pq_log2_b8, pq_logsqrt2_b8; characterization/qwen15/condition_blocks/pot_m1, response_pot_m2; lattice_operators/qwen15/leakage/leakage_summary.csv"
+table_B1_anchor_resolution.tex,octave [col 2],+0.00239,0.0023934407276674126,True,"lattice_operators/qwen15/condition_blocks/pq_log2_b8, pq_logsqrt2_b8; characterization/qwen15/condition_blocks/pot_m1, response_pot_m2; lattice_operators/qwen15/leakage/leakage_summary.csv"
+table_B1_anchor_resolution.tex,octave [col 2],+0.00365,0.003653705768908773,True,"lattice_operators/qwen15/condition_blocks/pq_log2_b8, pq_logsqrt2_b8; characterization/qwen15/condition_blocks/pot_m1, response_pot_m2; lattice_operators/qwen15/leakage/leakage_summary.csv"
+table_B1_anchor_resolution.tex,octave [col 3],-0.775,-0.7746571182942993,True,"lattice_operators/qwen15/condition_blocks/pq_log2_b8, pq_logsqrt2_b8; characterization/qwen15/condition_blocks/pot_m1, response_pot_m2; lattice_operators/qwen15/leakage/leakage_summary.csv"
+table_B1_anchor_resolution.tex,octave [col 3],-0.005,-0.0049201089279774,True,"lattice_operators/qwen15/condition_blocks/pq_log2_b8, pq_logsqrt2_b8; characterization/qwen15/condition_blocks/pot_m1, response_pot_m2; lattice_operators/qwen15/leakage/leakage_summary.csv"
+table_B1_anchor_resolution.tex,half-octave [col 1],+0.00214,0.0021438724086572133,True,"lattice_operators/qwen15/condition_blocks/pq_log2_b8, pq_logsqrt2_b8; characterization/qwen15/condition_blocks/pot_m1, response_pot_m2; lattice_operators/qwen15/leakage/leakage_summary.csv"
+table_B1_anchor_resolution.tex,half-octave [col 1],+0.00170,0.0016993163792015271,True,"lattice_operators/qwen15/condition_blocks/pq_log2_b8, pq_logsqrt2_b8; characterization/qwen15/condition_blocks/pot_m1, response_pot_m2; lattice_operators/qwen15/leakage/leakage_summary.csv"
+table_B1_anchor_resolution.tex,half-octave [col 1],+0.00259,0.002589904397277361,True,"lattice_operators/qwen15/condition_blocks/pq_log2_b8, pq_logsqrt2_b8; characterization/qwen15/condition_blocks/pot_m1, response_pot_m2; lattice_operators/qwen15/leakage/leakage_summary.csv"
+table_B1_anchor_resolution.tex,half-octave [col 2],+0.000927,0.0009271431323697838,True,"lattice_operators/qwen15/condition_blocks/pq_log2_b8, pq_logsqrt2_b8; characterization/qwen15/condition_blocks/pot_m1, response_pot_m2; lattice_operators/qwen15/leakage/leakage_summary.csv"
+table_B1_anchor_resolution.tex,half-octave [col 2],+0.000543,0.0005431564782188538,True,"lattice_operators/qwen15/condition_blocks/pq_log2_b8, pq_logsqrt2_b8; characterization/qwen15/condition_blocks/pot_m1, response_pot_m2; lattice_operators/qwen15/leakage/leakage_summary.csv"
+table_B1_anchor_resolution.tex,half-octave [col 2],+0.00132,0.0013160884921576046,True,"lattice_operators/qwen15/condition_blocks/pq_log2_b8, pq_logsqrt2_b8; characterization/qwen15/condition_blocks/pot_m1, response_pot_m2; lattice_operators/qwen15/leakage/leakage_summary.csv"
+table_B1_anchor_resolution.tex,half-octave [col 3],-0.777,-0.7772615478173212,True,"lattice_operators/qwen15/condition_blocks/pq_log2_b8, pq_logsqrt2_b8; characterization/qwen15/condition_blocks/pot_m1, response_pot_m2; lattice_operators/qwen15/leakage/leakage_summary.csv"
+table_B1_anchor_resolution.tex,"anchor: absolute $\rightarrow$ rowmax, octave spacing [col 1]",0.00355,0.0035498886139521805,True,paired blocks pq_log2_b8 - pot_m1 (qwen15)
+table_B1_anchor_resolution.tex,"anchor: absolute $\rightarrow$ rowmax, octave spacing [col 1]",0.00268,0.0026793313097632824,True,paired blocks pq_log2_b8 - pot_m1 (qwen15)
+table_B1_anchor_resolution.tex,"anchor: absolute $\rightarrow$ rowmax, octave spacing [col 1]",0.00448,0.004483092030831014,True,paired blocks pq_log2_b8 - pot_m1 (qwen15)
+table_B1_anchor_resolution.tex,"anchor: absolute $\rightarrow$ rowmax, half-octave spacing [col 1]",0.00122,0.0012167292762874295,True,paired blocks pq_logsqrt2_b8 - response_pot_m2 (qwen15)
+table_B1_anchor_resolution.tex,"anchor: absolute $\rightarrow$ rowmax, half-octave spacing [col 1]",0.000708,0.0007079710673242091,True,paired blocks pq_logsqrt2_b8 - response_pot_m2 (qwen15)
+table_B1_anchor_resolution.tex,"anchor: absolute $\rightarrow$ rowmax, half-octave spacing [col 1]",0.00171,0.0017128169489460966,True,paired blocks pq_logsqrt2_b8 - response_pot_m2 (qwen15)
+table_B1_anchor_resolution.tex,"spacing: octave $\rightarrow$ half-octave, absolute anchor [col 1]",0.00443,0.004431048217129154,True,paired blocks pq_log2_b8 - pq_logsqrt2_b8 (qwen15)
+table_B1_anchor_resolution.tex,"spacing: octave $\rightarrow$ half-octave, absolute anchor [col 1]",0.00367,0.003665340881105965,True,paired blocks pq_log2_b8 - pq_logsqrt2_b8 (qwen15)
+table_B1_anchor_resolution.tex,"spacing: octave $\rightarrow$ half-octave, absolute anchor [col 1]",0.00517,0.005168368197884369,True,paired blocks pq_log2_b8 - pq_logsqrt2_b8 (qwen15)
+table_B1_anchor_resolution.tex,"spacing: octave $\rightarrow$ half-octave, rowmax anchor [col 1]",0.00210,0.002097888879464403,True,paired blocks pot_m1 - response_pot_m2 (qwen15)
+table_B1_anchor_resolution.tex,"spacing: octave $\rightarrow$ half-octave, rowmax anchor [col 1]",0.00132,0.0013232582999029448,True,paired blocks pot_m1 - response_pot_m2 (qwen15)
+table_B1_anchor_resolution.tex,"spacing: octave $\rightarrow$ half-octave, rowmax anchor [col 1]",0.00286,0.002864997994833149,True,paired blocks pot_m1 - response_pot_m2 (qwen15)
+table_B1_anchor_resolution.tex,log2-p / PoT m=1 = ,2.17,2.1735044786517,True,ratio of block means (condition_blocks)
+table_B1_anchor_resolution.tex,absolute-lattice ILPoT / log2-p = ,1.01,1.0061156391040895,True,ratio of block means (condition_blocks)
+table_B1_anchor_resolution.tex,log$\surd$2-p / PoT m=2 = ,2.31,2.3123424353880093,True,ratio of block means (condition_blocks)
+table_B1_anchor_resolution.tex,log2-p / PoT m=2 = ,7.1,7.091591790127191,True,ratio of block means (condition_blocks)
+table_B2_rowmax_h15_fidelity.tex,B200 patched FlashAttention-4 kernel [col 1],+0.00121,0.00120744016981616,True,"kernel/fidelity/ppl_A{0,1}.csv (qwen15 condition_blocks)"
+table_B2_rowmax_h15_fidelity.tex,B200 patched FlashAttention-4 kernel [col 1],0.000862,0.000861763616198155,True,"kernel/fidelity/ppl_A{0,1}.csv (qwen15 condition_blocks)"
+table_B2_rowmax_h15_fidelity.tex,B200 patched FlashAttention-4 kernel [col 1],0.00156,0.0015609180189899174,True,"kernel/fidelity/ppl_A{0,1}.csv (qwen15 condition_blocks)"
+table_B2_rowmax_h15_fidelity.tex,B200 patched FlashAttention-4 kernel [col 2],+0.121,0.12081694191767917,True,"kernel/fidelity/ppl_A{0,1}.csv (qwen15 condition_blocks)"
+table_B2_rowmax_h15_fidelity.tex,Semantic simulation of the BF16 [col 1],+0.00107,0.001073383821605917,True,lattice_operators h15tiled_bf16 (qwen15 condition_blocks)
+table_B2_rowmax_h15_fidelity.tex,Semantic simulation of the BF16 [col 1],+0.000680,0.0006797692304061859,True,lattice_operators h15tiled_bf16 (qwen15 condition_blocks)
+table_B2_rowmax_h15_fidelity.tex,Semantic simulation of the BF16 [col 1],+0.00145,0.0014546068610242003,True,lattice_operators h15tiled_bf16 (qwen15 condition_blocks)
+table_B2_rowmax_h15_fidelity.tex,Semantic simulation of the BF16 [col 2],+0.107,0.10739601041925165,True,lattice_operators h15tiled_bf16 (qwen15 condition_blocks)
+table_B2_rowmax_h15_fidelity.tex,Semantic simulation of the FP8 [col 1],+0.000716,0.0007156937303861505,True,lattice_operators h15tiled (qwen15 condition_blocks)
+table_B2_rowmax_h15_fidelity.tex,Semantic simulation of the FP8 [col 1],+0.000370,0.00037025546850360955,True,lattice_operators h15tiled (qwen15 condition_blocks)
+table_B2_rowmax_h15_fidelity.tex,Semantic simulation of the FP8 [col 1],+0.00106,0.001063157042896811,True,lattice_operators h15tiled (qwen15 condition_blocks)
+table_B2_rowmax_h15_fidelity.tex,Semantic simulation of the FP8 [col 2],+0.072,0.07159499002534185,True,lattice_operators h15tiled (qwen15 condition_blocks)
+table_B2_rowmax_h15_fidelity.tex,Offline whole-row Rowmax-H15 [col 1],+0.00105,0.0010491831957204132,True,lattice_operators h15rowmax (qwen15 condition_blocks)
+table_B2_rowmax_h15_fidelity.tex,Offline whole-row Rowmax-H15 [col 1],+0.000712,0.0007115235009107762,True,lattice_operators h15rowmax (qwen15 condition_blocks)
+table_B2_rowmax_h15_fidelity.tex,Offline whole-row Rowmax-H15 [col 1],+0.00139,0.0013878372988946567,True,lattice_operators h15rowmax (qwen15 condition_blocks)
+table_B2_rowmax_h15_fidelity.tex,Offline whole-row Rowmax-H15 [col 2],+0.105,0.10497337809475904,True,lattice_operators h15rowmax (qwen15 condition_blocks)
+table_B2_rowmax_h15_fidelity.tex,Absolute-anchored [col 1],+0.00224,0.002240735103107292,True,lattice_operators ilpot_h15_v1 (qwen15 condition_blocks)
+table_B2_rowmax_h15_fidelity.tex,Absolute-anchored [col 1],+0.00179,0.001793255010908369,True,lattice_operators ilpot_h15_v1 (qwen15 condition_blocks)
+table_B2_rowmax_h15_fidelity.tex,Absolute-anchored [col 1],+0.00266,0.002657263243623248,True,lattice_operators ilpot_h15_v1 (qwen15 condition_blocks)
+table_B2_rowmax_h15_fidelity.tex,Absolute-anchored [col 2],+0.224,0.22432474261414675,True,lattice_operators ilpot_h15_v1 (qwen15 condition_blocks)
+table_B2_rowmax_h15_fidelity.tex,PoT m = 2 (half-octave reference) [col 1],+0.000927,0.0009271431323697838,True,characterization response_pot_m2 (qwen15 condition_blocks)
+table_B2_rowmax_h15_fidelity.tex,PoT m = 2 (half-octave reference) [col 1],+0.000543,0.0005431564782188538,True,characterization response_pot_m2 (qwen15 condition_blocks)
+table_B2_rowmax_h15_fidelity.tex,PoT m = 2 (half-octave reference) [col 1],+0.00132,0.0013160884921576046,True,characterization response_pot_m2 (qwen15 condition_blocks)
+table_B2_rowmax_h15_fidelity.tex,PoT m = 2 (half-octave reference) [col 2],+0.093,0.09275730624223662,True,characterization response_pot_m2 (qwen15 condition_blocks)
+table_B2_rowmax_h15_fidelity.tex,ILPoT-H-A (half-octave reference) [col 1],+0.000859,0.0008590751497596666,True,lattice_operators ilpot_ha_v1 (qwen15 condition_blocks)
+table_B2_rowmax_h15_fidelity.tex,ILPoT-H-A (half-octave reference) [col 1],+0.000505,0.0005047301922756929,True,lattice_operators ilpot_ha_v1 (qwen15 condition_blocks)
+table_B2_rowmax_h15_fidelity.tex,ILPoT-H-A (half-octave reference) [col 1],+0.00120,0.0012027542293274194,True,lattice_operators ilpot_ha_v1 (qwen15 condition_blocks)
+table_B2_rowmax_h15_fidelity.tex,ILPoT-H-A (half-octave reference) [col 2],+0.086,0.08594442605065233,True,lattice_operators ilpot_ha_v1 (qwen15 condition_blocks)
+table_B2_rowmax_h15_fidelity.tex,FP8 semantic Rowmax-H15 - PoT m = 2 [col 1],-0.000211,-0.00021144940198363328,True,paired blocks h15tiled - response_pot_m2 (qwen15)
+table_B2_rowmax_h15_fidelity.tex,FP8 semantic Rowmax-H15 - PoT m = 2 [col 1],-0.000612,-0.0006115613522044971,True,paired blocks h15tiled - response_pot_m2 (qwen15)
+table_B2_rowmax_h15_fidelity.tex,FP8 semantic Rowmax-H15 - PoT m = 2 [col 1],+0.000183,0.00018312927038299947,True,paired blocks h15tiled - response_pot_m2 (qwen15)
+table_B2_rowmax_h15_fidelity.tex,FP8 semantic Rowmax-H15 - ILPoT-H-A [col 1],-0.000143,-0.00014338141937351624,True,paired blocks h15tiled - ilpot_ha_v1 (qwen15)
+table_B2_rowmax_h15_fidelity.tex,FP8 semantic Rowmax-H15 - ILPoT-H-A [col 1],-0.000590,-0.0005896431439910316,True,paired blocks h15tiled - ilpot_ha_v1 (qwen15)
+table_B2_rowmax_h15_fidelity.tex,FP8 semantic Rowmax-H15 - ILPoT-H-A [col 1],+0.000304,0.000303867553570586,True,paired blocks h15tiled - ilpot_ha_v1 (qwen15)
+table_B2_rowmax_h15_fidelity.tex,FP8 semantic Rowmax-H15 - offline whole-row [col 1],-0.000333,-0.0003334894653342627,True,paired blocks h15tiled - h15rowmax (qwen15)
+table_B2_rowmax_h15_fidelity.tex,FP8 semantic Rowmax-H15 - offline whole-row [col 1],-0.000648,-0.0006476650584619758,True,paired blocks h15tiled - h15rowmax (qwen15)
+table_B2_rowmax_h15_fidelity.tex,FP8 semantic Rowmax-H15 - offline whole-row [col 1],-0.0000278,-2.7820979090697292e-05,True,paired blocks h15tiled - h15rowmax (qwen15)
+table_B2_rowmax_h15_fidelity.tex,BF16 semantic Rowmax-H15 - FP8 semantic [col 1],+0.000358,0.0003576900912197664,True,paired blocks h15tiled_bf16 - h15tiled (qwen15)
+table_B2_rowmax_h15_fidelity.tex,BF16 semantic Rowmax-H15 - FP8 semantic [col 1],-0.00000769,-7.691512633944603e-06,True,paired blocks h15tiled_bf16 - h15tiled (qwen15)
+table_B2_rowmax_h15_fidelity.tex,BF16 semantic Rowmax-H15 - FP8 semantic [col 1],+0.000736,0.0007361796934903835,True,paired blocks h15tiled_bf16 - h15tiled (qwen15)
+table_B2_rowmax_h15_fidelity.tex,Simulation vs measured kernel [col 1],+0.00121,0.00120744016981616,True,"ppl_A{0,1}.csv and lattice_operators h15tiled_bf16"
+table_B2_rowmax_h15_fidelity.tex,Simulation vs measured kernel [col 1],+0.00107,0.001073383821605917,True,"ppl_A{0,1}.csv and lattice_operators h15tiled_bf16"
+table_B2_rowmax_h15_fidelity.tex,Simulation vs measured kernel [col 2],11,11.102525123928409,True,"ppl_A{0,1}.csv and lattice_operators h15tiled_bf16"
+table_B2_rowmax_h15_fidelity.tex,for the FP8 semantic operator: ,0.9748,0.9747682049164228,True,lattice_operators h15tiled blocks: prediction-weighted top-1
+table_B2_rowmax_h15_fidelity.tex,Pearson r for the FP8 semantic operator: ,-0.0037,-0.0037435360955856,True,leakage_summary.csv h15tiled
+table_B2_rowmax_h15_fidelity.tex,phase-aligned; compare ,-0.751,-0.7513607175186549,True,leakage_summary.csv ilpot_v1
+table_B2_exp_map_ablation.tex,"Rowmax-H15, H(x) [col 1]",+0.00105,0.001049183195720474,True,exp_map_ablation/qwen15/condition_blocks (nll of each operator minus the softmax run of the same blocks)
+table_B2_exp_map_ablation.tex,"Rowmax-H15, H(x) [col 1]",+0.000712,0.0007115235009108712,True,exp_map_ablation/qwen15/condition_blocks (nll of each operator minus the softmax run of the same blocks)
+table_B2_exp_map_ablation.tex,"Rowmax-H15, H(x) [col 1]",+0.00139,0.0013878372988947653,True,exp_map_ablation/qwen15/condition_blocks (nll of each operator minus the softmax run of the same blocks)
+table_B2_exp_map_ablation.tex,"Rowmax-H15, H(x) [col 2]",+0.105,0.10497337809476513,True,exp_map_ablation/qwen15/condition_blocks (nll of each operator minus the softmax run of the same blocks)
+table_B2_exp_map_ablation.tex,Rowmax-PoT m=2 [col 1],+0.000927,0.000927143132369813,True,exp_map_ablation/qwen15/condition_blocks (nll of each operator minus the softmax run of the same blocks)
+table_B2_exp_map_ablation.tex,Rowmax-PoT m=2 [col 1],+0.000543,0.0005431564782188494,True,exp_map_ablation/qwen15/condition_blocks (nll of each operator minus the softmax run of the same blocks)
+table_B2_exp_map_ablation.tex,Rowmax-PoT m=2 [col 1],+0.00132,0.0013160884921576085,True,exp_map_ablation/qwen15/condition_blocks (nll of each operator minus the softmax run of the same blocks)
+table_B2_exp_map_ablation.tex,Rowmax-PoT m=2 [col 2],+0.093,0.09275730624223955,True,exp_map_ablation/qwen15/condition_blocks (nll of each operator minus the softmax run of the same blocks)
+table_B2_exp_map_ablation.tex,Rowmax-PoT m=2 [col 3],-0.000122,-0.00012204006335066115,True,exp_map_ablation/qwen15/condition_blocks (nll of each operator minus the softmax run of the same blocks)
+table_B2_exp_map_ablation.tex,Rowmax-PoT m=2 [col 3],-0.000551,-0.0005505481883060643,True,exp_map_ablation/qwen15/condition_blocks (nll of each operator minus the softmax run of the same blocks)
+table_B2_exp_map_ablation.tex,Rowmax-PoT m=2 [col 3],+0.000301,0.00030092751540536253,True,exp_map_ablation/qwen15/condition_blocks (nll of each operator minus the softmax run of the same blocks)
+table_B2_exp_map_ablation.tex,Unshifted Schraudolph [col 1],-0.0000231,-2.3093136229590987e-05,True,exp_map_ablation/qwen15/condition_blocks (nll of each operator minus the softmax run of the same blocks)
+table_B2_exp_map_ablation.tex,Unshifted Schraudolph [col 1],-0.000306,-0.0003056053491892731,True,exp_map_ablation/qwen15/condition_blocks (nll of each operator minus the softmax run of the same blocks)
+table_B2_exp_map_ablation.tex,Unshifted Schraudolph [col 1],+0.000270,0.0002697344708457036,True,exp_map_ablation/qwen15/condition_blocks (nll of each operator minus the softmax run of the same blocks)
+table_B2_exp_map_ablation.tex,Unshifted Schraudolph [col 2],-0.00231,-0.0023092869585173083,True,exp_map_ablation/qwen15/condition_blocks (nll of each operator minus the softmax run of the same blocks)
+table_B2_exp_map_ablation.tex,Unshifted Schraudolph [col 3],-0.00107,-0.0010722763319500651,True,exp_map_ablation/qwen15/condition_blocks (nll of each operator minus the softmax run of the same blocks)
+table_B2_exp_map_ablation.tex,Unshifted Schraudolph [col 3],-0.00140,-0.0014003813283864077,True,exp_map_ablation/qwen15/condition_blocks (nll of each operator minus the softmax run of the same blocks)
+table_B2_exp_map_ablation.tex,Unshifted Schraudolph [col 3],-0.000747,-0.00074720913059165,True,exp_map_ablation/qwen15/condition_blocks (nll of each operator minus the softmax run of the same blocks)
+table_B2_exp_map_ablation.tex,"S(Q_{2^{-2}}(x)), k=2 [col 1]",+0.000329,0.0003285203821451351,True,exp_map_ablation/qwen15/condition_blocks (nll of each operator minus the softmax run of the same blocks)
+table_B2_exp_map_ablation.tex,"S(Q_{2^{-2}}(x)), k=2 [col 1]",+0.0000270,2.7006153076727054e-05,True,exp_map_ablation/qwen15/condition_blocks (nll of each operator minus the softmax run of the same blocks)
+table_B2_exp_map_ablation.tex,"S(Q_{2^{-2}}(x)), k=2 [col 1]",+0.000624,0.0006236714401662118,True,exp_map_ablation/qwen15/condition_blocks (nll of each operator minus the softmax run of the same blocks)
+table_B2_exp_map_ablation.tex,"S(Q_{2^{-2}}(x)), k=2 [col 2]",+0.033,0.032857435087565834,True,exp_map_ablation/qwen15/condition_blocks (nll of each operator minus the softmax run of the same blocks)
+table_B2_exp_map_ablation.tex,"S(Q_{2^{-2}}(x)), k=2 [col 3]",-0.000721,-0.000720662813575339,True,exp_map_ablation/qwen15/condition_blocks (nll of each operator minus the softmax run of the same blocks)
+table_B2_exp_map_ablation.tex,"S(Q_{2^{-2}}(x)), k=2 [col 3]",-0.00106,-0.0010562078928017709,True,exp_map_ablation/qwen15/condition_blocks (nll of each operator minus the softmax run of the same blocks)
+table_B2_exp_map_ablation.tex,"S(Q_{2^{-2}}(x)), k=2 [col 3]",-0.000393,-0.0003933942587109261,True,exp_map_ablation/qwen15/condition_blocks (nll of each operator minus the softmax run of the same blocks)
+table_B2_exp_map_ablation.tex,"S(Q_{2^{-3}}(x)), k=3 [col 1]",+0.0000796,7.961755738855775e-05,True,exp_map_ablation/qwen15/condition_blocks (nll of each operator minus the softmax run of the same blocks)
+table_B2_exp_map_ablation.tex,"S(Q_{2^{-3}}(x)), k=3 [col 1]",-0.000156,-0.00015570163613937046,True,exp_map_ablation/qwen15/condition_blocks (nll of each operator minus the softmax run of the same blocks)
+table_B2_exp_map_ablation.tex,"S(Q_{2^{-3}}(x)), k=3 [col 1]",+0.000316,0.0003159111260638945,True,exp_map_ablation/qwen15/condition_blocks (nll of each operator minus the softmax run of the same blocks)
+table_B2_exp_map_ablation.tex,"S(Q_{2^{-3}}(x)), k=3 [col 2]",+0.00796,0.007962072695039703,True,exp_map_ablation/qwen15/condition_blocks (nll of each operator minus the softmax run of the same blocks)
+table_B2_exp_map_ablation.tex,"S(Q_{2^{-3}}(x)), k=3 [col 3]",-0.000970,-0.0009695656383319163,True,exp_map_ablation/qwen15/condition_blocks (nll of each operator minus the softmax run of the same blocks)
+table_B2_exp_map_ablation.tex,"S(Q_{2^{-3}}(x)), k=3 [col 3]",-0.00129,-0.0012898202170802363,True,exp_map_ablation/qwen15/condition_blocks (nll of each operator minus the softmax run of the same blocks)
+table_B2_exp_map_ablation.tex,"S(Q_{2^{-3}}(x)), k=3 [col 3]",-0.000649,-0.000648973142772514,True,exp_map_ablation/qwen15/condition_blocks (nll of each operator minus the softmax run of the same blocks)
+table_B5_b200.tex,FP8 E4M3 | 4K [col 2],0.0621,0.06205,True,"timing/A_main_r{1,2,3}"
+table_B5_b200.tex,FP8 E4M3 | 4K [col 3],0.0580,0.05796,True,"timing/A_main_r{1,2,3}"
+table_B5_b200.tex,FP8 E4M3 | 4K [col 4],+7.1,7.056590752242942,True,"timing/A_main_r{1,2,3}"
+table_B5_b200.tex,FP8 E4M3 | 4K [col 5],2.13,2.1345341686671815,True,"timing/A_main_r{1,2,3}"
+table_B5_b200.tex,FP8 E4M3 | 4K [col 6],3,3.0,True,"timing/A_main_r{1,2,3}"
+table_B5_b200.tex,FP8 E4M3 | 8K [col 2],0.2063,0.20631,True,"timing/A_main_r{1,2,3}"
+table_B5_b200.tex,FP8 E4M3 | 8K [col 3],0.1835,0.18347,True,"timing/A_main_r{1,2,3}"
+table_B5_b200.tex,FP8 E4M3 | 8K [col 4],+12.4,12.448901727802909,True,"timing/A_main_r{1,2,3}"
+table_B5_b200.tex,FP8 E4M3 | 8K [col 5],0.02,0.019465353301952728,True,"timing/A_main_r{1,2,3}"
+table_B5_b200.tex,FP8 E4M3 | 8K [col 6],3,3.0,True,"timing/A_main_r{1,2,3}"
+table_B5_b200.tex,FP8 E4M3 | 16K [col 2],0.7320,0.73201,True,"timing/A_main_r{1,2,3}"
+table_B5_b200.tex,FP8 E4M3 | 16K [col 3],0.6509,0.6509,True,"timing/A_main_r{1,2,3}"
+table_B5_b200.tex,FP8 E4M3 | 16K [col 4],+12.5,12.461207558764787,True,"timing/A_main_r{1,2,3}"
+table_B5_b200.tex,FP8 E4M3 | 16K [col 5],0.08,0.07793139458674449,True,"timing/A_main_r{1,2,3}"
+table_B5_b200.tex,FP8 E4M3 | 16K [col 6],3,3.0,True,"timing/A_main_r{1,2,3}"
+table_B5_b200.tex,BF16 | 4K [col 2],0.0586,0.05857,True,"timing/A_main_r{1,2,3}"
+table_B5_b200.tex,BF16 | 4K [col 3],0.0564,0.05641,True,"timing/A_main_r{1,2,3}"
+table_B5_b200.tex,BF16 | 4K [col 4],+3.8,3.829108314128682,True,"timing/A_main_r{1,2,3}"
+table_B5_b200.tex,BF16 | 4K [col 5],0.93,0.9326458976905986,True,"timing/A_main_r{1,2,3}"
+table_B5_b200.tex,BF16 | 4K [col 6],3,3.0,True,"timing/A_main_r{1,2,3}"
+table_B5_b200.tex,BF16 | 8K [col 2],0.2020,0.20201,True,"timing/A_main_r{1,2,3}"
+table_B5_b200.tex,BF16 | 8K [col 3],0.1917,0.1917,True,"timing/A_main_r{1,2,3}"
+table_B5_b200.tex,BF16 | 8K [col 4],+5.4,5.378195096504945,True,"timing/A_main_r{1,2,3}"
+table_B5_b200.tex,BF16 | 8K [col 5],0.17,0.17162107462545384,True,"timing/A_main_r{1,2,3}"
+table_B5_b200.tex,BF16 | 8K [col 6],3,3.0,True,"timing/A_main_r{1,2,3}"
+table_B5_b200.tex,BF16 | 16K [col 2],0.7871,0.7871,True,"timing/A_main_r{1,2,3}"
+table_B5_b200.tex,BF16 | 16K [col 3],0.7350,0.73499,True,"timing/A_main_r{1,2,3}"
+table_B5_b200.tex,BF16 | 16K [col 4],+7.1,7.089892379488161,True,"timing/A_main_r{1,2,3}"
+table_B5_b200.tex,BF16 | 16K [col 5],0.52,0.5171095942873497,True,"timing/A_main_r{1,2,3}"
+table_B5_b200.tex,BF16 | 16K [col 6],3,3.0,True,"timing/A_main_r{1,2,3}"
+table_B5_b200.tex,FP16 | 8K [col 2],0.2156,0.21561,True,"timing/J_fp16_causal_r{1,2,3}"
+table_B5_b200.tex,FP16 | 8K [col 3],0.2048,0.20484,True,"timing/J_fp16_causal_r{1,2,3}"
+table_B5_b200.tex,FP16 | 8K [col 4],+5.3,5.257762155828938,True,"timing/J_fp16_causal_r{1,2,3}"
+table_B5_b200.tex,FP16 | 8K [col 5],0.25,0.2451377632457131,True,"timing/J_fp16_causal_r{1,2,3}"
+table_B5_b200.tex,FP16 | 8K [col 6],3,3.0,True,"timing/J_fp16_causal_r{1,2,3}"
+table_B5_b200.tex,FP16 | 16K [col 2],0.8039,0.80394,True,"timing/Y_fp16_A{0,1}"
+table_B5_b200.tex,FP16 | 16K [col 3],0.7545,0.75453,True,"timing/Y_fp16_A{0,1}"
+table_B5_b200.tex,FP16 | 16K [col 4],+6.5,6.548447377837863,True,"timing/Y_fp16_A{0,1}"
+table_B5_b200.tex,FP16 | 16K [col 6],1,1.0,True,"timing/Y_fp16_A{0,1}"
+table_B5_b200.tex,1K [col 1],-3.6,-3.6238794583253853,True,"timing/S_seqsweep_r{1,2,3}, ext/S_short_A{0,1}"
+table_B5_b200.tex,1K [col 2],-5.5,-5.528667163067746,True,"timing/S_seqsweep_r{1,2,3}, ext/S_short_A{0,1}"
+table_B5_b200.tex,1K [col 2],+1.1,1.098462152985813,True,"timing/S_seqsweep_r{1,2,3}, ext/S_short_A{0,1}"
+table_B5_b200.tex,1K [col 3],2.97,2.967348968041981,True,"timing/S_seqsweep_r{1,2,3}, ext/S_short_A{0,1}"
+table_B5_b200.tex,1K [col 4],-2.2,-2.1654749744637325,True,"timing/S_seqsweep_r{1,2,3}, ext/S_short_A{0,1}"
+table_B5_b200.tex,2K [col 1],-2.6,-2.6204238921001877,True,"timing/S_seqsweep_r{1,2,3}, ext/S_short_A{0,1}"
+table_B5_b200.tex,2K [col 2],-6.0,-5.956538610787742,True,"timing/S_seqsweep_r{1,2,3}, ext/S_short_A{0,1}"
+table_B5_b200.tex,2K [col 2],+4.5,4.5167853509664235,True,"timing/S_seqsweep_r{1,2,3}, ext/S_short_A{0,1}"
+table_B5_b200.tex,2K [col 3],4.53,4.527537835222961,True,"timing/S_seqsweep_r{1,2,3}, ext/S_short_A{0,1}"
+table_B5_b200.tex,2K [col 4],-3.7,-3.7386934673366845,True,"timing/S_seqsweep_r{1,2,3}, ext/S_short_A{0,1}"
+table_B5_b200.tex,4K [col 1],+7.9,7.900318133616113,True,"timing/S_seqsweep_r{1,2,3}"
+table_B5_b200.tex,4K [col 2],+7.7,7.724645296899624,True,"timing/S_seqsweep_r{1,2,3}"
+table_B5_b200.tex,4K [col 2],+8.3,8.303761533002119,True,"timing/S_seqsweep_r{1,2,3}"
+table_B5_b200.tex,4K [col 3],0.25,0.2549244295907591,True,"timing/S_seqsweep_r{1,2,3}"
+table_B5_b200.tex,8K [col 1],+12.1,12.075739386663752,True,"timing/S_seqsweep_r{1,2,3}"
+table_B5_b200.tex,8K [col 2],+12.0,11.97732104890148,True,"timing/S_seqsweep_r{1,2,3}"
+table_B5_b200.tex,8K [col 2],+12.1,12.132954917585415,True,"timing/S_seqsweep_r{1,2,3}"
+table_B5_b200.tex,8K [col 3],0.06,0.06355294069724746,True,"timing/S_seqsweep_r{1,2,3}"
+table_B5_b200.tex,16K [col 1],+12.5,12.535827657410547,True,"timing/S_seqsweep_r{1,2,3}"
+table_B5_b200.tex,16K [col 2],+12.1,12.094073550646712,True,"timing/S_seqsweep_r{1,2,3}"
+table_B5_b200.tex,16K [col 2],+12.7,12.743057161801662,True,"timing/S_seqsweep_r{1,2,3}"
+table_B5_b200.tex,16K [col 3],0.28,0.28198812307819165,True,"timing/S_seqsweep_r{1,2,3}"
+table_B5_b200.tex,32K [col 1],+9.9,9.933964174671296,True,"timing/S_seqsweep_r{1,2,3}"
+table_B5_b200.tex,32K [col 2],+9.9,9.92711786445033,True,"timing/S_seqsweep_r{1,2,3}"
+table_B5_b200.tex,32K [col 2],+10.1,10.131842138684277,True,"timing/S_seqsweep_r{1,2,3}"
+table_B5_b200.tex,32K [col 3],0.08,0.08358188623039832,True,"timing/S_seqsweep_r{1,2,3}"
+table_B5_b200.tex,Recorded SM clock: ,1965,1965,True,"timing/S_seqsweep: median sm_clock, both arms, seq <= 8K"
+table_B5_b200.tex,at 16K A1's median was ,1950,1950.0,True,timing/S_seqsweep sm_clock
+table_B5_b200.tex,at 32K A1 ran at a median of ,1845,1845.0,True,timing/S_seqsweep sm_clock at 32K
+table_B5_b200.tex,at 32K A1 ran at a median of  #1,1822,1822.0,True,timing/S_seqsweep sm_clock at 32K
+table_B5_b200.tex,at 32K A1 ran at a median of  #2,1867,1867.0,True,timing/S_seqsweep sm_clock at 32K
+table_B5_b200.tex,at 32K A1 ran at a median of  #3,1905,1905.0,True,timing/S_seqsweep sm_clock at 32K
+table_B5_b200.tex,at 32K A1 ran at a median of  #4,1867,1867.0,True,timing/S_seqsweep sm_clock at 32K
+table_B5_b200.tex,at 32K A1 ran at a median of  #5,1912,1912.0,True,timing/S_seqsweep sm_clock at 32K
+table_B5_b200.tex,FP8 | non-causal | 8K [col 3],+25.8,25.792146853327157,True,"timing/C2_noncausal_r{1,2,3}"
+table_B5_b200.tex,FP8 | non-causal | 8K [col 3],0.03,0.03475381199513048,True,"timing/C2_noncausal_r{1,2,3}"
+table_B5_b200.tex,FP8 | non-causal | 8K [col 4],3,3.0,True,"timing/C2_noncausal_r{1,2,3}"
+table_B5_b200.tex,BF16 | non-causal | 8K [col 3],+13.0,13.048413494535671,True,"timing/L_bf16_noncausal_r{1,2,3}"
+table_B5_b200.tex,BF16 | non-causal | 8K [col 3],0.50,0.50114577049656,True,"timing/L_bf16_noncausal_r{1,2,3}"
+table_B5_b200.tex,BF16 | non-causal | 8K [col 4],3,3.0,True,"timing/L_bf16_noncausal_r{1,2,3}"
+table_B5_b200.tex,FP16 | non-causal | 8K [col 3],+11.8,11.809784291464531,True,"timing/K_fp16_noncausal_r{1,2,3}"
+table_B5_b200.tex,FP16 | non-causal | 8K [col 3],0.70,0.6957563474516696,True,"timing/K_fp16_noncausal_r{1,2,3}"
+table_B5_b200.tex,FP16 | non-causal | 8K [col 4],3,3.0,True,"timing/K_fp16_noncausal_r{1,2,3}"
+table_B5_b200.tex,FP8 | non-causal | 4K [col 3],+27.2,27.184006064051538,True,"timing/C_noncausal_A{0,1}"
+table_B5_b200.tex,FP8 | non-causal | 4K [col 4],1,1.0,True,"timing/C_noncausal_A{0,1}"
+table_B5_b200.tex,FP8 | non-causal | 16K [col 3],+25.4,25.43181853515961,True,"timing/C_noncausal_A{0,1}"
+table_B5_b200.tex,FP8 | non-causal | 16K [col 4],1,1.0,True,"timing/C_noncausal_A{0,1}"
+table_B5_b200.tex,BF16 | non-causal | 4K [col 3],+11.4,11.398078975453574,True,"timing/C_noncausal_A{0,1}"
+table_B5_b200.tex,BF16 | non-causal | 4K [col 4],1,1.0,True,"timing/C_noncausal_A{0,1}"
+table_B5_b200.tex,BF16 | non-causal | 16K [col 3],+11.5,11.450897510549417,True,"timing/C_noncausal_A{0,1}"
+table_B5_b200.tex,BF16 | non-causal | 16K [col 4],1,1.0,True,"timing/C_noncausal_A{0,1}"
+table_B5_b200.tex,freq 0 (hardware MUFU only) [col 1],0,0.0,True,timing/E_freq0.csv vs ext/E_freq8_s1.csv; beta from the kernel predicate
+table_B5_b200.tex,freq 0 (hardware MUFU only) [col 2],+1.4,1.3565319964612188,True,timing/E_freq0.csv vs ext/E_freq8_s1.csv; beta from the kernel predicate
+table_B5_b200.tex,"freq 16, start 1 [col 1]",12.5,12.5,True,timing/E_freq16_s1.csv vs ext/E_freq8_s1.csv; beta from the kernel predicate
+table_B5_b200.tex,"freq 16, start 1 [col 2]",+1.6,1.6312650928983263,True,timing/E_freq16_s1.csv vs ext/E_freq8_s1.csv; beta from the kernel predicate
+table_B5_b200.tex,"freq 8, start 1 (stock) [col 1]",25,25.0,True,timing/E_freq8_s1.csv vs ext/E_freq8_s1.csv; beta from the kernel predicate
+table_B5_b200.tex,"freq 8, start 1 (stock) [col 2]",+0.0,0.0,True,timing/E_freq8_s1.csv vs ext/E_freq8_s1.csv; beta from the kernel predicate
+table_B5_b200.tex,"freq 8, start 0 [col 1]",37.5,37.5,True,timing/E_freq8_s0.csv vs ext/E_freq8_s1.csv; beta from the kernel predicate
+table_B5_b200.tex,"freq 8, start 0 [col 2]",+2.7,2.663414148454213,True,timing/E_freq8_s0.csv vs ext/E_freq8_s1.csv; beta from the kernel predicate
+table_B5_b200.tex,"freq 2, start 1 [col 1]",50,50.0,True,timing/E_freq2_s1.csv vs ext/E_freq8_s1.csv; beta from the kernel predicate
+table_B5_b200.tex,"freq 2, start 1 [col 2]",+0.2,0.20408163265304147,True,timing/E_freq2_s1.csv vs ext/E_freq8_s1.csv; beta from the kernel predicate
+table_B5_b200.tex,"freq 4, start 1 [col 1]",50,50.0,True,timing/E_freq4_s1.csv vs ext/E_freq8_s1.csv; beta from the kernel predicate
+table_B5_b200.tex,"freq 4, start 1 [col 2]",-1.2,-1.202510420160019,True,timing/E_freq4_s1.csv vs ext/E_freq8_s1.csv; beta from the kernel predicate
+table_B5_b200.tex,"freq 2, start 0 [col 1]",75,75.0,True,timing/E_freq2_s0.csv vs ext/E_freq8_s1.csv; beta from the kernel predicate
+table_B5_b200.tex,"freq 2, start 0 [col 2]",-23.7,-23.72956579628671,True,timing/E_freq2_s0.csv vs ext/E_freq8_s1.csv; beta from the kernel predicate
+table_B5_b200.tex,"freq 4, start 0 [col 1]",75,75.0,True,timing/E_freq4_s0.csv vs ext/E_freq8_s1.csv; beta from the kernel predicate
+table_B5_b200.tex,"freq 4, start 0 [col 2]",-24.5,-24.483667789658714,True,timing/E_freq4_s0.csv vs ext/E_freq8_s1.csv; beta from the kernel predicate
+table_B5_b200.tex,A1 Rowmax-H15 (full replacement) [col 2],+12.3,12.259118127381585,True,timing/E_h15.csv vs ext/E_freq8_s1.csv
+table_B5_b200.tex,"8K, heads 4 [col 1]",+12.6,12.623191444747327,True,"timing/G_heads4_A{0,1}"
+table_B5_b200.tex,"8K, heads 8 [col 1]",+12.3,12.302033309492177,True,"timing/G_heads8_A{0,1}"
+table_B5_b200.tex,"8K, heads 32 [col 1]",+12.1,12.100642338223345,True,"timing/G_heads32_A{0,1}"
+table_B5_b200.tex,"8K, batch 4 [col 1]",+11.7,11.706788053482509,True,"timing/H_b4_A{0,1}"
+table_B5_b200.tex,"8K, GQA [col 0]",0.38885,0.38885,True,"timing/I_gqa_r{1,2,3}"
+table_B5_b200.tex,"8K, GQA [col 0]",0.34583,0.34583,True,"timing/I_gqa_r{1,2,3}"
+table_B5_b200.tex,"8K, GQA [col 1]",+12.4,12.439637972414186,True,"timing/I_gqa_r{1,2,3}"
+table_B5_b200.tex,"8K, GQA [col 1]",0.03,0.02795351031771659,True,"timing/I_gqa_r{1,2,3}"
+table_B5_b200.tex,"head dim 64, FP8 [col 1]",+2.0,2.033202760678976,True,"timing/B_hd64_A{0,1}"
+table_B5_b200.tex,"head dim 64, FP8 [col 1]",+2.5,2.4958697191409085,True,"timing/B_hd64_A{0,1}"
+table_B5_b200.tex,"head dim 64, FP8 [col 1]",+3.7,3.688389562467065,True,"timing/B_hd64_A{0,1}"
+table_B5_b200.tex,"head dim 64, BF16 [col 1]",+0.7,0.6600037714501239,True,"timing/B_hd64_A{0,1}"
+table_B5_b200.tex,"head dim 64, BF16 [col 1]",+7.6,7.61946296180922,True,"timing/B_hd64_A{0,1}"
+table_B5_b200.tex,"head dim 64, BF16 [col 1]",+9.7,9.6694373290118,True,"timing/B_hd64_A{0,1}"
+table_B5_b200.tex,2K / 32K (extension run) [col 1],+7.8,7.7804583835946906,True,"timing/D_seqext_A{0,1}"
+table_B5_b200.tex,2K / 32K (extension run) [col 1],+10.4,10.393828826844276,True,"timing/D_seqext_A{0,1}"
+table_B5_b200.tex,A0 stock FA4 [col 1],59550,59550.0,True,timing/F_power_A0.csv
+table_B5_b200.tex,A0 stock FA4 [col 2],982.3,982.3,True,timing/F_power_A0.csv
+table_B5_b200.tex,A0 stock FA4 [col 3],0.7559,0.7559,True,timing/F_power_A0.csv
+table_B5_b200.tex,A0 stock FA4 [col 4],742.5,742.48,True,timing/F_power_A0.csv
+table_B5_b200.tex,A1 FA4 + Rowmax-H15 [col 1],65050,65050.0,True,timing/F_power_A1.csv
+table_B5_b200.tex,A1 FA4 + Rowmax-H15 [col 2],982.9,982.9,True,timing/F_power_A1.csv
+table_B5_b200.tex,A1 FA4 + Rowmax-H15 [col 3],0.6922,0.6922,True,timing/F_power_A1.csv
+table_B5_b200.tex,A1 FA4 + Rowmax-H15 [col 4],680.3,680.34,True,timing/F_power_A1.csv
+table_B5_b200.tex,Energy and time per forward both change by ,-8.4,-8.369249003340151,True,F_power energy_per_fwd_mJ
+table_B5_b200.tex,Energy and time per forward both change by ,-8.4,-8.42704061383781,True,F_power per_fwd_ms
+table_B5_b200.tex,4K [col 1],0.2876,0.2876,True,"timing/X_{torch_flash,mem_eff,cudnn}_bf16.csv; ext/A_main_r{1,2,3}"
+table_B5_b200.tex,4K [col 2],0.5596,0.55964,True,"timing/X_{torch_flash,mem_eff,cudnn}_bf16.csv; ext/A_main_r{1,2,3}"
+table_B5_b200.tex,4K [col 3],0.0536,0.05356,True,"timing/X_{torch_flash,mem_eff,cudnn}_bf16.csv; ext/A_main_r{1,2,3}"
+table_B5_b200.tex,4K [col 4],0.0586,0.05857,True,"timing/X_{torch_flash,mem_eff,cudnn}_bf16.csv; ext/A_main_r{1,2,3}"
+table_B5_b200.tex,4K [col 5],0.0564,0.05641,True,"timing/X_{torch_flash,mem_eff,cudnn}_bf16.csv; ext/A_main_r{1,2,3}"
+table_B5_b200.tex,4K [col 6],-5.1,-5.052295692253139,True,"timing/X_{torch_flash,mem_eff,cudnn}_bf16.csv; ext/A_main_r{1,2,3}"
+table_B5_b200.tex,4K [col 7],-8.6,-8.55386716749188,True,"timing/X_{torch_flash,mem_eff,cudnn}_bf16.csv; ext/A_main_r{1,2,3}"
+table_B5_b200.tex,8K [col 1],0.9117,0.91174,True,"timing/X_{torch_flash,mem_eff,cudnn}_bf16.csv; ext/A_main_r{1,2,3}"
+table_B5_b200.tex,8K [col 2],1.9075,1.90748,True,"timing/X_{torch_flash,mem_eff,cudnn}_bf16.csv; ext/A_main_r{1,2,3}"
+table_B5_b200.tex,8K [col 3],0.2230,0.22305,True,"timing/X_{torch_flash,mem_eff,cudnn}_bf16.csv; ext/A_main_r{1,2,3}"
+table_B5_b200.tex,8K [col 4],0.2020,0.20201,True,"timing/X_{torch_flash,mem_eff,cudnn}_bf16.csv; ext/A_main_r{1,2,3}"
+table_B5_b200.tex,8K [col 5],0.1917,0.1917,True,"timing/X_{torch_flash,mem_eff,cudnn}_bf16.csv; ext/A_main_r{1,2,3}"
+table_B5_b200.tex,8K [col 6],+16.4,16.353677621283257,True,"timing/X_{torch_flash,mem_eff,cudnn}_bf16.csv; ext/A_main_r{1,2,3}"
+table_B5_b200.tex,8K [col 7],+10.4,10.415325973961686,True,"timing/X_{torch_flash,mem_eff,cudnn}_bf16.csv; ext/A_main_r{1,2,3}"
+table_B5_b200.tex,16K [col 1],3.1568,3.15685,True,"timing/X_{torch_flash,mem_eff,cudnn}_bf16.csv; ext/A_main_r{1,2,3}"
+table_B5_b200.tex,16K [col 2],6.9877,6.98765,True,"timing/X_{torch_flash,mem_eff,cudnn}_bf16.csv; ext/A_main_r{1,2,3}"
+table_B5_b200.tex,16K [col 3],0.8316,0.83156,True,"timing/X_{torch_flash,mem_eff,cudnn}_bf16.csv; ext/A_main_r{1,2,3}"
+table_B5_b200.tex,16K [col 4],0.7871,0.7871,True,"timing/X_{torch_flash,mem_eff,cudnn}_bf16.csv; ext/A_main_r{1,2,3}"
+table_B5_b200.tex,16K [col 5],0.7350,0.73499,True,"timing/X_{torch_flash,mem_eff,cudnn}_bf16.csv; ext/A_main_r{1,2,3}"
+table_B5_b200.tex,16K [col 6],+13.1,13.13895427148668,True,"timing/X_{torch_flash,mem_eff,cudnn}_bf16.csv; ext/A_main_r{1,2,3}"
+table_B5_b200.tex,16K [col 7],+5.6,5.648583407445051,True,"timing/X_{torch_flash,mem_eff,cudnn}_bf16.csv; ext/A_main_r{1,2,3}"
+table_C1_long_context_matching.tex,Qwen2.5-72B | 2K [col 2],97,97.0,True,"characterization_large_T11_T12/qwen72/T11/match_manifest.json, conditions.csv"
+table_C1_long_context_matching.tex,Qwen2.5-72B | 2K [col 3],"198,559",198559.0,True,"characterization_large_T11_T12/qwen72/T11/match_manifest.json, conditions.csv"
+table_C1_long_context_matching.tex,Qwen2.5-72B | 2K [col 4],0.001228,0.0012281268035074264,True,"characterization_large_T11_T12/qwen72/T11/match_manifest.json, conditions.csv"
+table_C1_long_context_matching.tex,Qwen2.5-72B | 2K [col 5],0.001229,0.0012291570290713133,True,"characterization_large_T11_T12/qwen72/T11/match_manifest.json, conditions.csv"
+table_C1_long_context_matching.tex,Qwen2.5-72B | 2K [col 5],0.084,0.08388592781663347,True,"characterization_large_T11_T12/qwen72/T11/match_manifest.json, conditions.csv"
+table_C1_long_context_matching.tex,Qwen2.5-72B | 2K [col 6],0.001235,0.001235382475629807,True,"characterization_large_T11_T12/qwen72/T11/match_manifest.json, conditions.csv"
+table_C1_long_context_matching.tex,Qwen2.5-72B | 2K [col 6],0.591,0.5907917734275497,True,"characterization_large_T11_T12/qwen72/T11/match_manifest.json, conditions.csv"
+table_C1_long_context_matching.tex,Qwen2.5-72B | 8K [col 2],24,24.0,True,"characterization_large_T11_T12/qwen72/T11/match_manifest.json, conditions.csv"
+table_C1_long_context_matching.tex,Qwen2.5-72B | 8K [col 3],"196,584",196584.0,True,"characterization_large_T11_T12/qwen72/T11/match_manifest.json, conditions.csv"
+table_C1_long_context_matching.tex,Qwen2.5-72B | 8K [col 4],0.001323,0.001323440377070545,True,"characterization_large_T11_T12/qwen72/T11/match_manifest.json, conditions.csv"
+table_C1_long_context_matching.tex,Qwen2.5-72B | 8K [col 5],0.001315,0.001315313424134904,True,"characterization_large_T11_T12/qwen72/T11/match_manifest.json, conditions.csv"
+table_C1_long_context_matching.tex,Qwen2.5-72B | 8K [col 5],0.614,0.6140777534406293,True,"characterization_large_T11_T12/qwen72/T11/match_manifest.json, conditions.csv"
+table_C1_long_context_matching.tex,Qwen2.5-72B | 8K [col 6],0.001333,0.0013330320597332158,True,"characterization_large_T11_T12/qwen72/T11/match_manifest.json, conditions.csv"
+table_C1_long_context_matching.tex,Qwen2.5-72B | 8K [col 6],0.725,0.7247536669466036,True,"characterization_large_T11_T12/qwen72/T11/match_manifest.json, conditions.csv"
+table_C1_long_context_matching.tex,Qwen2.5-72B | 16K [col 2],12,12.0,True,"characterization_large_T11_T12/qwen72/T11/match_manifest.json, conditions.csv"
+table_C1_long_context_matching.tex,Qwen2.5-72B | 16K [col 3],"196,596",196596.0,True,"characterization_large_T11_T12/qwen72/T11/match_manifest.json, conditions.csv"
+table_C1_long_context_matching.tex,Qwen2.5-72B | 16K [col 4],0.001362,0.0013623507906421947,True,"characterization_large_T11_T12/qwen72/T11/match_manifest.json, conditions.csv"
+table_C1_long_context_matching.tex,Qwen2.5-72B | 16K [col 5],0.001371,0.0013709243314890013,True,"characterization_large_T11_T12/qwen72/T11/match_manifest.json, conditions.csv"
+table_C1_long_context_matching.tex,Qwen2.5-72B | 16K [col 5],0.629,0.629319622060418,True,"characterization_large_T11_T12/qwen72/T11/match_manifest.json, conditions.csv"
+table_C1_long_context_matching.tex,Qwen2.5-72B | 16K [col 6],0.001353,0.0013532842545139396,True,"characterization_large_T11_T12/qwen72/T11/match_manifest.json, conditions.csv"
+table_C1_long_context_matching.tex,Qwen2.5-72B | 16K [col 6],0.666,0.6655067248855405,True,"characterization_large_T11_T12/qwen72/T11/match_manifest.json, conditions.csv"
+table_C1_long_context_matching.tex,Llama-3.1-70B | 2K [col 2],97,97.0,True,"characterization_large_T11_T12/llama70/T11/match_manifest.json, conditions.csv"
+table_C1_long_context_matching.tex,Llama-3.1-70B | 2K [col 3],"198,559",198559.0,True,"characterization_large_T11_T12/llama70/T11/match_manifest.json, conditions.csv"
+table_C1_long_context_matching.tex,Llama-3.1-70B | 2K [col 4],0.001778,0.0017775207069989976,True,"characterization_large_T11_T12/llama70/T11/match_manifest.json, conditions.csv"
+table_C1_long_context_matching.tex,Llama-3.1-70B | 2K [col 5],0.001787,0.0017865831892178291,True,"characterization_large_T11_T12/llama70/T11/match_manifest.json, conditions.csv"
+table_C1_long_context_matching.tex,Llama-3.1-70B | 2K [col 5],0.510,0.5098383486137695,True,"characterization_large_T11_T12/llama70/T11/match_manifest.json, conditions.csv"
+table_C1_long_context_matching.tex,Llama-3.1-70B | 2K [col 6],0.001785,0.001784506236341288,True,"characterization_large_T11_T12/llama70/T11/match_manifest.json, conditions.csv"
+table_C1_long_context_matching.tex,Llama-3.1-70B | 2K [col 6],0.393,0.39299285317942345,True,"characterization_large_T11_T12/llama70/T11/match_manifest.json, conditions.csv"
+table_C1_long_context_matching.tex,Llama-3.1-70B | 8K [col 2],24,24.0,True,"characterization_large_T11_T12/llama70/T11/match_manifest.json, conditions.csv"
+table_C1_long_context_matching.tex,Llama-3.1-70B | 8K [col 3],"196,584",196584.0,True,"characterization_large_T11_T12/llama70/T11/match_manifest.json, conditions.csv"
+table_C1_long_context_matching.tex,Llama-3.1-70B | 8K [col 4],0.001137,0.0011370185867281908,True,"characterization_large_T11_T12/llama70/T11/match_manifest.json, conditions.csv"
+table_C1_long_context_matching.tex,Llama-3.1-70B | 8K [col 5],0.001129,0.0011292062437669793,True,"characterization_large_T11_T12/llama70/T11/match_manifest.json, conditions.csv"
+table_C1_long_context_matching.tex,Llama-3.1-70B | 8K [col 5],0.687,0.6870901718231226,True,"characterization_large_T11_T12/llama70/T11/match_manifest.json, conditions.csv"
+table_C1_long_context_matching.tex,Llama-3.1-70B | 8K [col 6],0.001138,0.0011381590865656046,True,"characterization_large_T11_T12/llama70/T11/match_manifest.json, conditions.csv"
+table_C1_long_context_matching.tex,Llama-3.1-70B | 8K [col 6],0.100,0.10030617359524806,True,"characterization_large_T11_T12/llama70/T11/match_manifest.json, conditions.csv"
+table_C1_long_context_matching.tex,Llama-3.1-70B | 16K [col 2],12,12.0,True,"characterization_large_T11_T12/llama70/T11/match_manifest.json, conditions.csv"
+table_C1_long_context_matching.tex,Llama-3.1-70B | 16K [col 3],"196,596",196596.0,True,"characterization_large_T11_T12/llama70/T11/match_manifest.json, conditions.csv"
+table_C1_long_context_matching.tex,Llama-3.1-70B | 16K [col 4],0.001236,0.0012361028596624608,True,"characterization_large_T11_T12/llama70/T11/match_manifest.json, conditions.csv"
+table_C1_long_context_matching.tex,Llama-3.1-70B | 16K [col 5],0.001244,0.001243778116702959,True,"characterization_large_T11_T12/llama70/T11/match_manifest.json, conditions.csv"
+table_C1_long_context_matching.tex,Llama-3.1-70B | 16K [col 5],0.621,0.6209238155628957,True,"characterization_large_T11_T12/llama70/T11/match_manifest.json, conditions.csv"
+table_C1_long_context_matching.tex,Llama-3.1-70B | 16K [col 6],0.001237,0.0012368645616257722,True,"characterization_large_T11_T12/llama70/T11/match_manifest.json, conditions.csv"
+table_C1_long_context_matching.tex,Llama-3.1-70B | 16K [col 6],0.062,0.06162124432908626,True,"characterization_large_T11_T12/llama70/T11/match_manifest.json, conditions.csv"
+table_C2_zero_shot.tex,Softmax [col 1],77.72,77.72171550553077,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Softmax [col 1],+0.00,0.0,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Softmax [col 2],86.10,86.09838677554272,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Softmax [col 2],+0.00,0.0,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Softmax [col 3],83.38,83.37542087542089,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Softmax [col 3],+0.00,0.0,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Softmax [col 4],62.71,62.71331058020478,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Softmax [col 4],+0.00,0.0,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Softmax [col 5],83.62,83.62350380848748,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Softmax [col 5],+0.00,0.0,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Softmax [col 6],77.35,77.34806629834254,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Softmax [col 6],+0.00,0.0,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Mean-threshold support [col 1],76.73,76.73200077624685,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Mean-threshold support [col 1],-0.99,-0.9897147292839192,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Mean-threshold support [col 2],85.72,85.71997610037842,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Mean-threshold support [col 2],-0.38,-0.37841067516430904,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Mean-threshold support [col 3],84.81,84.8063973063973,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Mean-threshold support [col 3],+1.43,1.4309764309764272,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Mean-threshold support [col 4],62.71,62.71331058020478,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Mean-threshold support [col 4],+0.00,0.0,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Mean-threshold support [col 5],81.83,81.82807399347116,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Mean-threshold support [col 5],-1.80,-1.795429815016325,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Mean-threshold support [col 6],76.16,76.16416732438832,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Mean-threshold support [col 6],-1.18,-1.1838989739542227,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Mean-threshold support [col 7],+6.727,6.726714811245116,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=32 [col 1],77.59,77.58587230739376,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=32 [col 1],-0.14,-0.13584319813700896,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=32 [col 2],86.13,86.12826130252938,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=32 [col 2],+0.03,0.029874526986650718,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=32 [col 3],83.25,83.24915824915826,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=32 [col 3],-0.13,-0.12626262626262985,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=32 [col 4],62.54,62.54266211604096,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=32 [col 4],-0.17,-0.17064846416381396,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=32 [col 5],83.62,83.62350380848748,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=32 [col 5],+0.00,0.0,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=32 [col 6],77.35,77.34806629834254,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=32 [col 6],+0.00,0.0,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=32 [col 7],+0.037,0.03661143376441078,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=64 [col 1],77.64,77.64409082088105,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=64 [col 1],-0.08,-0.07762468464972416,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=64 [col 2],86.05,86.04859589723162,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=64 [col 2],-0.05,-0.04979087831109563,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=64 [col 3],83.21,83.20707070707071,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=64 [col 3],-0.17,-0.16835016835017313,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=64 [col 4],62.63,62.62798634812287,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=64 [col 4],-0.09,-0.08532423208190698,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=64 [col 5],83.68,83.67791077257888,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=64 [col 5],+0.05,0.05440696409140244,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=64 [col 6],78.30,78.29518547750592,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=64 [col 6],+0.95,0.9471191791633804,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=64 [col 7],+0.033,0.033309859807983955,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Rowmax-PoT [col 1],77.53,77.52765379390645,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Rowmax-PoT [col 1],-0.19,-0.19406171162430486,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Rowmax-PoT [col 2],86.06,86.05855407289384,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Rowmax-PoT [col 2],-0.04,-0.039832702648878726,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Rowmax-PoT [col 3],83.46,83.45959595959596,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Rowmax-PoT [col 3],+0.08,0.08417508417507547,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Rowmax-PoT [col 4],62.20,62.20136518771331,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Rowmax-PoT [col 4],-0.51,-0.5119453924914641,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Rowmax-PoT [col 5],83.73,83.7323177366703,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Rowmax-PoT [col 5],+0.11,0.10881392818280489,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Rowmax-PoT [col 6],77.74,77.7426992896606,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Rowmax-PoT [col 6],+0.39,0.39463299131806684,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Rowmax-PoT [col 7],+0.231,0.2307231452317371,True,characterization_large_T11_T12/qwen72/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Softmax [col 1],79.53,79.52648942363672,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Softmax [col 1],+0.00,0.0,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Softmax [col 2],85.75,85.74985062736506,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Softmax [col 2],+0.00,0.0,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Softmax [col 3],81.44,81.43939393939394,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Softmax [col 3],+0.00,0.0,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Softmax [col 4],61.52,61.51877133105802,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Softmax [col 4],+0.00,0.0,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Softmax [col 5],84.28,84.27638737758433,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Softmax [col 5],+0.00,0.0,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Softmax [col 6],81.69,81.68902920284135,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Softmax [col 6],+0.00,0.0,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Mean-threshold support [col 1],77.29,77.2947797399573,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Mean-threshold support [col 1],-2.23,-2.231709683679406,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Mean-threshold support [col 2],82.64,82.64289982075283,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Mean-threshold support [col 2],-3.11,-3.1069508066122298,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Mean-threshold support [col 3],82.53,82.53367003367003,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Mean-threshold support [col 3],+1.09,1.094276094276092,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Mean-threshold support [col 4],59.81,59.81228668941979,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Mean-threshold support [col 4],-1.71,-1.7064846416382284,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Mean-threshold support [col 5],83.30,83.29706202393906,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Mean-threshold support [col 5],-0.98,-0.9793253536452662,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Mean-threshold support [col 6],77.51,77.50591949486977,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Mean-threshold support [col 6],-4.18,-4.183109707971589,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Mean-threshold support [col 7],+11.649,11.64926949619609,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=32 [col 1],79.39,79.39064622549971,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=32 [col 1],-0.14,-0.13584319813700896,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=32 [col 2],85.63,85.63035251941844,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=32 [col 2],-0.12,-0.11949810794662508,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=32 [col 3],81.57,81.56565656565657,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=32 [col 3],+0.13,0.12626262626261875,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=32 [col 4],61.26,61.262798634812285,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=32 [col 4],-0.26,-0.25597269624573205,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=32 [col 5],84.17,84.16757344940152,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=32 [col 5],-0.11,-0.10881392818280489,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=32 [col 6],81.85,81.8468823993686,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=32 [col 6],+0.16,0.15785319652723562,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=32 [col 7],+0.143,0.14332070671394526,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=64 [col 1],79.35,79.35183388317485,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=64 [col 1],-0.17,-0.1746555404618655,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=64 [col 2],85.74,85.73989245170284,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=64 [col 2],-0.01,-0.009958175662216906,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=64 [col 3],81.73,81.73400673400674,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=64 [col 3],+0.29,0.2946127946127919,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=64 [col 4],61.18,61.17747440273038,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=64 [col 4],-0.34,-0.341296928327639,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=64 [col 5],84.33,84.33079434167573,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=64 [col 5],+0.05,0.05440696409140244,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=64 [col 6],82.00,82.00473559589582,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=64 [col 6],+0.32,0.31570639305446013,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=64 [col 7],+0.101,0.1011978722267548,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Rowmax-PoT [col 1],79.37,79.37124005433728,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Rowmax-PoT [col 1],-0.16,-0.15524936929943722,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Rowmax-PoT [col 2],85.44,85.44114718183629,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Rowmax-PoT [col 2],-0.31,-0.3087034455287796,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Rowmax-PoT [col 3],81.14,81.14478114478115,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Rowmax-PoT [col 3],-0.29,-0.294612794612803,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Rowmax-PoT [col 4],61.43,61.43344709897611,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Rowmax-PoT [col 4],-0.09,-0.08532423208190698,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Rowmax-PoT [col 5],84.44,84.43960826985855,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Rowmax-PoT [col 5],+0.16,0.16322089227421843,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Rowmax-PoT [col 6],81.14,81.13654301499605,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Rowmax-PoT [col 6],-0.55,-0.5524861878453025,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Rowmax-PoT [col 7],+0.855,0.8552648726912526,True,characterization_large_T11_T12/llama70/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Softmax [col 1],62.22,62.21618474674947,True,characterization/qwen15/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Softmax [col 1],+0.00,0.0,True,characterization/qwen15/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Softmax [col 2],67.90,67.9047998406692,True,characterization/qwen15/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Softmax [col 2],+0.00,0.0,True,characterization/qwen15/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Softmax [col 3],71.80,71.8013468013468,True,characterization/qwen15/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Softmax [col 3],+0.00,0.0,True,characterization/qwen15/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Softmax [col 4],45.22,45.22184300341297,True,characterization/qwen15/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Softmax [col 4],+0.00,0.0,True,characterization/qwen15/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Softmax [col 5],75.95,75.95212187159956,True,characterization/qwen15/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Softmax [col 5],+0.00,0.0,True,characterization/qwen15/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Softmax [col 6],63.77,63.77269139700079,True,characterization/qwen15/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Softmax [col 6],+0.00,0.0,True,characterization/qwen15/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Mean-threshold support [col 1],62.16,62.15796623326217,True,characterization/qwen15/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Mean-threshold support [col 1],-0.06,-0.0582185134872959,True,characterization/qwen15/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Mean-threshold support [col 2],67.36,67.35710017924717,True,characterization/qwen15/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Mean-threshold support [col 2],-0.55,-0.5476996614220297,True,characterization/qwen15/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Mean-threshold support [col 3],73.78,73.77946127946127,True,characterization/qwen15/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Mean-threshold support [col 3],+1.98,1.9781144781144788,True,characterization/qwen15/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Mean-threshold support [col 4],44.97,44.965870307167236,True,characterization/qwen15/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Mean-threshold support [col 4],-0.26,-0.2559726962457376,True,characterization/qwen15/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Mean-threshold support [col 5],76.06,76.06093579978237,True,characterization/qwen15/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Mean-threshold support [col 5],+0.11,0.10881392818280489,True,characterization/qwen15/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Mean-threshold support [col 6],62.51,62.50986582478295,True,characterization/qwen15/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Mean-threshold support [col 6],-1.26,-1.2628255722178405,True,characterization/qwen15/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=32 [col 1],62.24,62.2355909179119,True,characterization/qwen15/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=32 [col 1],+0.02,0.019406171162428265,True,characterization/qwen15/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=32 [col 2],67.75,67.74546903007369,True,characterization/qwen15/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=32 [col 2],-0.16,-0.1593308105955038,True,characterization/qwen15/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=32 [col 3],71.84,71.84343434343434,True,characterization/qwen15/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=32 [col 3],+0.04,0.042087542087543284,True,characterization/qwen15/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=32 [col 4],45.39,45.39249146757679,True,characterization/qwen15/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=32 [col 4],+0.17,0.1706484641638195,True,characterization/qwen15/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=32 [col 5],75.79,75.78890097932536,True,characterization/qwen15/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=32 [col 5],-0.16,-0.16322089227420733,True,characterization/qwen15/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=32 [col 6],64.09,64.08839779005525,True,characterization/qwen15/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=32 [col 6],+0.32,0.31570639305446013,True,characterization/qwen15/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=64 [col 1],62.27,62.27440326023675,True,characterization/qwen15/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=64 [col 1],+0.06,0.058218513487284795,True,characterization/qwen15/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=64 [col 2],67.82,67.81517625970922,True,characterization/qwen15/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=64 [col 2],-0.09,-0.08962358095997436,True,characterization/qwen15/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=64 [col 3],72.10,72.09595959595958,True,characterization/qwen15/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=64 [col 3],+0.29,0.2946127946127919,True,characterization/qwen15/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=64 [col 4],44.37,44.36860068259385,True,characterization/qwen15/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=64 [col 4],-0.85,-0.8532423208191198,True,characterization/qwen15/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=64 [col 5],75.95,75.95212187159956,True,characterization/qwen15/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=64 [col 5],+0.00,0.0,True,characterization/qwen15/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=64 [col 6],63.77,63.77269139700079,True,characterization/qwen15/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Exp. $K=64 [col 6],+0.00,0.0,True,characterization/qwen15/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Rowmax-PoT [col 1],61.83,61.82806132350087,True,characterization/qwen15/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Rowmax-PoT [col 1],-0.39,-0.3881234232485986,True,characterization/qwen15/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Rowmax-PoT [col 2],67.80,67.79525990838479,True,characterization/qwen15/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Rowmax-PoT [col 2],-0.11,-0.10953993228440817,True,characterization/qwen15/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Rowmax-PoT [col 3],71.76,71.75925925925925,True,characterization/qwen15/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Rowmax-PoT [col 3],-0.04,-0.042087542087543284,True,characterization/qwen15/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Rowmax-PoT [col 4],44.88,44.88054607508532,True,characterization/qwen15/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Rowmax-PoT [col 4],-0.34,-0.34129692832765013,True,characterization/qwen15/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Rowmax-PoT [col 5],75.73,75.73449401523395,True,characterization/qwen15/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Rowmax-PoT [col 5],-0.22,-0.21762785636560977,True,characterization/qwen15/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Rowmax-PoT [col 6],63.69,63.69376479873717,True,characterization/qwen15/T12/zero_shot_results.csv
+table_C2_zero_shot.tex,Rowmax-PoT [col 6],-0.08,-0.07892659826361781,True,characterization/qwen15/T12/zero_shot_results.csv
+table_D1_allocation.tex,Qwen2.5-0.5B [col 1],0.49,0.494032768,True,"characterization/qwen05/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Qwen2.5-0.5B [col 2],+0.00611,0.00610909227517773,True,"characterization/qwen05/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Qwen2.5-0.5B [col 2],+0.00525,0.005248743274086173,True,"characterization/qwen05/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Qwen2.5-0.5B [col 2],+0.00697,0.00697185279412153,True,"characterization/qwen05/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Qwen2.5-0.5B [col 3],yes,yes,True,"characterization/qwen05/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Qwen2.5-0.5B [col 4],+0.0105,0.010471012703996918,True,"characterization/qwen05/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Qwen2.5-0.5B [col 5],+0.00192,0.0019178537425997093,True,"characterization/qwen05/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Qwen2.5-0.5B [col 6],+0.00855,0.008553158961397207,True,"characterization/qwen05/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Qwen2.5-0.5B [col 6],+0.00712,0.007116558016988898,True,"characterization/qwen05/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Qwen2.5-0.5B [col 6],+0.0101,0.010073128898047774,True,"characterization/qwen05/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Qwen2.5-1.5B [col 1],1.54,1.543714304,True,"characterization/qwen15/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Qwen2.5-1.5B [col 2],+0.00351,0.003508412121558069,True,"characterization/qwen15/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Qwen2.5-1.5B [col 2],+0.00282,0.0028174683126475524,True,"characterization/qwen15/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Qwen2.5-1.5B [col 2],+0.00420,0.004203586196436361,True,"characterization/qwen15/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Qwen2.5-1.5B [col 3],yes,yes,True,"characterization/qwen15/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Qwen2.5-1.5B [col 4],+0.00612,0.006124240624586374,True,"characterization/qwen15/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Qwen2.5-1.5B [col 5],+0.00133,0.0013289741290680598,True,"characterization/qwen15/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Qwen2.5-1.5B [col 6],+0.00480,0.004795266495518315,True,"characterization/qwen15/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Qwen2.5-1.5B [col 6],+0.00356,0.003555675706808724,True,"characterization/qwen15/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Qwen2.5-1.5B [col 6],+0.00600,0.006004795764862087,True,"characterization/qwen15/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Qwen2.5-3B [col 1],3.09,3.085938688,True,"characterization/qwen3/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Qwen2.5-3B [col 2],+0.00331,0.0033077160376086836,True,"characterization/qwen3/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Qwen2.5-3B [col 2],+0.00256,0.002560503034376615,True,"characterization/qwen3/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Qwen2.5-3B [col 2],+0.00404,0.004043224798674738,True,"characterization/qwen3/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Qwen2.5-3B [col 3],yes,yes,True,"characterization/qwen3/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Qwen2.5-3B [col 4],+0.00532,0.005323524906981336,True,"characterization/qwen3/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Qwen2.5-3B [col 5],+0.00113,0.0011320705862512092,True,"characterization/qwen3/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Qwen2.5-3B [col 6],+0.00419,0.004191454320730127,True,"characterization/qwen3/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Qwen2.5-3B [col 6],+0.00305,0.0030531139522767922,True,"characterization/qwen3/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Qwen2.5-3B [col 6],+0.00535,0.0053509461933704,True,"characterization/qwen3/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Qwen2.5-72B [col 1],72.71,72.706203648,True,"characterization/qwen72/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Qwen2.5-72B [col 2],+0.00196,0.001956453498504808,True,"characterization/qwen72/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Qwen2.5-72B [col 2],+0.00137,0.0013667879579916844,True,"characterization/qwen72/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Qwen2.5-72B [col 2],+0.00258,0.0025821340895088394,True,"characterization/qwen72/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Qwen2.5-72B [col 3],yes,yes,True,"characterization/qwen72/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Qwen2.5-72B [col 4],+0.00380,0.0038048727782082816,True,"characterization/qwen72/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Qwen2.5-72B [col 5],+0.000788,0.0007880547501515211,True,"characterization/qwen72/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Qwen2.5-72B [col 6],+0.00302,0.0030168180280567606,True,"characterization/qwen72/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Qwen2.5-72B [col 6],+0.00200,0.0019974178746661455,True,"characterization/qwen72/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Qwen2.5-72B [col 6],+0.00409,0.004088854821305958,True,"characterization/qwen72/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Llama-3.2-1B [col 1],1.24,1.2358144,True,"characterization/llama1/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Llama-3.2-1B [col 2],+0.0109,0.010906212796677861,True,"characterization/llama1/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Llama-3.2-1B [col 2],+0.00976,0.009764928023192548,True,"characterization/llama1/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Llama-3.2-1B [col 2],+0.0120,0.012024014966769903,True,"characterization/llama1/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Llama-3.2-1B [col 3],yes,yes,True,"characterization/llama1/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Llama-3.2-3B [col 1],3.21,3.212749824,True,"characterization/llama3/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Llama-3.2-3B [col 2],+0.00629,0.006290449335410832,True,"characterization/llama3/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Llama-3.2-3B [col 2],+0.00540,0.005402953874035862,True,"characterization/llama3/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Llama-3.2-3B [col 2],+0.00714,0.0071404424417632235,True,"characterization/llama3/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Llama-3.2-3B [col 3],yes,yes,True,"characterization/llama3/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Llama-3.1-8B [col 1],8.03,8.030261248,True,"characterization/llama8/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Llama-3.1-8B [col 2],+0.00462,0.004621129976396623,True,"characterization/llama8/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Llama-3.1-8B [col 2],+0.00383,0.0038296154707832108,True,"characterization/llama8/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Llama-3.1-8B [col 2],+0.00542,0.005421802008163829,True,"characterization/llama8/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Llama-3.1-8B [col 3],yes,yes,True,"characterization/llama8/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Llama-3.1-70B [col 1],70.55,70.553706496,True,"characterization/llama70/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Llama-3.1-70B [col 2],+0.0101,0.010101925580699283,True,"characterization/llama70/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Llama-3.1-70B [col 2],+0.00833,0.00832730157311704,True,"characterization/llama70/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Llama-3.1-70B [col 2],+0.0119,0.011909606604304424,True,"characterization/llama70/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Llama-3.1-70B [col 3],yes,yes,True,"characterization/llama70/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Llama-3.1-70B [col 4],+0.0176,0.017637492686826628,True,"characterization/llama70/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Llama-3.1-70B [col 5],+0.00343,0.00342574985282717,True,"characterization/llama70/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Llama-3.1-70B [col 6],+0.0142,0.014211742833999454,True,"characterization/llama70/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Llama-3.1-70B [col 6],+0.0113,0.01133991095190653,True,"characterization/llama70/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Llama-3.1-70B [col 6],+0.0171,0.017104178722886217,True,"characterization/llama70/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Gemma-2-2B [col 1],2.61,2.614341888,True,"characterization/gemma2/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Gemma-2-2B [col 2],+0.00527,0.005268441767972991,True,"characterization/gemma2/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Gemma-2-2B [col 2],-0.00369,-0.003690161145542378,True,"characterization/gemma2/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Gemma-2-2B [col 2],+0.0132,0.013229931705036689,True,"characterization/gemma2/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Gemma-2-2B [col 3],\textbf{no (interval crosses 0)},no,True,"characterization/gemma2/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Mistral-7B-v0.3 [col 1],7.25,7.248023552,True,"characterization/mistral7/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Mistral-7B-v0.3 [col 2],+0.00167,0.0016696058698023471,True,"characterization/mistral7/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Mistral-7B-v0.3 [col 2],+0.00119,0.0011872693393407102,True,"characterization/mistral7/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Mistral-7B-v0.3 [col 2],+0.00218,0.002180096813097129,True,"characterization/mistral7/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Mistral-7B-v0.3 [col 3],yes,yes,True,"characterization/mistral7/condition_blocks/alloc_K{16,21,32}_R{1,4}"
+table_D1_allocation.tex,Point estimates positive in ,10,10,True,count over the ten D_R(21) estimates
+table_D1_allocation.tex,intervals exclude zero in ,9,9,True,count over the ten D_R(21) intervals
+table_D2_direction.tex,Qwen2.5-0.5B [col 1],+0.00472,0.00471603991006605,True,"characterization/qwen05/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Qwen2.5-0.5B [col 1],+0.00331,0.0033099678658404835,True,"characterization/qwen05/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Qwen2.5-0.5B [col 1],+0.00607,0.00606527538693499,True,"characterization/qwen05/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Qwen2.5-0.5B [col 2],+,+,True,"characterization/qwen05/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Qwen2.5-0.5B [col 3],+0.0300,0.029963341683562256,True,"characterization/qwen05/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Qwen2.5-0.5B [col 3],+0.0258,0.025790544678404945,True,"characterization/qwen05/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Qwen2.5-0.5B [col 3],+0.0341,0.034078421809879,True,"characterization/qwen05/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Qwen2.5-0.5B [col 4],+,+,True,"characterization/qwen05/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Qwen2.5-1.5B [col 1],+0.00170,0.0017011347927896835,True,"characterization/qwen15/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Qwen2.5-1.5B [col 1],+0.000676,0.0006763815992090968,True,"characterization/qwen15/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Qwen2.5-1.5B [col 1],+0.00269,0.0026854732117411934,True,"characterization/qwen15/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Qwen2.5-1.5B [col 2],+,+,True,"characterization/qwen15/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Qwen2.5-1.5B [col 3],+0.0133,0.013300482697331965,True,"characterization/qwen15/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Qwen2.5-1.5B [col 3],+0.0104,0.010376502314136888,True,"characterization/qwen15/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Qwen2.5-1.5B [col 3],+0.0161,0.01613359803592311,True,"characterization/qwen15/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Qwen2.5-1.5B [col 4],+,+,True,"characterization/qwen15/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Qwen2.5-3B [col 1],+0.00409,0.004091411373462383,True,"characterization/qwen3/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Qwen2.5-3B [col 1],+0.00308,0.0030782981392433926,True,"characterization/qwen3/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Qwen2.5-3B [col 1],+0.00512,0.005122778387210244,True,"characterization/qwen3/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Qwen2.5-3B [col 2],+,+,True,"characterization/qwen3/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Qwen2.5-3B [col 3],+0.0195,0.019513377915937616,True,"characterization/qwen3/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Qwen2.5-3B [col 3],+0.0164,0.016364676699881602,True,"characterization/qwen3/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Qwen2.5-3B [col 3],+0.0227,0.02268073794597524,True,"characterization/qwen3/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Qwen2.5-3B [col 4],+,+,True,"characterization/qwen3/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Qwen2.5-72B [col 1],-0.00119,-0.001194121368917435,True,"characterization/qwen72/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Qwen2.5-72B [col 1],-0.00208,-0.0020803921613402813,True,"characterization/qwen72/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Qwen2.5-72B [col 1],-0.000375,-0.0003745797253547609,True,"characterization/qwen72/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Qwen2.5-72B [col 2],$-$ (resolved negative),resolved negative,True,"characterization/qwen72/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Qwen2.5-72B [col 3],+0.000628,0.0006280558404510407,True,"characterization/qwen72/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Qwen2.5-72B [col 3],-0.00190,-0.0019002597944569437,True,"characterization/qwen72/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Qwen2.5-72B [col 3],+0.00302,0.0030224667980940758,True,"characterization/qwen72/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Qwen2.5-72B [col 4],unresolved,unresolved,True,"characterization/qwen72/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Llama-3.2-1B [col 1],-0.00313,-0.0031311751529880098,True,"characterization/llama1/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Llama-3.2-1B [col 1],-0.00428,-0.004280077488870664,True,"characterization/llama1/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Llama-3.2-1B [col 1],-0.00202,-0.002018725863334418,True,"characterization/llama1/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Llama-3.2-1B [col 2],$-$ (resolved negative),resolved negative,True,"characterization/llama1/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Llama-3.2-1B [col 3],-0.000204,-0.00020438192694723276,True,"characterization/llama1/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Llama-3.2-1B [col 3],-0.00339,-0.0033933538418897792,True,"characterization/llama1/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Llama-3.2-1B [col 3],+0.00285,0.0028525431890449476,True,"characterization/llama1/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Llama-3.2-1B [col 4],unresolved,unresolved,True,"characterization/llama1/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Llama-3.2-3B [col 1],+0.000976,0.0009764662195224502,True,"characterization/llama3/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Llama-3.2-3B [col 1],+0.000138,0.00013766201078985174,True,"characterization/llama3/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Llama-3.2-3B [col 1],+0.00185,0.0018458274549115,True,"characterization/llama3/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Llama-3.2-3B [col 2],+,+,True,"characterization/llama3/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Llama-3.2-3B [col 3],+0.0107,0.010712276845264617,True,"characterization/llama3/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Llama-3.2-3B [col 3],+0.00813,0.008126619024384631,True,"characterization/llama3/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Llama-3.2-3B [col 3],+0.0135,0.013490414590748036,True,"characterization/llama3/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Llama-3.2-3B [col 4],+,+,True,"characterization/llama3/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Llama-3.1-8B [col 1],+0.000802,0.0008020373119695181,True,"characterization/llama8/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Llama-3.1-8B [col 1],+0.0000767,7.665535654623271e-05,True,"characterization/llama8/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Llama-3.1-8B [col 1],+0.00154,0.0015431024292544815,True,"characterization/llama8/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Llama-3.1-8B [col 2],+,+,True,"characterization/llama8/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Llama-3.1-8B [col 3],+0.00732,0.007320908036318771,True,"characterization/llama8/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Llama-3.1-8B [col 3],+0.00509,0.005085100127956899,True,"characterization/llama8/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Llama-3.1-8B [col 3],+0.00953,0.009527104400863332,True,"characterization/llama8/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Llama-3.1-8B [col 4],+,+,True,"characterization/llama8/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Llama-3.1-70B [col 1],-0.00107,-0.0010653747873123924,True,"characterization/llama70/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Llama-3.1-70B [col 1],-0.00220,-0.0021988750697554075,True,"characterization/llama70/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Llama-3.1-70B [col 1],+0.0000282,2.8210166364607382e-05,True,"characterization/llama70/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Llama-3.1-70B [col 2],unresolved,unresolved,True,"characterization/llama70/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Llama-3.1-70B [col 3],+0.0281,0.02814403380524257,True,"characterization/llama70/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Llama-3.1-70B [col 3],+0.0232,0.023242061963493637,True,"characterization/llama70/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Llama-3.1-70B [col 3],+0.0331,0.033084470796148235,True,"characterization/llama70/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Llama-3.1-70B [col 4],+,+,True,"characterization/llama70/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Gemma-2-2B [col 1],+0.246,0.24597172405740178,True,"characterization/gemma2/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Gemma-2-2B [col 1],+0.218,0.21808882712482147,True,"characterization/gemma2/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Gemma-2-2B [col 1],+0.273,0.2731901087513644,True,"characterization/gemma2/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Gemma-2-2B [col 2],+,+,True,"characterization/gemma2/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Gemma-2-2B [col 3],+0.806,0.8063405694132026,True,"characterization/gemma2/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Gemma-2-2B [col 3],+0.767,0.767061360258584,True,"characterization/gemma2/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Gemma-2-2B [col 3],+0.844,0.8440119385996071,True,"characterization/gemma2/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Gemma-2-2B [col 4],+,+,True,"characterization/gemma2/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Mistral-7B-v0.3 [col 1],+0.00266,0.0026634851660803974,True,"characterization/mistral7/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Mistral-7B-v0.3 [col 1],+0.00192,0.0019238084860111358,True,"characterization/mistral7/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Mistral-7B-v0.3 [col 1],+0.00336,0.003364148507213179,True,"characterization/mistral7/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Mistral-7B-v0.3 [col 2],+,+,True,"characterization/mistral7/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Mistral-7B-v0.3 [col 3],+0.0183,0.018257385618432993,True,"characterization/mistral7/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Mistral-7B-v0.3 [col 3],+0.0158,0.015785867656276098,True,"characterization/mistral7/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Mistral-7B-v0.3 [col 3],+0.0207,0.020678582651304324,True,"characterization/mistral7/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Mistral-7B-v0.3 [col 4],+,+,True,"characterization/mistral7/condition_blocks/jsd_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,[95\% CI]: Llama-3.2-1B,-0.00282,-0.0028206536775137914,True,"characterization/llama1/condition_blocks/tv_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,[95\% CI]: Llama-3.2-1B #1,-0.00382,-0.0038211008895062096,True,"characterization/llama1/condition_blocks/tv_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,[95\% CI]: Llama-3.2-1B #2,-0.00182,-0.0018190527025439198,True,"characterization/llama1/condition_blocks/tv_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,[95\% CI]: Llama-3.2-1B #3,-0.000261,-0.0002609486239099796,True,"characterization/llama1/condition_blocks/tv_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,[95\% CI]: Llama-3.2-1B #4,-0.00329,-0.0032889459193173516,True,"characterization/llama1/condition_blocks/tv_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,[95\% CI]: Llama-3.2-1B #5,+0.00267,0.0026714587621182824,True,"characterization/llama1/condition_blocks/tv_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,]; Qwen2.5-1.5B,+0.00137,0.0013667012542900744,True,"characterization/qwen15/condition_blocks/tv_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,]; Qwen2.5-1.5B #1,+0.000375,0.00037514612268008726,True,"characterization/qwen15/condition_blocks/tv_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,]; Qwen2.5-1.5B #2,+0.00232,0.0023150735384151154,True,"characterization/qwen15/condition_blocks/tv_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,]; Qwen2.5-1.5B #3,+0.0111,0.01105307953475817,True,"characterization/qwen15/condition_blocks/tv_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,]; Qwen2.5-1.5B #4,+0.00827,0.008271309590006963,True,"characterization/qwen15/condition_blocks/tv_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,]; Qwen2.5-1.5B #5,+0.0137,0.013732386208611305,True,"characterization/qwen15/condition_blocks/tv_{K0,10K0}_{Aminus,Aplus}"
+table_D2_direction.tex,Qwen2.5-1.5B 3J$_0$ contrast: ,+0.00352,0.003521535660727636,True,"characterization/qwen15/condition_blocks/jsd_3K0_{Aminus,Aplus}"
+table_D2_direction.tex,Qwen2.5-1.5B 3J$_0$ contrast:  #1,+0.00184,0.0018390467584291437,True,"characterization/qwen15/condition_blocks/jsd_3K0_{Aminus,Aplus}"
+table_D2_direction.tex,Qwen2.5-1.5B 3J$_0$ contrast:  #2,+0.00510,0.005101542482709497,True,"characterization/qwen15/condition_blocks/jsd_3K0_{Aminus,Aplus}"

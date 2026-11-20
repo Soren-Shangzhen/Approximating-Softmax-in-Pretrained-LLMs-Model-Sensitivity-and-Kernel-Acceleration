@@ -1,0 +1,70 @@
+{
+  "condition": {
+    "id": "mean_sparse_softmax",
+    "operator": "binary_soft",
+    "params": {},
+    "role": "support",
+    "family": "support",
+    "rescue_q": null
+  },
+  "forward_condition": {
+    "id": "mean_sparse_softmax",
+    "operator": "binary_soft",
+    "params": {},
+    "rescue_q": null
+  },
+  "context": 2048,
+  "protocol": {
+    "model": "Qwen/Qwen2.5-0.5B",
+    "dataset": "wikitext",
+    "token_signature": "145d9d606856",
+    "model_revision": "060db6499f32faf8b98477b0a26969ef7d8b9987",
+    "tokenizer_revision": null,
+    "implementation_signature": "4fff1408c5632132",
+    "forward_cache_schema": "crossmodel-forward-v2",
+    "seq_len": 2048,
+    "q_chunk": 512,
+    "dtype": "bf16",
+    "ce_chunk": 64,
+    "condition": {
+      "id": "mean_sparse_softmax",
+      "operator": "binary_soft",
+      "params": {},
+      "rescue_q": null
+    },
+    "collect_output_fidelity": true
+  },
+  "signature": "dbdb410af4f3",
+  "cache_state": "complete",
+  "support": {
+    "density": 0.4989455559882478,
+    "kept": 34119769258.0,
+    "valid": 68383752192.0,
+    "per_layer": {
+      "0": 0.491162915215543,
+      "1": 0.492199164174229,
+      "2": 0.49477414847028817,
+      "3": 0.4919158958337376,
+      "4": 0.49338572427657873,
+      "5": 0.4956284120947231,
+      "6": 0.4926342875338899,
+      "7": 0.4923928993170858,
+      "8": 0.49731159542863596,
+      "9": 0.4989689933392066,
+      "10": 0.4930175203217957,
+      "11": 0.4993359626147377,
+      "12": 0.4860136632848893,
+      "13": 0.499362426795804,
+      "14": 0.49162124127978124,
+      "15": 0.4886980984923139,
+      "16": 0.5105270458687147,
+      "17": 0.4975938947670197,
+      "18": 0.49601212113610954,
+      "19": 0.5009027579508458,
+      "20": 0.4969884235743342,
+      "21": 0.5161502433633527,
+      "22": 0.5294146134940416,
+      "23": 0.5286812950902897
+    }
+  }
+}

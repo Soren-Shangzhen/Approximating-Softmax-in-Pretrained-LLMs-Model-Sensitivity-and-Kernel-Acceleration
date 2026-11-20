@@ -1,0 +1,60 @@
+{
+  "condition": {
+    "id": "alloc_K32_R1",
+    "operator": "multibit",
+    "params": {
+      "K": 32,
+      "R": 1.0,
+      "reconstruction": "nearest",
+      "level_weight": "exp",
+      "threshold_mode": "none",
+      "coverage": "max"
+    },
+    "role": "allocation_budget",
+    "family": "exp_quant",
+    "rescue_q": null
+  },
+  "forward_condition": {
+    "id": "alloc_K32_R1",
+    "operator": "multibit",
+    "params": {
+      "K": 32,
+      "R": 1.0,
+      "reconstruction": "nearest",
+      "level_weight": "exp",
+      "threshold_mode": "none",
+      "coverage": "max"
+    },
+    "rescue_q": null
+  },
+  "context": 2048,
+  "protocol": {
+    "model": "meta-llama/Llama-3.1-70B",
+    "dataset": "wikitext",
+    "token_signature": "51398035dcee",
+    "model_revision": "349b2ddb53ce8f2849a6c168a81980ab25258dac",
+    "tokenizer_revision": null,
+    "implementation_signature": "fb5a624f6bbfcd3a",
+    "forward_cache_schema": "crossmodel-forward-v3-multigpu",
+    "seq_len": 2048,
+    "q_chunk": 512,
+    "dtype": "bf16",
+    "ce_chunk": 64,
+    "condition": {
+      "id": "alloc_K32_R1",
+      "operator": "multibit",
+      "params": {
+        "K": 32,
+        "R": 1.0,
+        "reconstruction": "nearest",
+        "level_weight": "exp",
+        "threshold_mode": "none",
+        "coverage": "max"
+      },
+      "rescue_q": null
+    },
+    "collect_output_fidelity": true
+  },
+  "signature": "822242cada8c",
+  "cache_state": "complete"
+}

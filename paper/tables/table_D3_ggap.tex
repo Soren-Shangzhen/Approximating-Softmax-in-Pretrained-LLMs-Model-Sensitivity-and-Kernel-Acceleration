@@ -1,0 +1,22 @@
+\begin{table}[!htbp]
+\centering
+\scriptsize
+\caption{\textbf{Primary endpoint \(G_{\mathrm{gap}}(10J_0)\).}  Rescued contrast \(D_{\mathrm{rescue}}(10J_0)\) and the signed change \(G_{\mathrm{gap}}(10J_0)=D_T(10J_0)-D_{\mathrm{rescue}}(10J_0)\) (original \(D_T(10J_0)\) in Table~\ref{tab:appx-dt}); 97 blocks, paired block bootstrap of the per-block difference, 5,000 replicates, seed 0.  A positive \(G_{\mathrm{gap}}\) is not necessarily a smaller \(|D|\).}
+\label{tab:appx-ggap}
+\begin{tabular}{@{}lll@{}}
+\toprule
+Model & \(D_{\mathrm{rescue}}(10J_0)\) [95\% CI] & \(G_{\mathrm{gap}}(10J_0)\) [95\% CI] \\
+\midrule
+Qwen2.5-0.5B & 0.00249 [$-$0.000190, 0.00518] & 0.0275 [0.0252, 0.0297] \\
+Llama-3.2-1B & $-$0.00862 [$-$0.0112, $-$0.00604] & 0.00842 [0.00657, 0.0103] \\
+Qwen2.5-1.5B & $-$0.00278 [$-$0.00510, $-$0.000565] & 0.0161 [0.0144, 0.0178] \\
+Gemma-2-2B & $-$0.0512 [$-$0.0854, $-$0.0175] & 0.857 [0.825, 0.889] \\
+Qwen2.5-3B & 0.00204 [$-$0.0000977, 0.00417] & 0.0175 [0.0156, 0.0194] \\
+Llama-3.2-3B & 0.00371 [0.00142, 0.00607] & 0.00700 [0.00491, 0.00916] \\
+Mistral-7B-v0.3 & 0.000505 [$-$0.00106, 0.00199] & 0.0178 [0.0158, 0.0197] \\
+Llama-3.1-8B & $-$0.000551 [$-$0.00255, 0.00150] & 0.00787 [0.00593, 0.00973] \\
+Llama-3.1-70B & 0.00750 [0.00284, 0.0124] & 0.0206 [0.0158, 0.0256] \\
+Qwen2.5-72B & $-$0.00625 [$-$0.00791, $-$0.00471] & 0.00687 [0.00487, 0.00890] \\
+\bottomrule
+\end{tabular}
+\end{table}

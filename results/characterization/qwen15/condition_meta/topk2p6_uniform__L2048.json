@@ -1,0 +1,80 @@
+{
+  "condition": {
+    "id": "topk2p6_uniform",
+    "operator": "topk",
+    "params": {
+      "topk_ratio": 0.026
+    },
+    "role": "support_sweep",
+    "family": "support",
+    "rescue_q": null
+  },
+  "forward_condition": {
+    "id": "topk2p6_uniform",
+    "operator": "topk",
+    "params": {
+      "topk_ratio": 0.026
+    },
+    "rescue_q": null
+  },
+  "context": 2048,
+  "protocol": {
+    "model": "Qwen/Qwen2.5-1.5B",
+    "dataset": "wikitext",
+    "token_signature": "145d9d606856",
+    "model_revision": "8faed761d45a263340a0528343f099c05c9a4323",
+    "tokenizer_revision": null,
+    "implementation_signature": "4fff1408c5632132",
+    "forward_cache_schema": "crossmodel-forward-v2",
+    "seq_len": 2048,
+    "q_chunk": 512,
+    "dtype": "bf16",
+    "ce_chunk": 64,
+    "condition": {
+      "id": "topk2p6_uniform",
+      "operator": "topk",
+      "params": {
+        "topk_ratio": 0.026
+      },
+      "rescue_q": null
+    },
+    "collect_output_fidelity": true
+  },
+  "signature": "fe34ff22fe78",
+  "cache_state": "complete",
+  "support": {
+    "density": 0.02648872163250366,
+    "kept": 1811398176.0,
+    "valid": 68383752192.0,
+    "per_layer": {
+      "0": 0.02648872163250366,
+      "1": 0.02648872163250366,
+      "2": 0.02648872163250366,
+      "3": 0.02648872163250366,
+      "4": 0.02648872163250366,
+      "5": 0.02648872163250366,
+      "6": 0.02648872163250366,
+      "7": 0.02648872163250366,
+      "8": 0.02648872163250366,
+      "9": 0.02648872163250366,
+      "10": 0.02648872163250366,
+      "11": 0.02648872163250366,
+      "12": 0.02648872163250366,
+      "13": 0.02648872163250366,
+      "14": 0.02648872163250366,
+      "15": 0.02648872163250366,
+      "16": 0.02648872163250366,
+      "17": 0.02648872163250366,
+      "18": 0.02648872163250366,
+      "19": 0.02648872163250366,
+      "20": 0.02648872163250366,
+      "21": 0.02648872163250366,
+      "22": 0.02648872163250366,
+      "23": 0.02648872163250366,
+      "24": 0.02648872163250366,
+      "25": 0.02648872163250366,
+      "26": 0.02648872163250366,
+      "27": 0.02648872163250366
+    }
+  }
+}

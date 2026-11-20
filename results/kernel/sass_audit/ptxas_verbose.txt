@@ -1,0 +1,21 @@
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'k_h15_frag' for 'sm_86'
+ptxas info    : Function properties for k_h15_frag
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, used 0 barriers, 372 bytes cmem[0]
+ptxas info    : Compile time = 16.202 ms
+ptxas info    : Compiling entry function 'k_fa4_frag' for 'sm_86'
+ptxas info    : Function properties for k_fa4_frag
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, used 0 barriers, 372 bytes cmem[0]
+ptxas info    : Compile time = 8.814 ms
+ptxas info    : Compiling entry function 'k_h15_single' for 'sm_86'
+ptxas info    : Function properties for k_h15_single
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, used 0 barriers, 368 bytes cmem[0]
+ptxas info    : Compile time = 0.841 ms
+ptxas info    : Compiling entry function 'k_fa4_single' for 'sm_86'
+ptxas info    : Function properties for k_fa4_single
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 14 registers, used 0 barriers, 368 bytes cmem[0]
+ptxas info    : Compile time = 0.763 ms

@@ -1,0 +1,4 @@
+condition,reconstruction,empirical_max_abs_eps,max_over_bound,tolerance_ratio,pass_
+recon_K21_R4_up,up,35.864212903749966,1.0,1.0002,True
+recon_K21_R4_nearest,nearest,16.827484410105534,0.9999999999881424,1.0002,True
+recon_K21_R4_lerp,lerp,28.385978062913274,1.000000000000002,1.0002,True

@@ -1,0 +1,35 @@
+{
+  "code": "crossmodel",
+  "execution_signature": "7759d639e0281412",
+  "model": "Qwen/Qwen2.5-0.5B",
+  "alias": "qwen05",
+  "profile": "core",
+  "features": [
+    "allocation_extended"
+  ],
+  "tasks": [
+    "T00",
+    "T01",
+    "T02",
+    "T03",
+    "T04",
+    "T06",
+    "T08",
+    "T10",
+    "T13"
+  ],
+  "final_data_policy": "paper figures/tables consume only unified pipeline outputs",
+  "primary_endpoints": {
+    "allocation": "D_R = dNLL(R1,K21)-dNLL(R4,K21)",
+    "direction": "D_T = dNLL(A-)-dNLL(A+)",
+    "rescue": "G_gap = D_orig-D_rescue"
+  },
+  "guardrails": [
+    "No formal fixed-span sweep.",
+    "No downstream-outcome-guided JSD/TV matching.",
+    "Every model derives its own K0 from local PoT m=1 JSD.",
+    "P4 high-mass sets use local exact softmax on the current trajectory.",
+    "R<1 points are pre-specified deep-reference anti-allocation controls.",
+    "Vocabulary KL/JSD and Top-1 agreement are secondary diagnostics."
+  ]
+}

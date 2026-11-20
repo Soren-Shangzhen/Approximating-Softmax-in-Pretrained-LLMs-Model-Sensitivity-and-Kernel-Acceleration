@@ -1,0 +1,32 @@
+{
+  "model": "meta-llama/Llama-3.2-3B",
+  "K0_jsd": 0.0018919938533981486,
+  "pot_m": 1.0,
+  "divergence": {
+    "js_mean": 0.0018919938533981486,
+    "tv_mean": 0.03741264825673596,
+    "kl_fwd_mean": 0.0075938400443124185,
+    "kl_rev_mean": 0.007585474559217466,
+    "n_rows": 11010048
+  },
+  "downstream": {
+    "condition": "pot_m1",
+    "operator": "perturb_pot",
+    "role": "K0_anchor",
+    "family": "pot",
+    "seq_len": 2048,
+    "n_blocks": 97,
+    "n_pred": 198559,
+    "nll": 2.0670887594817775,
+    "baseline_nll": 2.0605455052197685,
+    "delta_nll": 0.006543254262008968,
+    "ppl": 7.901785601834948,
+    "ppl_ratio": 1.0065647081173286,
+    "rescue_q": null,
+    "m": 1.0,
+    "output_kl_forward": 0.009412877655810172,
+    "output_kl_reverse": 0.009535839979193881,
+    "output_jsd": 0.002325774162202341,
+    "top1_agreement": 0.9515710695561521
+  }
+}

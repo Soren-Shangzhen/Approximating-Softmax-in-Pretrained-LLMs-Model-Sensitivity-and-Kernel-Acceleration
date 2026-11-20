@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "task": "T12",
+  "time": 1787309404.4158435,
+  "execution_signature": "491bd9d324e19574",
+  "task_execution_signature": "0a044cbc1870dbad",
+  "task_execution_spec": {
+    "model_execution_signature": "491bd9d324e19574",
+    "task": "T12",
+    "zero_shot_tasks": "lambada_openai,hellaswag,arc_easy,arc_challenge,piqa,winogrande",
+    "zero_shot_bs": 8,
+    "zero_shot_limit": 0,
+    "allow_missing_lm_eval": false
+  }
+}

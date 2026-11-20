@@ -1,0 +1,17 @@
+\par\noindent{\footnotesize Exponential-map ablation, same environment (Qwen2.5-1.5B, offline whole-row path, 97 blocks):}\par
+{\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.25\linewidth}lll@{}}
+\toprule
+\textbf{Offline operator} & \textbf{$\Delta$NLL vs softmax [95\% CI]} & \textbf{PPL change} & \textbf{Paired $\Delta$NLL vs Rowmax-H15 [95\% CI]} \\
+\midrule
+\endhead
+Rowmax-H15, \(H(x)=S(Q_{1/2}(x))\) & +0.00105 [+0.000712, +0.00139] & +0.105\% & reference \\
+Rowmax-PoT \(m=2\) (Eq.~\eqref{eq:pot}) & +0.000927 [+0.000543, +0.00132] & +0.093\% & \(-0.000122\) [\(-0.000551\), +0.000301] \\
+Unshifted Schraudolph \(S(x)\) & \(-0.0000231\) [\(-0.000306\), +0.000270] & \(-0.00231\%\) & \(-0.00107\) [\(-0.00140\), \(-0.000747\)] \\
+\(S(Q_{2^{-2}}(x))\), \(k=2\) & +0.000329 [+0.0000270, +0.000624] & +0.033\% & \(-0.000721\) [\(-0.00106\), \(-0.000393\)] \\
+\(S(Q_{2^{-3}}(x))\), \(k=3\) & +0.0000796 [\(-0.000156\), +0.000316] & +0.00796\% & \(-0.000970\) [\(-0.00129\), \(-0.000649\)] \\
+\bottomrule
+\end{longtable}
+\addtocounter{table}{-1}
+}

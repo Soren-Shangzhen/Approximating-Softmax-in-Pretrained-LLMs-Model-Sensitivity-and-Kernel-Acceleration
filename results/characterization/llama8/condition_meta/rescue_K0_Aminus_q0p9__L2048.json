@@ -1,0 +1,45 @@
+{
+  "condition": {
+    "id": "rescue_K0_Aminus_q0p9",
+    "operator": "perturb_temp",
+    "params": {
+      "alpha": 0.9455859375
+    },
+    "role": "p4_rescue",
+    "family": "temperature_flatten",
+    "rescue_q": 0.9
+  },
+  "forward_condition": {
+    "id": "rescue_K0_Aminus_q0p9",
+    "operator": "perturb_temp",
+    "params": {
+      "alpha": 0.9455859375
+    },
+    "rescue_q": 0.9
+  },
+  "context": 2048,
+  "protocol": {
+    "model": "meta-llama/Meta-Llama-3.1-8B",
+    "dataset": "wikitext",
+    "token_signature": "51398035dcee",
+    "model_revision": "d04e592bb4f6aa9cfee91e2e20afa771667e1d4b",
+    "tokenizer_revision": null,
+    "implementation_signature": "4fff1408c5632132",
+    "forward_cache_schema": "crossmodel-forward-v2",
+    "seq_len": 2048,
+    "q_chunk": 512,
+    "dtype": "bf16",
+    "ce_chunk": 64,
+    "condition": {
+      "id": "rescue_K0_Aminus_q0p9",
+      "operator": "perturb_temp",
+      "params": {
+        "alpha": 0.9455859375
+      },
+      "rescue_q": 0.9
+    },
+    "collect_output_fidelity": true
+  },
+  "signature": "1d061a7a719e",
+  "cache_state": "complete"
+}

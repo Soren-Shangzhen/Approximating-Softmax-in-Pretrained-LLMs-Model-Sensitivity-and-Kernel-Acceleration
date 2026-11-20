@@ -1,0 +1,27 @@
+\begingroup
+\refstepcounter{table}%
+\par\medskip\noindent\phantomsection\label{tab:appx-dr}{\small\textbf{Table~\thetable.} Allocation contrast $D_R$(21) = $\Delta$NLL(R=1) $-$ $\Delta$NLL(R=4) at K=21 (paired block bootstrap, 5000 replicates, seed 0) and the precision $\times$ allocation interaction $I_R$ = $D_R$(16) $-$ $D_R$(32) where K=16/32 cells exist. Models are listed individually; no pooled cross-model effect is defined.}\par\smallskip
+\addcontentsline{lot}{table}{\protect\numberline{\thetable}Allocation contrast $D_R$(21) = $\Delta$NLL(R=1) $-$ $\Delta$NLL(R=4) at K=21 (paired block bootstrap, 5000 replicates, seed 0) and the precision $\times$ allocation interaction $I_R$ = $D_R$(16) $-$ $D_R$(32) where K=16/32 cells exist}
+{\scriptsize
+\setlength{\tabcolsep}{2pt}
+\begin{longtable}{@{}lll>{\raggedright\arraybackslash}p{0.08\linewidth}lll@{}}
+\toprule
+\textbf{model} & \textbf{params (B)} & \textbf{$D_R$(21) [95\% CI]} & \textbf{resolved?} & \textbf{$D_R$(16)} & \textbf{$D_R$(32)} & \textbf{$I_R$ [95\% CI]} \\
+\midrule
+\endhead
+Qwen2.5-0.5B & 0.49 & +0.00611 [+0.00525, +0.00697] & yes & +0.0105 & +0.00192 & +0.00855 [+0.00712, +0.0101] \\
+Llama-3.2-1B & 1.24 & +0.0109 [+0.00976, +0.0120] & yes & --- & --- & --- \\
+Qwen2.5-1.5B & 1.54 & +0.00351 [+0.00282, +0.00420] & yes & +0.00612 & +0.00133 & +0.00480 [+0.00356, +0.00600] \\
+Gemma-2-2B & 2.61 & +0.00527 [-0.00369, +0.0132] & \textbf{no (interval crosses 0)} & --- & --- & --- \\
+Qwen2.5-3B & 3.09 & +0.00331 [+0.00256, +0.00404] & yes & +0.00532 & +0.00113 & +0.00419 [+0.00305, +0.00535] \\
+Llama-3.2-3B & 3.21 & +0.00629 [+0.00540, +0.00714] & yes & --- & --- & --- \\
+Mistral-7B-v0.3 & 7.25 & +0.00167 [+0.00119, +0.00218] & yes & --- & --- & --- \\
+Llama-3.1-8B & 8.03 & +0.00462 [+0.00383, +0.00542] & yes & --- & --- & --- \\
+Llama-3.1-70B & 70.55 & +0.0101 [+0.00833, +0.0119] & yes & +0.0176 & +0.00343 & +0.0142 [+0.0113, +0.0171] \\
+Qwen2.5-72B & 72.71 & +0.00196 [+0.00137, +0.00258] & yes & +0.00380 & +0.000788 & +0.00302 [+0.00200, +0.00409] \\
+\bottomrule
+\end{longtable}
+\addtocounter{table}{-1}
+}
+\par\noindent{\footnotesize Point estimates positive in 10/10 models; intervals exclude zero in 9/10 (unresolved: Gemma-2-2B). The interaction is resolved (interval above zero) in 4/4 Qwen2.5 scales; Llama-3.1-70B provides a separate model-specific corroboration.}\par
+\endgroup

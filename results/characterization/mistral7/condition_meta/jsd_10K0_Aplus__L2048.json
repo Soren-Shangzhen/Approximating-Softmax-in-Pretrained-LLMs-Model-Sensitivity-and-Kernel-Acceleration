@@ -1,0 +1,45 @@
+{
+  "condition": {
+    "id": "jsd_10K0_Aplus",
+    "operator": "perturb_temp",
+    "params": {
+      "alpha": 1.2438412539520463
+    },
+    "role": "matched_jsd",
+    "family": "temperature_sharpen",
+    "rescue_q": null
+  },
+  "forward_condition": {
+    "id": "jsd_10K0_Aplus",
+    "operator": "perturb_temp",
+    "params": {
+      "alpha": 1.2438412539520463
+    },
+    "rescue_q": null
+  },
+  "context": 2048,
+  "protocol": {
+    "model": "mistralai/Mistral-7B-v0.3",
+    "dataset": "wikitext",
+    "token_signature": "21e483f69b67",
+    "model_revision": "caa1feb0e54d415e2df31207e5f4e273e33509b1",
+    "tokenizer_revision": null,
+    "implementation_signature": "4fff1408c5632132",
+    "forward_cache_schema": "crossmodel-forward-v2",
+    "seq_len": 2048,
+    "q_chunk": 512,
+    "dtype": "bf16",
+    "ce_chunk": 64,
+    "condition": {
+      "id": "jsd_10K0_Aplus",
+      "operator": "perturb_temp",
+      "params": {
+        "alpha": 1.2438412539520463
+      },
+      "rescue_q": null
+    },
+    "collect_output_fidelity": true
+  },
+  "signature": "b999a4671c36",
+  "cache_state": "complete"
+}

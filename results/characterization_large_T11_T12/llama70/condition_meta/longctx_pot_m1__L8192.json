@@ -1,0 +1,45 @@
+{
+  "condition": {
+    "id": "longctx_pot_m1",
+    "operator": "perturb_pot",
+    "params": {
+      "m": 1.0
+    },
+    "role": "longctx",
+    "family": "pot",
+    "rescue_q": null
+  },
+  "forward_condition": {
+    "id": "longctx_pot_m1",
+    "operator": "perturb_pot",
+    "params": {
+      "m": 1.0
+    },
+    "rescue_q": null
+  },
+  "context": 8192,
+  "protocol": {
+    "model": "meta-llama/Llama-3.1-70B",
+    "dataset": "wikitext",
+    "token_signature": "51398035dcee",
+    "model_revision": "349b2ddb53ce8f2849a6c168a81980ab25258dac",
+    "tokenizer_revision": null,
+    "implementation_signature": "fb5a624f6bbfcd3a",
+    "forward_cache_schema": "crossmodel-forward-v3-multigpu",
+    "seq_len": 8192,
+    "q_chunk": 256,
+    "dtype": "bf16",
+    "ce_chunk": 64,
+    "condition": {
+      "id": "longctx_pot_m1",
+      "operator": "perturb_pot",
+      "params": {
+        "m": 1.0
+      },
+      "rescue_q": null
+    },
+    "collect_output_fidelity": true
+  },
+  "signature": "4b6b39c11cb4",
+  "cache_state": "complete"
+}

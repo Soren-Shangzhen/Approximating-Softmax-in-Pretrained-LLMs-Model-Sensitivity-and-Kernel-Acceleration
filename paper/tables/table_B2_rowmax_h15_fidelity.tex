@@ -1,0 +1,42 @@
+\begingroup
+\needspace{12\baselineskip}%
+\refstepcounter{table}\phantomsection\label{tab:appx-h15-full}%
+\par\medskip\noindent{\small\textbf{Table~\thetable.} Model-level fidelity of the Rowmax-H15 operator on Qwen2.5-1.5B (WikiText-103, 97 aligned 2048-token blocks; paired block bootstrap, 5000 replicates, seed 0).}\par\smallskip
+\addcontentsline{lot}{table}{\protect\numberline{\thetable}Model-level fidelity of the Rowmax-H15 operator on Qwen2}
+{\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.34\linewidth}ll>{\raggedright\arraybackslash}p{0.22\linewidth}@{}}
+\toprule
+\textbf{Measurement (semantics)} & \textbf{$\Delta$NLL [95\% CI]} & \textbf{PPL change} & \textbf{Evidence status} \\
+\midrule
+\endhead
+B200 patched FlashAttention-4 kernel (A1 $-$ A0) (BF16 path, \texttt{rescale\_threshold = 8.0}) & +0.00121 [0.000862, 0.00156] & +0.121\% & \textbf{direct kernel measurement} \\
+Semantic simulation of the BF16 kernel path (BF16 semantics, threshold 8.0) & +0.00107 [+0.000680, +0.00145] & +0.107\% & cross-check of the simulator against the measured kernel \\
+Semantic simulation of the FP8 kernel path (FP8 semantics, per-tile running max (tile 128), threshold 0) & +0.000716 [+0.000370, +0.00106] & +0.072\% & \textbf{semantic simulation --- not a direct FP8 kernel measurement} \\
+Offline whole-row Rowmax-H15 (control) (rowmax anchor, no tiling) & +0.00105 [+0.000712, +0.00139] & +0.105\% & semantic control \\
+Absolute-anchored \(\{1,1.5\}\times2^k\) lattice (control; condition \texttt{ilpot\_h15\_v1}) (absolute anchor) & +0.00224 [+0.00179, +0.00266] & +0.224\% & semantic control (phase-misaligned) \\
+PoT m = 2 (half-octave reference) (rowmax anchor) & +0.000927 [+0.000543, +0.00132] & +0.093\% & reference \\
+ILPoT-H-A (half-octave reference) (absolute lattice, exact maximum entry) & +0.000859 [+0.000505, +0.00120] & +0.086\% & reference \\
+\bottomrule
+\end{longtable}
+\addtocounter{table}{-1}
+}
+\par\noindent{\footnotesize Paired differences (block-paired bootstrap):}\par
+{\scriptsize
+\setlength{\tabcolsep}{2pt}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.32\linewidth}l>{\raggedright\arraybackslash}p{0.34\linewidth}@{}}
+\toprule
+\textbf{Contrast} & \textbf{$\Delta$($\Delta$NLL) [95\% CI]} & \textbf{Reading} \\
+\midrule
+\endhead
+FP8 semantic Rowmax-H15 $-$ PoT m = 2 & -0.000211 [-0.000612, +0.000183] & No resolved difference at the reported precision; the paired 95\% interval includes zero. \\
+FP8 semantic Rowmax-H15 $-$ ILPoT-H-A & -0.000143 [-0.000590, +0.000304] & No resolved difference at the reported precision; the paired 95\% interval includes zero. \\
+FP8 semantic Rowmax-H15 $-$ offline whole-row Rowmax-H15 & -0.000333 [-0.000648, -0.0000278] & per-tile running-max semantics differ from whole-row rowmax \\
+BF16 semantic Rowmax-H15 $-$ FP8 semantic Rowmax-H15 & +0.000358 [-0.00000769, +0.000736] & Higher point estimate under BF16 conditional-rescale semantics; the paired 95\% interval includes zero. \\
+Simulation vs measured kernel (BF16 path) & measured +0.00121 vs simulated +0.00107 & relative gap 11\%; intervals overlap \\
+\bottomrule
+\end{longtable}
+\addtocounter{table}{-1}
+}
+\par\noindent{\footnotesize Top-1 next-token agreement with the softmax baseline for the FP8 semantic operator: 0.9748. Leakage--phase Pearson r for the FP8 semantic operator: -0.0037 (phase-aligned; compare -0.751 for the absolute octave lattice).}\par
+\endgroup

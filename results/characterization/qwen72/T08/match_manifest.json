@@ -1,0 +1,105 @@
+{
+  "model": "Qwen/Qwen2.5-72B",
+  "K0": 0.0011808006246277068,
+  "axis": "mean row-wise JSD",
+  "targets": {
+    "K0": {
+      "multiplier": 1,
+      "target_jsd": 0.0011808006246277068,
+      "Aminus": {
+        "alpha": 0.9496875,
+        "achieved": 0.0011749472144635168,
+        "rel_err": 0.004957153682092234,
+        "spec": {
+          "id": "jsd_K0_Aminus",
+          "operator": "perturb_temp",
+          "params": {
+            "alpha": 0.9496875
+          },
+          "role": "matched_jsd",
+          "family": "temperature_flatten",
+          "rescue_q": null
+        }
+      },
+      "Aplus": {
+        "alpha": 1.0521484375,
+        "achieved": 0.00118107128276028,
+        "rel_err": 0.0002292157769296816,
+        "spec": {
+          "id": "jsd_K0_Aplus",
+          "operator": "perturb_temp",
+          "params": {
+            "alpha": 1.0521484375
+          },
+          "role": "matched_jsd",
+          "family": "temperature_sharpen",
+          "rescue_q": null
+        }
+      },
+      "C": {
+        "m": 1.0,
+        "achieved": 0.0011808006246277068,
+        "rel_err": 0.0,
+        "spec": {
+          "id": "match_K0_pot_m1",
+          "operator": "perturb_pot",
+          "params": {
+            "m": 1.0
+          },
+          "role": "",
+          "family": "pot",
+          "rescue_q": null
+        }
+      }
+    },
+    "10K0": {
+      "multiplier": 10,
+      "target_jsd": 0.011808006246277068,
+      "Aminus": {
+        "alpha": 0.8434919611158853,
+        "achieved": 0.011697655353927494,
+        "rel_err": 0.009345429706591279,
+        "spec": {
+          "id": "jsd_10K0_Aminus",
+          "operator": "perturb_temp",
+          "params": {
+            "alpha": 0.8434919611158853
+          },
+          "role": "matched_jsd",
+          "family": "temperature_flatten",
+          "rescue_q": null
+        }
+      },
+      "Aplus": {
+        "alpha": 1.1760252213179665,
+        "achieved": 0.011913883602106275,
+        "rel_err": 0.008966573494368626,
+        "spec": {
+          "id": "jsd_10K0_Aplus",
+          "operator": "perturb_temp",
+          "params": {
+            "alpha": 1.1760252213179665
+          },
+          "role": "matched_jsd",
+          "family": "temperature_sharpen",
+          "rescue_q": null
+        }
+      },
+      "C": {
+        "m": 0.30479784676321725,
+        "achieved": 0.011882714082886306,
+        "rel_err": 0.006326879834840304,
+        "spec": {
+          "id": "match_10K0_pot_m0.3047978468",
+          "operator": "perturb_pot",
+          "params": {
+            "m": 0.30479784676321725
+          },
+          "role": "",
+          "family": "pot",
+          "rescue_q": null
+        }
+      }
+    }
+  }
+}

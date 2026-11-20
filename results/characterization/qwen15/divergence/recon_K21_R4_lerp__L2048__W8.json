@@ -1,0 +1,40 @@
+{
+  "signature": "4b283b51a4fd",
+  "condition": {
+    "id": "recon_K21_R4_lerp",
+    "operator": "multibit",
+    "params": {
+      "K": 21,
+      "R": 4.0,
+      "reconstruction": "lerp",
+      "level_weight": "exp",
+      "threshold_mode": "none",
+      "coverage": "max"
+    },
+    "role": "",
+    "family": "exp_quant",
+    "rescue_q": null
+  },
+  "forward_condition": {
+    "id": "recon_K21_R4_lerp",
+    "operator": "multibit",
+    "params": {
+      "K": 21,
+      "R": 4.0,
+      "reconstruction": "lerp",
+      "level_weight": "exp",
+      "threshold_mode": "none",
+      "coverage": "max"
+    },
+    "rescue_q": null
+  },
+  "seq_len": 2048,
+  "windows": 8,
+  "metrics": {
+    "js_mean": 7.838667299038566e-05,
+    "tv_mean": 0.0073033323632536356,
+    "kl_fwd_mean": 0.0003048382664438406,
+    "kl_rev_mean": 0.0003354687266292849,
+    "n_rows": 5505024
+  }
+}

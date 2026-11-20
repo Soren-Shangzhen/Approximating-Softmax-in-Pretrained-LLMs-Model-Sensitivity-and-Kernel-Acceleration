@@ -1,0 +1,28 @@
+{
+  "code": "crossmodel",
+  "execution_signature": "28e9fb7ea4dc0c93",
+  "model": "google/gemma-2-2b",
+  "alias": "gemma2",
+  "profile": "core",
+  "features": [],
+  "tasks": [
+    "T00",
+    "T06",
+    "T08",
+    "T09"
+  ],
+  "final_data_policy": "paper figures/tables consume only unified pipeline outputs",
+  "primary_endpoints": {
+    "allocation": "D_R = dNLL(R1,K21)-dNLL(R4,K21)",
+    "direction": "D_T = dNLL(A-)-dNLL(A+)",
+    "rescue": "G_gap = D_orig-D_rescue"
+  },
+  "guardrails": [
+    "No formal fixed-span sweep.",
+    "No downstream-outcome-guided JSD/TV matching.",
+    "Every model derives its own K0 from local PoT m=1 JSD.",
+    "P4 high-mass sets use local exact softmax on the current trajectory.",
+    "R<1 points are pre-specified deep-reference anti-allocation controls.",
+    "Vocabulary KL/JSD and Top-1 agreement are secondary diagnostics."
+  ]
+}

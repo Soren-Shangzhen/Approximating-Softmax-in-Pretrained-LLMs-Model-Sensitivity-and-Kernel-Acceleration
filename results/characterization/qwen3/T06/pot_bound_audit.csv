@@ -1,0 +1,2 @@
+condition,empirical_max_abs_eps,theoretical_bound,absolute_excess,relative_excess,max_over_bound,relative_tolerance_ratio,fp32_absolute_tolerance,allowed_absolute_excess,pass_
+pot_diag_m1,0.34658050537109375,0.34657359027997264,6.915091121106887e-06,1.9952735335504457e-05,1.0000199527353355,1.0002,5e-05,6.931471805599453e-05,True

@@ -1,0 +1,19 @@
+{
+  "condition": "baseline",
+  "operator": "baseline",
+  "role": "baseline",
+  "family": "",
+  "seq_len": 2048,
+  "n_blocks": 97,
+  "n_pred": 198559,
+  "nll": 1.3825064423280773,
+  "baseline_nll": 1.3825064423280773,
+  "delta_nll": 0.0,
+  "ppl": 3.9848769852910437,
+  "ppl_ratio": 1.0,
+  "rescue_q": null,
+  "output_kl_forward": 0.0,
+  "output_kl_reverse": 0.0,
+  "output_jsd": 0.0,
+  "top1_agreement": 1.0
+}

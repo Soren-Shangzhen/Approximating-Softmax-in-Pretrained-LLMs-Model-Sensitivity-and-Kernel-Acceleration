@@ -1,0 +1,2 @@
+effect,definition,estimate,ci_low,ci_high,n_layers,n_blocks,support_identity
+D_W_strict_same_support_uniform_minus_softmax,mean over fixed target-layer set within each block; paired bootstrap over blocks,0.34401231876367866,0.34007425164793487,0.3481019474318174,28,97,same pre-target baseline trajectory + same deterministic mean-threshold rule; exact selected/valid counts audited equal in both arms

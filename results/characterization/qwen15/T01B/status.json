@@ -1,0 +1,17 @@
+{
+  "status": "complete",
+  "task": "T01B",
+  "time": 1787527638.790935,
+  "execution_signature": "491bd9d324e19574",
+  "task_execution_signature": "05c3bf9e1e8f0ed5",
+  "task_execution_spec": {
+    "model_execution_signature": "491bd9d324e19574",
+    "task": "T01B",
+    "strict_support_protocol": "single_layer_mean_threshold_v1",
+    "strict_support_layers": "all",
+    "strict_support_weighting_arms": [
+      "exact_relative_softmax",
+      "uniform"
+    ]
+  }
+}

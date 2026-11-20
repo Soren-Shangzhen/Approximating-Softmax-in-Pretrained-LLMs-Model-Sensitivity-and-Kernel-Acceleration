@@ -1,0 +1,32 @@
+\newcommand{\CrossModelSummaryTabular}{%
+  \begingroup
+  \setlength{\tabcolsep}{4.0pt}%
+  \renewcommand{\arraystretch}{0.80}%
+  \scriptsize
+  \begin{tabular}{@{}lrrrrr@{}}
+    \toprule
+    Model & \shortstack{Params\\(B)} & \shortstack{$K{=}32,R{=}4$\\PPL inc. (\%)} & \shortstack{$D_R(21)$\\$[95\%\ \mathrm{CI}]$} & \shortstack{Rowmax-PoT $K_{\max}{=}20$\\PPL inc. (\%)} & \shortstack{Rowmax-PoT $K_{\max}{=}20$\\top-1 agree. (\%)} \\
+    \midrule
+  Qwen2.5-0.5B & 0.49 & 0.134 & 0.00611 [0.00525, 0.00697] & 0.382 & 95.8 \\
+  Qwen2.5-1.5B & 1.54 & 0.091 & 0.00351 [0.00282, 0.00420] & 0.310 & 96.2 \\
+  Qwen2.5-3B & 3.09 & 0.082 & 0.00331 [0.00256, 0.00404] & 0.289 & 96.4 \\
+  Qwen2.5-72B & 72.71 & 0.055 & 0.00196 [0.00137, 0.00258] & 0.252 & 97.6 \\
+  Llama-3.2-1B & 1.24 & 0.223 & 0.0109 [0.00976, 0.0120] & 0.950 & 94.4 \\
+  Llama-3.2-3B & 3.21 & 0.121 & 0.00629 [0.00540, 0.00714] & 0.704 & 95.2 \\
+  Llama-3.1-8B & 8.03 & 0.135 & 0.00462 [0.00383, 0.00542] & 0.531 & 96.0 \\
+  Llama-3.1-70B & 70.55 & 0.232 & 0.0101 [0.00833, 0.0119] & 1.513 & 96.1 \\
+  Gemma-2-2B & 2.61 & 0.852 & 0.00527 [-0.00369, 0.0132] & 0.353 & 92.1 \\
+  Mistral-7B-v0.3 & 7.25 & 0.052 & 0.00167 [0.00119, 0.00218] & 0.235 & 97.5 \\
+    \bottomrule
+  \end{tabular}%
+  \endgroup
+}
+
+\begin{table}[t]
+  \centering
+  \caption{\textbf{Cross-model summary.}  Perplexity increases are point estimates;
+  \(D_R(21)\) has model-specific paired-bootstrap intervals; top-1 is the vocabulary-output
+  agreement with softmax under Rowmax-PoT.  No interval is pooled across models.}
+  \label{tab:crossmodel-summary}
+  \CrossModelSummaryTabular
+\end{table}

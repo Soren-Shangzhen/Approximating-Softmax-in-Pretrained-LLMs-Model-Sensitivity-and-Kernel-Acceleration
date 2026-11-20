@@ -1,0 +1,32 @@
+{
+  "model": "mistralai/Mistral-7B-v0.3",
+  "K0_jsd": 0.002510838634901793,
+  "pot_m": 1.0,
+  "divergence": {
+    "js_mean": 0.002510838634901793,
+    "tv_mean": 0.05201611191996307,
+    "kl_fwd_mean": 0.010088833654080148,
+    "kl_rev_mean": 0.01005303498471348,
+    "n_rows": 16777216
+  },
+  "downstream": {
+    "condition": "pot_m1",
+    "operator": "perturb_pot",
+    "role": "K0_anchor",
+    "family": "pot",
+    "seq_len": 2048,
+    "n_blocks": 97,
+    "n_pred": 198559,
+    "nll": 1.653485205353616,
+    "baseline_nll": 1.6511355741497866,
+    "delta_nll": 0.002349631203829361,
+    "ppl": 5.225158881617408,
+    "ppl_ratio": 1.002352393750458,
+    "rescue_q": null,
+    "m": 1.0,
+    "output_kl_forward": 0.0032614645610611216,
+    "output_kl_reverse": 0.0033125636457414973,
+    "output_jsd": 0.0007994868001706752,
+    "top1_agreement": 0.9752516884150303
+  }
+}

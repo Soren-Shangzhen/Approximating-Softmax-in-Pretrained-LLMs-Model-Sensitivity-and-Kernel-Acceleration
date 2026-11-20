@@ -1,0 +1,200 @@
+{
+  "signature": "f95494aad6398e93",
+  "protocol": {
+    "condition_specs": [
+      {
+        "id": "alloc_K21_R0.25",
+        "operator": "multibit",
+        "params": {
+          "K": 21,
+          "R": 0.25,
+          "reconstruction": "nearest",
+          "level_weight": "exp",
+          "threshold_mode": "none",
+          "coverage": "max"
+        },
+        "role": "allocation",
+        "family": "exp_quant",
+        "rescue_q": null
+      },
+      {
+        "id": "alloc_K21_R0.5",
+        "operator": "multibit",
+        "params": {
+          "K": 21,
+          "R": 0.5,
+          "reconstruction": "nearest",
+          "level_weight": "exp",
+          "threshold_mode": "none",
+          "coverage": "max"
+        },
+        "role": "allocation",
+        "family": "exp_quant",
+        "rescue_q": null
+      },
+      {
+        "id": "alloc_K21_R1",
+        "operator": "multibit",
+        "params": {
+          "K": 21,
+          "R": 1.0,
+          "reconstruction": "nearest",
+          "level_weight": "exp",
+          "threshold_mode": "none",
+          "coverage": "max"
+        },
+        "role": "allocation",
+        "family": "exp_quant",
+        "rescue_q": null
+      },
+      {
+        "id": "alloc_K21_R2",
+        "operator": "multibit",
+        "params": {
+          "K": 21,
+          "R": 2.0,
+          "reconstruction": "nearest",
+          "level_weight": "exp",
+          "threshold_mode": "none",
+          "coverage": "max"
+        },
+        "role": "allocation",
+        "family": "exp_quant",
+        "rescue_q": null
+      },
+      {
+        "id": "alloc_K21_R4",
+        "operator": "multibit",
+        "params": {
+          "K": 21,
+          "R": 4.0,
+          "reconstruction": "nearest",
+          "level_weight": "exp",
+          "threshold_mode": "none",
+          "coverage": "max"
+        },
+        "role": "allocation",
+        "family": "exp_quant",
+        "rescue_q": null
+      },
+      {
+        "id": "alloc_K21_R8",
+        "operator": "multibit",
+        "params": {
+          "K": 21,
+          "R": 8.0,
+          "reconstruction": "nearest",
+          "level_weight": "exp",
+          "threshold_mode": "none",
+          "coverage": "max"
+        },
+        "role": "allocation",
+        "family": "exp_quant",
+        "rescue_q": null
+      },
+      {
+        "id": "recon_K21_R4_up",
+        "operator": "multibit",
+        "params": {
+          "K": 21,
+          "R": 4.0,
+          "reconstruction": "up",
+          "level_weight": "exp",
+          "threshold_mode": "none",
+          "coverage": "max"
+        },
+        "role": "reconstruction",
+        "family": "exp_quant",
+        "rescue_q": null
+      },
+      {
+        "id": "recon_K21_R4_nearest",
+        "operator": "multibit",
+        "params": {
+          "K": 21,
+          "R": 4.0,
+          "reconstruction": "nearest",
+          "level_weight": "exp",
+          "threshold_mode": "none",
+          "coverage": "max"
+        },
+        "role": "reconstruction",
+        "family": "exp_quant",
+        "rescue_q": null
+      },
+      {
+        "id": "recon_K21_R4_lerp",
+        "operator": "multibit",
+        "params": {
+          "K": 21,
+          "R": 4.0,
+          "reconstruction": "lerp",
+          "level_weight": "exp",
+          "threshold_mode": "none",
+          "coverage": "max"
+        },
+        "role": "reconstruction",
+        "family": "exp_quant",
+        "rescue_q": null
+      },
+      {
+        "id": "pot_diag_m0.5",
+        "operator": "perturb_pot",
+        "params": {
+          "m": 0.5
+        },
+        "role": "pot_diagnostic",
+        "family": "pot",
+        "rescue_q": null
+      },
+      {
+        "id": "pot_diag_m1",
+        "operator": "perturb_pot",
+        "params": {
+          "m": 1.0
+        },
+        "role": "pot_diagnostic",
+        "family": "pot",
+        "rescue_q": null
+      },
+      {
+        "id": "pot_diag_m2",
+        "operator": "perturb_pot",
+        "params": {
+          "m": 2.0
+        },
+        "role": "pot_diagnostic",
+        "family": "pot",
+        "rescue_q": null
+      },
+      {
+        "id": "pot_diag_m4",
+        "operator": "perturb_pot",
+        "params": {
+          "m": 4.0
+        },
+        "role": "pot_diagnostic",
+        "family": "pot",
+        "rescue_q": null
+      }
+    ],
+    "rowmax_Ks": [
+      12,
+      14,
+      16,
+      20,
+      24,
+      32,
+      48
+    ],
+    "windows": 97,
+    "seq_len": 2048,
+    "q_chunk": 512,
+    "token_signature": "145d9d606856",
+    "model_revision": "8faed761d45a263340a0528343f099c05c9a4323",
+    "implementation_signature": "4fff1408c5632132",
+    "min_n": 64,
+    "min_span": 0.001
+  },
+  "created": 1787288428.060661
+}

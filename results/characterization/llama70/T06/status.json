@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "task": "T06",
+  "time": 1788018858.861089,
+  "execution_signature": "6b1d6c7597091c5e",
+  "task_execution_signature": "ba495996932439bc",
+  "task_execution_spec": {
+    "model_execution_signature": "6b1d6c7597091c5e",
+    "task": "T06"
+  }
+}

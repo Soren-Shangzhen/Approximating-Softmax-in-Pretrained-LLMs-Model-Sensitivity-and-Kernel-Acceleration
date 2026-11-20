@@ -1,0 +1,31 @@
+\begin{table}[t]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3.5pt}
+\renewcommand{\arraystretch}{0.86}
+\caption{\textbf{Rowmax-H15 fidelity, B200 call latency and energy.}  Top: 97 blocks, 95\%
+paired-bootstrap intervals; measured rows evaluate the patched kernel directly on the BF16
+path; simulation rows are Qwen2.5-1.5B only, and the FP8 row is a semantic simulation, not a
+direct FP8 kernel measurement.  Bottom: pooled medians of three rounds; energy from one
+sustained loop per kernel.}
+\label{tab:m-h15}
+\begin{tabular}{@{}lllr@{}}
+\toprule
+Fidelity path & Model & \(\Delta\)NLL [95\% CI] & PPL change (\%) \\
+\midrule
+BF16 kernel, measured & Qwen2.5-1.5B & 0.00121 [0.000862, 0.00156] & 0.121 \\
+BF16 kernel, measured & Qwen2.5-72B & 0.00101 [0.000665, 0.00139] & 0.101 \\
+BF16 kernel, measured & Mistral-7B-v0.3 & 0.000914 [0.000600, 0.00125] & 0.091 \\
+BF16 kernel, measured & Llama-3.1-8B & 0.00246 [0.00206, 0.00289] & 0.246 \\
+BF16 kernel, measured & Llama-3.1-70B & 0.00491 [0.00402, 0.00582] & 0.492 \\
+BF16 semantic simulation & Qwen2.5-1.5B & 0.00107 [0.000680, 0.00145] & 0.107 \\
+FP8 semantic simulation & Qwen2.5-1.5B & 0.000716 [0.000370, 0.00106] & 0.072 \\
+\midrule
+Kernel measurement & Stock FA4 (A0) & Rowmax-H15 (A1) & \(\Delta\) vs stock (\%) \\
+\midrule
+FP8 causal 8K, hd 128: speed-up & 0.2063 ms & 0.1835 ms & +12.4 \\
+FP8 non-causal 8K, hd 128: speed-up & 0.4879 ms & 0.3879 ms & +25.8 \\
+FP8 causal 16K: energy per forward & 742.5 mJ & 680.3 mJ & \(-8.4\) \\
+\bottomrule
+\end{tabular}
+\end{table}

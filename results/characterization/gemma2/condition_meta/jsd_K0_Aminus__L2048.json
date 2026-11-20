@@ -1,0 +1,45 @@
+{
+  "condition": {
+    "id": "jsd_K0_Aminus",
+    "operator": "perturb_temp",
+    "params": {
+      "alpha": 0.9155625
+    },
+    "role": "matched_jsd",
+    "family": "temperature_flatten",
+    "rescue_q": null
+  },
+  "forward_condition": {
+    "id": "jsd_K0_Aminus",
+    "operator": "perturb_temp",
+    "params": {
+      "alpha": 0.9155625
+    },
+    "rescue_q": null
+  },
+  "context": 2048,
+  "protocol": {
+    "model": "google/gemma-2-2b",
+    "dataset": "wikitext",
+    "token_signature": "a24d97228ac9",
+    "model_revision": "c5ebcd40d208330abc697524c919956e692655cf",
+    "tokenizer_revision": null,
+    "implementation_signature": "4fff1408c5632132",
+    "forward_cache_schema": "crossmodel-forward-v2",
+    "seq_len": 2048,
+    "q_chunk": 512,
+    "dtype": "bf16",
+    "ce_chunk": 64,
+    "condition": {
+      "id": "jsd_K0_Aminus",
+      "operator": "perturb_temp",
+      "params": {
+        "alpha": 0.9155625
+      },
+      "rescue_q": null
+    },
+    "collect_output_fidelity": true
+  },
+  "signature": "69f4fd062717",
+  "cache_state": "complete"
+}

@@ -1,0 +1,60 @@
+{
+  "condition": {
+    "id": "geometry_exp_K16",
+    "operator": "multibit",
+    "params": {
+      "K": 16,
+      "R": 1.0,
+      "reconstruction": "up",
+      "level_weight": "exp",
+      "threshold_mode": "none",
+      "coverage": "max"
+    },
+    "role": "geometry",
+    "family": "exp_quant",
+    "rescue_q": null
+  },
+  "forward_condition": {
+    "id": "geometry_exp_K16",
+    "operator": "multibit",
+    "params": {
+      "K": 16,
+      "R": 1.0,
+      "reconstruction": "up",
+      "level_weight": "exp",
+      "threshold_mode": "none",
+      "coverage": "max"
+    },
+    "rescue_q": null
+  },
+  "context": 2048,
+  "protocol": {
+    "model": "meta-llama/Llama-3.2-1B",
+    "dataset": "wikitext",
+    "token_signature": "51398035dcee",
+    "model_revision": "4e20de362430cd3b72f300e6b0f18e50e7166e08",
+    "tokenizer_revision": null,
+    "implementation_signature": "4fff1408c5632132",
+    "forward_cache_schema": "crossmodel-forward-v2",
+    "seq_len": 2048,
+    "q_chunk": 512,
+    "dtype": "bf16",
+    "ce_chunk": 64,
+    "condition": {
+      "id": "geometry_exp_K16",
+      "operator": "multibit",
+      "params": {
+        "K": 16,
+        "R": 1.0,
+        "reconstruction": "up",
+        "level_weight": "exp",
+        "threshold_mode": "none",
+        "coverage": "max"
+      },
+      "rescue_q": null
+    },
+    "collect_output_fidelity": true
+  },
+  "signature": "4c0c1e50eced",
+  "cache_state": "complete"
+}

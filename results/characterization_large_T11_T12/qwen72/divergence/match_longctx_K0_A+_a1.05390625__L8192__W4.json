@@ -1,0 +1,30 @@
+{
+  "signature": "2a176cc33efd",
+  "condition": {
+    "id": "match_longctx_K0_A+_a1.05390625",
+    "operator": "perturb_temp",
+    "params": {
+      "alpha": 1.05390625
+    },
+    "role": "",
+    "family": "temperature_sharpen",
+    "rescue_q": null
+  },
+  "forward_condition": {
+    "id": "match_longctx_K0_A+_a1.05390625",
+    "operator": "perturb_temp",
+    "params": {
+      "alpha": 1.05390625
+    },
+    "rescue_q": null
+  },
+  "seq_len": 8192,
+  "windows": 4,
+  "metrics": {
+    "js_mean": 0.001723326155948049,
+    "tv_mean": 0.03586159143346158,
+    "kl_fwd_mean": 0.0072521437722275735,
+    "kl_rev_mean": 0.006613233247921823,
+    "n_rows": 167772160
+  }
+}

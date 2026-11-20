@@ -1,0 +1,29 @@
+\begingroup
+\refstepcounter{table}%
+\par\medskip\noindent\phantomsection\label{tab:appx-dt}{\small\textbf{Table~\thetable.} Matched-distortion directional contrasts $D_T$ = $\Delta$NLL(A$^-$) $-$ $\Delta$NLL(A$^+$) with flattening (A$^-$) and sharpening (A$^+$) independently matched to the mean row-wise JSD J$_0$ of the octave PoT perturbation and to 10J$_0$; the matched-TV robustness check $D_{TV}$ for the two selected models is given below the table. Paired block bootstrap; 'resolved' = interval excludes zero.}\par\smallskip
+\addcontentsline{lot}{table}{\protect\numberline{\thetable}Matched-distortion directional contrasts $D_T$ = $\Delta$NLL(A$^-$) $-$ $\Delta$NLL(A$^+$) with flattening (A$^-$) and sharpening (A$^+$) independently matched to the mean row-wise JSD J$_0$ of the octave PoT perturbation and to 10J$_0$; the matched-TV robustness check $D_{TV}$ for the two selected models is given below the table}
+{\scriptsize
+\renewcommand{\theHtable}{\thetable.lt\arabic{LT@tables}}%
+\setlength{\tabcolsep}{4pt}
+\begin{longtable}{@{}lllll@{}}
+\toprule
+\textbf{model} & \textbf{$D_T$(J$_0$) [95\% CI]} & \textbf{resolved} & \textbf{$D_T$(10J$_0$) [95\% CI]} & \textbf{resolved} \\
+\midrule
+\endhead
+Qwen2.5-0.5B & +0.00472 [+0.00331, +0.00607] & + & +0.0300 [+0.0258, +0.0341] & + \\
+Llama-3.2-1B & -0.00313 [-0.00428, -0.00202] & $-$ (resolved negative) & -0.000204 [-0.00339, +0.00285] & unresolved \\
+Qwen2.5-1.5B & +0.00170 [+0.000676, +0.00269] & + & +0.0133 [+0.0104, +0.0161] & + \\
+Gemma-2-2B & +0.246 [+0.218, +0.273] & + & +0.806 [+0.767, +0.844] & + \\
+Qwen2.5-3B & +0.00409 [+0.00308, +0.00512] & + & +0.0195 [+0.0164, +0.0227] & + \\
+Llama-3.2-3B & +0.000976 [+0.000138, +0.00185] & + & +0.0107 [+0.00813, +0.0135] & + \\
+Mistral-7B-v0.3 & +0.00266 [+0.00192, +0.00336] & + & +0.0183 [+0.0158, +0.0207] & + \\
+Llama-3.1-8B & +0.000802 [+0.0000767, +0.00154] & + & +0.00732 [+0.00509, +0.00953] & + \\
+Llama-3.1-70B & -0.00107 [-0.00220, +0.0000282] & unresolved & +0.0281 [+0.0232, +0.0331] & + \\
+Qwen2.5-72B & -0.00119 [-0.00208, -0.000375] & $-$ (resolved negative) & +0.000628 [-0.00190, +0.00302] & unresolved \\
+\bottomrule
+\end{longtable}
+\addtocounter{table}{-1}
+}
+\par\noindent{\footnotesize Matched TV, $D_{TV}$(J$_0$) and $D_{TV}$(10J$_0$) [95\% CI]: Llama-3.2-1B -0.00282 [-0.00382, -0.00182] and -0.000261 [-0.00329, +0.00267]; Qwen2.5-1.5B +0.00137 [+0.000375, +0.00232] and +0.0111 [+0.00827, +0.0137].}\par
+\par\noindent{\footnotesize Resolved negative J$_0$ contrasts (sharpening more damaging than flattening at matched JSD): Qwen2.5-72B, Llama-3.2-1B. Unresolved at J$_0$: Llama-3.1-70B. Unresolved at 10J$_0$: Qwen2.5-72B, Llama-3.2-1B. Qwen2.5-1.5B 3J$_0$ contrast: +0.00352 [+0.00184, +0.00510].}\par
+\endgroup

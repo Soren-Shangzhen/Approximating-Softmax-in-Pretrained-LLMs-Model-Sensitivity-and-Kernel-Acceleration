@@ -1,0 +1,24 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B",
+  "model_revision": "8faed761d45a263340a0528343f099c05c9a4323",
+  "dataset": "wikitext",
+  "token_signature": "145d9d606856",
+  "seq_len": 2048,
+  "q_chunk": 512,
+  "dtype": "bf16",
+  "ce_chunk": 64,
+  "collect_output_fidelity": true,
+  "forward_cache_schema": "crossmodel-forward-v2",
+  "runner": "experiments/lattice_operators/run.py",
+  "conditions": [
+    "ilpot_v1",
+    "pq_log2_b8",
+    "pq_logsqrt2_b8",
+    "ilpot_ha_v1",
+    "ilpot_h15_v1",
+    "h15rowmax",
+    "h15tiled",
+    "h15tiled_bf16"
+  ],
+  "note": "same model revision, token stream, block length and query chunk as results/characterization/qwen15"
+}
